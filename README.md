@@ -20,6 +20,8 @@ If you want to add this as a submodule inside your shiny new KiCAD project folde
 
 ... but that will make the rest of us with github org access cry when we try to push changes from the local repo, so try to avoid that :)
 
+Then to update the module, cd into the module, go a `git pull`, and then back in the root do a `git add oresat-kicad` to set the submodule to the latest.
+
 Ping the #git-halp channel on Slack if you need more help!
 
 
