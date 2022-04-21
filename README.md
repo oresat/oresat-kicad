@@ -3,26 +3,48 @@ All things KiCAD for OreSat; libraries, tools, settings, etc.
 
 This library is meant to be a submodule in the directory of your KiCAD project. Yes, that's terrible. No, we don't have a better solution until KiCAD implements the idea of multiple library paths.
 
-If your folder already has the `oresat-kicad` as a submodule, you just have to run:
+## If you already see a folder in the OreSat repo called "oresat-kicad"
+
+This means someone else added the submodule to this project already. After you clone the repo, simply run:
 
 {{{
 git submodule init
 git submodule update
 }}}
 
-If you want to add this as a submodule inside your shiny new KiCAD project folder, type:
+... and that will initialize and pull the submodule so you can use it.
+
+## If you need to add the repo to your KiCAD project folder
+
+From within your repo, run:
 
 `git submodule add git@github.com:oresat/oresat-kicad.git`
 
-(If you don't have github org access, you can do:
+that's it! You should be ready to go.
 
-`git submodule add https://github.com/oresat/oresat-kicad.git`
+## Updating the submodule
 
-... but that will make the rest of us with github org access cry when we try to push changes from the local repo, so try to avoid that :)
-
-Then to update the module, cd into the module, go a `git pull`, and then back in the root do a `git add oresat-kicad` to set the submodule to the latest.
+cd into `oresat-kicad` and run `git pull`. This will update the submodule to the latest bits. Then `cd ..` back into your project, and run `git add oresat-kicad`. Commit that, and now your project is committed with the latest `oresat-kicad` files.
 
 Ping the #git-halp channel on Slack if you need more help!
+
+# Using oresat-kicad inside KiCAD
+
+* Open up your project.
+* In the project panel, choose Preferences > Manage Symbol Libraries.
+* Select the "Project Specific Libraries" tab.
+* Click on the Folder icon below.
+   * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
+* In your project folder, navigate to `oresat-kicad/oresat-symbols` and choose the symbol(s) you want. You can all of them if you want!
+* Chose Open, then OK.
+* Back in the project panel, choose Preferences > Manage Footprint Libraries.
+* Select the "Project Specific Libraries" tab.
+* Click on the Folder icon below.
+   * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
+* In your project folder, navigate to `oresat-kicad/oresat-footprints`.
+* Chose Open, then OK.
+
+At this point, your project should be pointing to your oresat-kicad repository and you should be good to go!
 
 
 # LICENSE
