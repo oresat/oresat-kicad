@@ -3,7 +3,7 @@ All things KiCAD for OreSat; libraries, tools, settings, etc.
 
 ## Getting started
 
-To start using these libraries, you should set up an enviroment variable within KiCAD pointing to `oresat-kicad` on your system.
+To start using these libraries, you should set up an environment variable within KiCAD pointing to `oresat-kicad` on your system.
 
 * In the KiCAD menu open Preferences > Configure Paths.
 * Under "Environment Variables" click the "+" button to add a new environment variable and name it `ORESAT_LIBRARIES`.
