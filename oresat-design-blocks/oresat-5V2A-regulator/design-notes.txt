@@ -1,0 +1,14 @@
+Design notes from Benjamin Crall 7/7/2022
+
+5v regulator circuit for use in OreSat.
+
+Using LTC3624-5 17V, 2A Synchronous Step-Down Regulator with 3.5μA Quiescent Current
+Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/36242fd.pdf
+
+Continuous mode was selected to make RF interference more predictable.
+Output capacitance was selected to be 44uF made by two 22uF MLCCs in parallel, which was close to the 47uF recommended by the datasheet, and could be made by capacitors with a smaller footprint.
+Input capacitance was selected to be 22uF to use the same capacitors as the output.
+The inductor was selected to be 3.3uH as it was close to the calculated value from the datasheet, and was the value presented in the examples.
+100nF capacitors were added to the input and output per Andrew's request
+
+value-calculations/calc.py was used to calculate the inductor, and verify that everything else was reasonable. Capacitor values were not taken directly from it.
