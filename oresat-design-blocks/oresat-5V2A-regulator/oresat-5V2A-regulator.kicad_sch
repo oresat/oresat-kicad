@@ -646,7 +646,7 @@
     (uuid 3d961d85-9707-4172-8504-6d43997adc8f)
     (property "Reference" "U1" (id 0) (at 101.6 95.25 0))
     (property "Value" "LTC3624" (id 1) (at 101.6 97.79 0))
-    (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias" (id 2) (at 101.6 97.79 0)
+    (property "Footprint" "oresat-footprints:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias0.3mm" (id 2) (at 101.6 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/36242fd.pdf" (id 3) (at 101.6 97.79 0)
@@ -1007,7 +1007,7 @@
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3d961d85-9707-4172-8504-6d43997adc8f"
-      (reference "U1") (unit 1) (value "LTC3624") (footprint "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias")
+      (reference "U1") (unit 1) (value "LTC3624") (footprint "oresat-footprints:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias0.3mm")
     )
   )
 )
