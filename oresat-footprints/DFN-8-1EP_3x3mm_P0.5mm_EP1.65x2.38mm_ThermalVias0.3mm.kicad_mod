@@ -1,4 +1,4 @@
-(footprint "DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias" (version 20211014) (generator pcbnew)
+(footprint "DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias0.3mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5E99EE6D)
   (descr "DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -23,6 +23,7 @@
   )
   (fp_line (start -1.5 1.61) (end 1.5 1.61) (layer "F.SilkS") (width 0.12) (tstamp 6a709958-b08e-4ac0-b8d0-381e8be5c5b3))
   (fp_line (start 0 -1.61) (end 1.5 -1.61) (layer "F.SilkS") (width 0.12) (tstamp e1559970-a86f-4e41-ae27-f98102c60ba5))
+  (fp_circle (center -1.45 -1.61) (end -1.4 -1.61) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 6d8b5bec-b444-4518-8d5d-2c7a25d39be4))
   (fp_line (start 2.12 1.75) (end 2.12 -1.75) (layer "F.CrtYd") (width 0.05) (tstamp 31287211-c872-49c1-a45b-9d760c834078))
   (fp_line (start -2.12 1.75) (end 2.12 1.75) (layer "F.CrtYd") (width 0.05) (tstamp 6b4990df-8a68-428a-9dd8-b7820cd3515e))
   (fp_line (start 2.12 -1.75) (end -2.12 -1.75) (layer "F.CrtYd") (width 0.05) (tstamp a8f668d4-1a55-4464-9542-278685520f6c))
