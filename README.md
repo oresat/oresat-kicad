@@ -19,12 +19,14 @@ Once you've set up the `ORESAT_LIBRARIES` environment variable, you can also sta
 * Open up your project.
 * In the project panel, choose Preferences > Manage Symbol Libraries.
 * Select the "Project Specific Libraries" tab.
+   * MAKE SURE YOU ADD THE LIBRARY TO "Project Specific Libraries" AND NOT "Global Libraries".
 * Click on the Folder icon below.
    * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
 * In your project folder, navigate to `oresat-kicad/oresat-symbols` and choose the symbol(s) you want. You can include all of them if you want!
 * Choose Open, then OK.
 * Back in the project panel, choose Preferences > Manage Footprint Libraries.
 * Select the "Project Specific Libraries" tab.
+   * MAKE SURE YOU ADD THE LIBRARY TO "Project Specific Libraries" AND NOT "Global Libraries".
 * Click on the Folder icon below.
    * THIS IS IMPORTANT. DO NOT CLICK ON "+". CLICK ON THE FOLDER.
 * In your project folder, navigate to `oresat-kicad/oresat-footprints` and choose the footprint libraries you want.
