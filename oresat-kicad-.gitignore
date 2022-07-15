@@ -22,6 +22,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+oresat-symbols.bak
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -33,4 +34,3 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
