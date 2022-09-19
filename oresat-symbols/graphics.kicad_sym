@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "dot_small" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board no)
-    (property "Reference" "U" (id 0) (at 0 0 0)
+    (property "Reference" "#SIM" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "dot_small" (id 1) (at 0 0 0)
