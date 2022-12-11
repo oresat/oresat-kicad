@@ -34,9 +34,22 @@ Once you've set up the `ORESAT_LIBRARIES` environment variable, you can also sta
 
 At this point, your project should be pointing to your oresat-kicad repository and you should be good to go!
 
+# Library files
+
+These are both symbol (.kicad\_sym) and footprint (.pretty) names
+
+- `oresat-connectors` = all connectors
+- `oresat-diodes` = all diodes, including LEDs
+- `oresat-graphics` = logos, graphics, etc.
+- `oresat-ics` = all ICs, including digital and analog, power, oscillators, etc.
+- `oresat-misc` = Batteries, HW, test points, switches
+- `oresat-passives` = Resistors, capacitors, inductors, crystals, ferrite beads, fuses, TVS, etc.
+- `oresat-pcbs` = all pcbs, including card and end cap outlines, and SBC shields / capes, etc.
+- `oresat-transistors` = All transistor types
+
 # LICENSE
 
-Copyright the Portland State Aerospace Society 2021.
+Copyright the Portland State Aerospace Society 2022.
 
 This source describes Open Hardware and is licensed under CERN-OHL-S v2 or any later version.
 
@@ -47,3 +60,4 @@ This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
 Source location: https://github.com/oresat
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
+
