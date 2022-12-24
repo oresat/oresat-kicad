@@ -1,7 +1,7 @@
 (footprint "J-U.FL" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (descr "<h3>U.FL SMD Antenna Connector</h3>\n<p>Specifications:\n<li>Area: 3.0mm x 2.5mm</li>\n</ul></p>\n<p><a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”>Datasheet referenced for footprint</a></p>\n<p>Example device(s):\n<ul><li>U.FL</li>\n</ul></p>")
+  (descr "U.FL SMD Antenna Connector")
   (property "Sheetfile" "oresat-minusz-end-card.kicad_sch")
   (property "Sheetname" "")
   (fp_text reference "J7" (at -1.291772 -2.5349) (layer "F.SilkS")
@@ -37,7 +37,7 @@
   (zone (net 0) (net_name "") (layers "F.Cu" "F.Mask") (tstamp 76c9189a-7ca4-4904-880d-b2316d76ad9e) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
