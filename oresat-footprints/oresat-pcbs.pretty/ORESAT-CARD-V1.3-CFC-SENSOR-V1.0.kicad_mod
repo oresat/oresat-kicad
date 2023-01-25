@@ -206,7 +206,7 @@
       (arc (start 75.235019 -34.000568) (mid 75.246236 -34.150097) (end 75.25 -34.3))
       (xy 75.25 -37.637798)
       (xy 75.25 -61.962203)
-    ) (layer "Edge.Cuts") (width 0) (fill solid) (tstamp 3ea711fc-4000-4706-9d6d-8a0d79ec166c))
+    ) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 3ea711fc-4000-4706-9d6d-8a0d79ec166c))
   (fp_poly (pts
       (arc (start 15.5 -0.5) (mid 15.646453 -0.146451) (end 16 0))
       (arc (start 83.8 0) (mid 84.15355 -0.146457) (end 84.3 -0.5))
