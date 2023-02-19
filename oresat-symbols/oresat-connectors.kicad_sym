@@ -259,14 +259,11 @@
     (property "Value" "J-MOLEX-SMPM-73300-003X" (id 1) (at 5.08 -6.35 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
-    (property "Footprint" "oresat-minusz-end-card:J-MOLEX-SMPM-073300-003X" (id 2) (at 0 0 0)
+    (property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-003X" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
     )
     (symbol "J-MOLEX-SMPM-73300-003X_1_0"
       (polyline
