@@ -1,6 +1,6 @@
 #
 # Python script to generate BOM in OreSat BOM format
-# Based on example KiCad BOM scripts
+# Modified version of KiCad bom_csv_grouped_by_value_with_fp
 #
 
 """
@@ -61,7 +61,7 @@ for group in grouped:
     # Add the reference of every component in the group and keep a reference
     # to the component so that the other data can be filled in once per group
     for component in group:
-        refs += fromNetlistText( component.getRef() ) + ", "
+        refs += fromNetlistText( component.getRef() ) + ","
         c = component
 
     # Fill in the component groups common data
