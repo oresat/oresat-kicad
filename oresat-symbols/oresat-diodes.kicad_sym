@@ -3,7 +3,7 @@
     (property "Reference" "D" (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "14151WS" (at 0 -2.54 0)
+    (property "Value" "1N4151WS" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_SMD:D_SOD-323" (at 0 -5.08 0)
