@@ -734,12 +734,6 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdmq86530l-d.pdf" (at 0 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "FDMQ86530L_0_1"
-      (rectangle (start -13.97 20.32) (end 13.97 -20.32)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
     (symbol "FDMQ86530L_1_0"
       (circle (center -2.54 -15.24) (radius 0.254)
         (stroke (width 0) (type solid))
@@ -1391,6 +1385,10 @@
       )
     )
     (symbol "FDMQ86530L_1_1"
+      (rectangle (start -13.97 20.32) (end 13.97 -20.32)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
       (polyline
         (pts
           (xy -10.16 -17.78)
