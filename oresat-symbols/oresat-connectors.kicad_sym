@@ -489,7 +489,7 @@
     (property "Value" "733000020" (at 5.08 -6.35 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
-    (property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-003X" (at 0 6.35 0)
+    (property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X" (at 0 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf" (at 0 8.89 0)

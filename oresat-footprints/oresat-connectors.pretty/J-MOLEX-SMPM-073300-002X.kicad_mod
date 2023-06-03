@@ -116,7 +116,20 @@
         )
         (width 0) (fill yes))
     ) (tstamp 7ff4d709-7087-45c8-8197-35d987b10c57))
-  (pad "GND" smd custom (at -1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
+  (pad "GND" smd custom (at 2.032 1.778 180) (size 0.508 0.508) (layers "B.Cu")
+    (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.635 -2.54)
+          (xy 0.4572 -2.54)
+          (xy 0.4572 1.778)
+          (xy -0.635 1.778)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 5a134f57-3a00-457c-b8e8-249758f0e4a9))
+  (pad "SHIELD" smd custom (at -1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
     (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -131,7 +144,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 3f7bf2d4-a3bb-4ac6-aa2d-43daadb22698))
-  (pad "GND" smd custom (at 1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
+  (pad "SHIELD" smd custom (at 1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
     (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -146,20 +159,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 5ff7903b-b530-4eb9-9af5-7d5e332f095a))
-  (pad "GND" smd custom (at 2.032 1.778 180) (size 0.508 0.508) (layers "B.Cu")
-    (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly
-        (pts
-          (xy -0.635 -2.54)
-          (xy 0.4572 -2.54)
-          (xy 0.4572 1.778)
-          (xy -0.635 1.778)
-        )
-        (width 0) (fill yes))
-    ) (tstamp 5a134f57-3a00-457c-b8e8-249758f0e4a9))
-  (pad "RF" smd custom (at 0 6.72) (size 0.38 0.5) (layers "F.Cu" "F.Mask")
+  (pad "SIGNAL" smd custom (at 0 6.72) (size 0.38 0.5) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.0762) (clearance 0.000025) (zone_connect 2) (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
