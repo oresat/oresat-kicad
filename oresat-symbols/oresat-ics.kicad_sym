@@ -5930,7 +5930,7 @@
     (property "Value" "TPS259621DDA" (at 0 8.89 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SO-PP-DDA-8_TEX" (at 0 16.51 0)
+    (property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm" (at 0 16.51 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2596.pdf" (at -0.254 19.558 0)
