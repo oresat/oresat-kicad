@@ -728,7 +728,7 @@
     (property "Value" "FDMQ86530L" (at 0 -24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "oresat-c3:FDMQ8203" (at 0 33.02 0)
+    (property "Footprint" "oresat-transistors:FDMQ86530L" (at 0 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdmq86530l-d.pdf" (at 0 38.1 0)
