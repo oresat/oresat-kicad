@@ -208,7 +208,7 @@
     )
   )
   (symbol "3.3V-L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#3V3-U" (at 0 -3.81 0)
+    (property "Reference" "#3V3-L" (at 0 8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V-L" (at 0 3.556 0)
@@ -254,13 +254,13 @@
     )
     (symbol "3.3V-L_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "3.3V" (effects (font (size 1.27 1.27))))
+        (name "3.3V-L" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
   (symbol "3.3V-U" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#3V3-U" (at 0 -3.81 0)
+    (property "Reference" "#3V3-U" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V-U" (at 0 3.556 0)
@@ -306,7 +306,7 @@
     )
     (symbol "3.3V-U_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "3.3V" (effects (font (size 1.27 1.27))))
+        (name "3.3V-U" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
@@ -416,7 +416,7 @@
     )
   )
   (symbol "5V-R" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#5V" (at 0 7.62 0)
+    (property "Reference" "#5V-R" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-R" (at 0 3.556 0)
@@ -462,13 +462,13 @@
     )
     (symbol "5V-R_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "5V" (effects (font (size 1.27 1.27))))
+        (name "5V-R" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
   (symbol "5V-U" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#5V" (at 0 -3.81 0)
+    (property "Reference" "#5V-U" (at 0 8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-U" (at 0 3.556 0)
@@ -514,7 +514,7 @@
     )
     (symbol "5V-U_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "5V" (effects (font (size 1.27 1.27))))
+        (name "5V-U" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
