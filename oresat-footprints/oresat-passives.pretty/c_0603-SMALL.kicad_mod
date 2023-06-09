@@ -1,7 +1,7 @@
 (footprint "c_0603-SMALL" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
+  (descr "0603 (metric 1608) tight 'IPC-C' without silkscreenIn house package for minimum spacing based on IPC-7351B.This package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
   (property "Description" "12 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)")
   (property "Distributor" "DigiKey")
   (property "MPN" "06035C120J4T2A")
