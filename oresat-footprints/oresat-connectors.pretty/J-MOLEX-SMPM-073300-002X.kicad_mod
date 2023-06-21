@@ -28,28 +28,8 @@
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "B.Mask") (tstamp b03594b6-b0f1-4e9d-b3c6-5f5b2c035889))
-  (fp_poly
-    (pts
-      (xy -1.4478 4.1148)
-      (xy -0.9398 4.1148)
-      (xy -0.9398 6.1722)
-      (xy -2.7432 6.1722)
-      (xy -2.7432 -0.0762)
-      (xy -1.4478 -0.0762)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 9b83b376-7b3e-404f-8261-9ccf06fbdf83))
-  (fp_poly
-    (pts
-      (xy 2.7432 6.1722)
-      (xy 0.9398 6.1722)
-      (xy 0.9398 4.1148)
-      (xy 1.4478 4.1148)
-      (xy 1.4478 -0.0762)
-      (xy 2.7432 -0.0762)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 018c13b3-1449-4963-8ff4-3b55353a8855))
+  (fp_rect (start -1 4.2) (end 1 6)
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp b32534df-4565-48ad-bf92-1a3bfa9d3ac1))
   (fp_line (start -1.5748 0) (end -1.5748 2.921)
     (stroke (width 0.05) (type solid)) (layer "Margin") (tstamp 602064e7-f9d1-4394-856d-769994000a09))
   (fp_line (start -0.3048 4.191) (end 0.3048 4.191)
@@ -129,8 +109,8 @@
         )
         (width 0) (fill yes))
     ) (tstamp 5a134f57-3a00-457c-b8e8-249758f0e4a9))
-  (pad "SHIELD" smd custom (at -1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
-    (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
+  (pad "SHLD" smd custom (at -1.778 5.08) (size 0.508 0.508) (layers "F.Cu" "F.Mask")
+    (zone_connect 1) (thermal_bridge_angle 0)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -144,8 +124,8 @@
         )
         (width 0) (fill yes))
     ) (tstamp 3f7bf2d4-a3bb-4ac6-aa2d-43daadb22698))
-  (pad "SHIELD" smd custom (at 1.778 5.08) (size 0.508 0.508) (layers "F.Cu")
-    (solder_mask_margin 0.0762) (zone_connect 2) (thermal_bridge_angle 45)
+  (pad "SHLD" smd custom (at 1.778 5.08) (size 0.508 0.508) (layers "F.Cu" "F.Mask")
+    (zone_connect 2) (thermal_bridge_angle 0)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -159,13 +139,8 @@
         )
         (width 0) (fill yes))
     ) (tstamp 5ff7903b-b530-4eb9-9af5-7d5e332f095a))
-  (pad "SIGNAL" smd custom (at 0 6.72) (size 0.38 0.5) (layers "F.Cu" "F.Mask")
-    (solder_mask_margin 0.0762) (clearance 0.000025) (zone_connect 2) (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_rect (start -0.19 -0.78) (end 0.19 0.05) (width 0) (fill yes))
-      (gr_rect (start -0.381 -2.529) (end 0.381 -0.751) (width 0) (fill yes))
-    ) (tstamp 9263b5cd-91f2-4fc6-b478-22eceb378fd3))
+  (pad "SIG" smd rect (at 0 5.1) (size 0.38 1.8) (layers "F.Cu" "F.Mask")
+    (zone_connect 1) (thermal_bridge_angle 0) (tstamp 9263b5cd-91f2-4fc6-b478-22eceb378fd3))
   (zone (net 0) (net_name "") (layers "F.Cu" "F.Mask") (tstamp 78b82cd7-40c8-4f11-946e-874ecb247a13) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
@@ -173,8 +148,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 1.19 6.97)
-        (xy -1.19 6.97)
+        (xy 1.19 5.97)
+        (xy -1.19 5.97)
         (xy -1.19 4.1)
         (xy 1.19 4.1)
       )

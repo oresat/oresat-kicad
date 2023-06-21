@@ -646,7 +646,7 @@
     )
     (symbol "GND-L_1_1"
       (pin power_in line (at 0 0 270) (length 0) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
+        (name "GND-L" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
@@ -686,7 +686,7 @@
     )
     (symbol "GND-U_1_1"
       (pin power_in line (at 0 0 270) (length 0) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
+        (name "GND-U" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
