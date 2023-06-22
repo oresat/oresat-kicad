@@ -572,7 +572,7 @@
     )
   )
   (symbol "GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#GND" (at 0 -6.35 0)
+    (property "Reference" "#PWR" (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 0 -2.54 0)
@@ -611,11 +611,11 @@
       )
     )
   )
-  (symbol "GND-L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#GND-L" (at 0 -6.35 0)
+  (symbol "GNDL" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 0 -2.54 0)
+    (property "Value" "GNDL" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
@@ -627,10 +627,10 @@
     (property "ki_keywords" "power-flag" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Power symbol creates a global label with name \"GND-L\" , ground" (at 0 0 0)
+    (property "ki_description" "Power symbol creates a global label with name \"GNDL\" , ground" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "GND-L_0_1"
+    (symbol "GNDL_0_1"
       (polyline
         (pts
           (xy 0 0)
@@ -644,18 +644,18 @@
         (fill (type none))
       )
     )
-    (symbol "GND-L_1_1"
+    (symbol "GNDL_1_1"
       (pin power_in line (at 0 0 270) (length 0) hide
-        (name "GND-L" (effects (font (size 1.27 1.27))))
+        (name "GNDL" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "GND-U" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#GND-U" (at 0 -6.35 0)
+  (symbol "GNDU" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-U" (at 0 -2.54 0)
+    (property "Value" "GNDU" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
@@ -667,10 +667,10 @@
     (property "ki_keywords" "power-flag" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Power symbol creates a global label with name \"GND-U\" , ground" (at 0 0 0)
+    (property "ki_description" "Power symbol creates a global label with name \"GNDU\" , ground" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "GND-U_0_1"
+    (symbol "GNDU_0_1"
       (polyline
         (pts
           (xy 0 0)
@@ -684,9 +684,9 @@
         (fill (type none))
       )
     )
-    (symbol "GND-U_1_1"
+    (symbol "GNDU_1_1"
       (pin power_in line (at 0 0 270) (length 0) hide
-        (name "GND-U" (effects (font (size 1.27 1.27))))
+        (name "GNDU" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
