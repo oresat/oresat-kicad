@@ -125,14 +125,11 @@
     (property "Value" "EXB-A10P391J" (at -17.6784 2.5908 0)
       (effects (font (size 1.778 1.778)) (justify left bottom))
     )
-    (property "Footprint" "oresat-gps-card:ARRAY_EXBA" (at 0 5.08 0)
+    (property "Footprint" "oresat-passives:Panasonic_Resistor_Array_EXBA10" (at 0 11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
     )
     (symbol "EXB-A10P391J_1_0"
       (polyline
