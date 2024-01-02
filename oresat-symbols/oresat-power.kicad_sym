@@ -1,15 +1,15 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "1.1V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#1V1" (at 0 -2.54 0)
+    (property "Reference" "#1V01" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "1.1V" (at 0 3.556 0)
+    (property "Value" "1.1V" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -1.27 -1.27 0)
+    (property "Footprint" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -1.27 -1.27 0)
+    (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "power-flag" (at 0 0 0)
@@ -45,7 +45,7 @@
       )
     )
     (symbol "1.1V_1_1"
-      (pin power_in line (at -1.27 -1.27 90) (length 0) hide
+      (pin power_in line (at 0 0 90) (length 0) hide
         (name "1.1V" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )

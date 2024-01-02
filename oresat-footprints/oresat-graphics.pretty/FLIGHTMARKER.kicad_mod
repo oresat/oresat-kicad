@@ -1,0 +1,28 @@
+(footprint "FLIGHTMARKER" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "oresat-gps-card-sch-connectors.kicad_sch")
+  (property "Sheetname" "Connectors")
+  (fp_text reference "FLIGHT1" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 0.56 0.56) (thickness 0.12)))
+    (tstamp 838c9120-ba30-4a7c-a6d6-80eca0024611)
+  )
+  (fp_text value "FLIGHTMARKER" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp aa9c819a-77d9-44d4-82de-9c7851f4b999)
+  )
+  (fp_text user "NOT FLIGHT HARDWARE" (at 2.54 0) (layer "F.SilkS")
+      (effects (font (size 1.0795 1.0795) (thickness 0.1905)) (justify left bottom))
+    (tstamp 433cc924-e481-4053-b9dc-ce8bca31f5b2)
+  )
+  (fp_line (start 2.19 0.5) (end 5.89 0.5)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp cdb9c037-a8a2-4daa-85bc-f0e746efd992))
+  (fp_poly
+    (pts
+      (xy -0.25 0.3)
+      (xy 1.55 0.3)
+      (xy 1.55 -1.5)
+      (xy -0.25 -1.5)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f9d65170-256f-409d-9c9f-a4484ba3ed62))
+)
