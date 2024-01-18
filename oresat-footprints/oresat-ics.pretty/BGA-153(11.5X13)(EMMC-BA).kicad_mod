@@ -1077,4 +1077,9 @@
     (thermal_bridge_angle 0) (tstamp 245f7975-ad55-4a83-a4ff-ed459738dead))
   (pad "P14" smd roundrect (at 3.25 3.25) (size 0.28 0.28) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.5)
     (thermal_bridge_angle 0) (tstamp a28c4c31-9f60-4915-8497-571b5cd07941))
+  (model ":ORESAT_LIBRARIES:oresat-3dmodels/u-bga-153-10-x-11.5-emmc.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
