@@ -1,0 +1,256 @@
+(footprint "Taoglas-GPS-Patch-Antenna"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "ANT1"
+		(at 0 -13.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "436dde24-6759-4d02-8a85-040d487f92cb")
+		(effects
+			(font
+				(size 0.56 0.56)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "GP.1575.25.2.A.02"
+		(at 0 -12.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b06f3bf6-66b0-4e94-9e9b-e082e05a1de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "oresat-misc:Taoglas-GPS-Patch-Antenna"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "54ccaedb-2bd9-43fc-ace5-8f04bc14c556")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://cdn.taoglas.com/datasheets/GP.1575.25.2.A.02.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b9a48e5c-346f-4b0a-8693-e19dc45289c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "20bf20e3-8325-4ba9-80e9-b8c8b98d87b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.6 8.55)
+		(end -12.55 -8.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf2ed3f5-4e60-41e8-85d9-adb3f54a4f8a")
+	)
+	(fp_line
+		(start -8.55 -12.55)
+		(end 8.55 -12.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92d050bc-2ae5-4e33-90c2-a1ad4aa9215d")
+	)
+	(fp_line
+		(start -8.55 12.55)
+		(end -12.6 8.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d8dd74f-0fef-4be2-97cb-3590b7b5eea3")
+	)
+	(fp_line
+		(start 8.55 12.55)
+		(end -8.55 12.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5965bb1f-e4aa-4a05-a971-4683c8b361b9")
+	)
+	(fp_line
+		(start 12.55 -8.55)
+		(end 12.55 8.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f79e36f8-7a2b-409c-97ed-147fddbd3c8a")
+	)
+	(fp_arc
+		(start -12.55 -8.55)
+		(mid -11.378427 -11.378427)
+		(end -8.55 -12.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "466c23e9-9b2b-4a12-b234-38a152f49c68")
+	)
+	(fp_arc
+		(start 8.55 -12.55)
+		(mid 11.378427 -11.378427)
+		(end 12.55 -8.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f29174c5-41f7-49f5-ba31-2e36524b8555")
+	)
+	(fp_arc
+		(start 12.55 8.55)
+		(mid 11.378427 11.378427)
+		(end 8.55 12.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb7a0c0-0a37-47af-9b9a-8856e712f1df")
+	)
+	(fp_circle
+		(center 0 2.5)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "b337a75d-2c46-4e33-bd82-2e0d32a46de7")
+	)
+	(fp_circle
+		(center 0 2.5)
+		(end 0 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d0e8695a-afdb-4a34-b139-e992e2af8f3a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfd070b6-c834-4181-9783-54cd86f7e39d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2.5 2.5)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "88548721-5aed-4ae7-8b25-587f4fc9317c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.Fab")
+		(uuid "2ab9d4b7-ee47-449f-922f-95008fd255ca")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 0.6 1.1) (xy 1.05 1.45) (xy 1.4 1.9) (xy 1.5 2.5) (xy 1.4 3.1) (xy 1.05 3.55) (xy 0.6 3.9) (xy 0 4)
+				(xy -0.6 3.9) (xy -1.05 3.55) (xy -1.4 3.1) (xy -1.5 2.5) (xy -1.4 1.9) (xy -1.05 1.45) (xy -0.6 1.1)
+				(xy 0 1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.Fab")
+		(uuid "aa925667-1345-4de4-b279-83d5857496af")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 0.65 0.85) (xy 1.25 1.25) (xy 1.65 1.85) (xy 1.75 2.5) (xy 1.65 3.15) (xy 1.25 3.75) (xy 0.65 4.15)
+				(xy 0 4.25) (xy -0.65 4.15) (xy -1.25 3.75) (xy -1.65 3.15) (xy -1.75 2.5) (xy -1.65 1.85) (xy -1.25 1.25)
+				(xy -0.65 0.85) (xy 0 0.75)
+			)
+		)
+	)
+)
