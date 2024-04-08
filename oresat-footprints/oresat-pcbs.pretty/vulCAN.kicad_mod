@@ -1,0 +1,220 @@
+(footprint "vulCAN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3, DIN965")
+	(tags "mounting hole 3.2mm m3 din965")
+	(property "Reference" "vCAN"
+		(at 6 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "b9876f71-0e96-425b-9bd7-06557d4a46aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "vulCAN"
+		(at 6 -10.5 0)
+		(layer "F.Fab")
+		(uuid "6900a814-a5b2-45eb-bb93-b38f9327f7b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 25.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6dee3c-4e17-42ba-9202-7f5764a3aedf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 25.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edf437d7-1d22-4388-963d-819d89083519")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 25.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f585c2d-122a-46e9-9242-d19a974c56e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3.175 -3.175)
+		(end 28.575 34.925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "234408b1-c709-4af1-aec0-d8fa90495ac9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "ac5c1d25-3168-439b-9f02-eda4585a930c")
+	)
+	(fp_circle
+		(center 0 31.75)
+		(end 2.8 31.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "0f8ec3bf-0ed5-4546-a41f-75be54bd3ccf")
+	)
+	(fp_circle
+		(center 25.4 0)
+		(end 28.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "955dfb6a-0078-4e36-a17b-29ffef82101d")
+	)
+	(fp_circle
+		(center 25.4 31.75)
+		(end 28.2 31.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "bedeeeb1-eb53-4852-90fc-03bb57ed202d")
+	)
+	(fp_rect
+		(start -3.175 -3.175)
+		(end 28.575 34.925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "88f5ad76-67b9-404d-ba74-688bd5ad9e70")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "17faee2a-66b3-419b-bcd2-20525c537dc3")
+	)
+	(fp_circle
+		(center 0 31.75)
+		(end 3.05 31.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c1740d92-75fa-48a6-9138-2c217f6256b2")
+	)
+	(fp_circle
+		(center 25.4 0)
+		(end 28.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7c3f3c61-2bfd-40ab-bf30-ab489db2bdcc")
+	)
+	(fp_circle
+		(center 25.4 31.75)
+		(end 28.45 31.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c9f5e1cd-dcef-49eb-8aec-b7945848b0b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.5 -12.3 0)
+		(layer "F.Fab")
+		(uuid "fadc61ba-f885-4643-a287-3b23f9f82685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 5.6 5.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d10cfc43-df38-467b-ae78-ffa8f68fc499")
+	)
+	(pad "" thru_hole circle
+		(at 0 31.75)
+		(size 5.6 5.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27c3143e-0dd8-42d3-ae4c-e4f4d370aa96")
+	)
+	(pad "" thru_hole circle
+		(at 25.4 0)
+		(size 5.6 5.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bf03971-0604-4386-9440-7d22631cb33e")
+	)
+	(pad "" thru_hole circle
+		(at 25.4 31.75)
+		(size 5.6 5.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05764bcf-384e-40e2-92a8-fd3ca2de048e")
+	)
+)
