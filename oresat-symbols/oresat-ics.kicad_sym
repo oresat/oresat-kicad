@@ -18983,7 +18983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-c3:RV3028C732768KHZ1PPMTAQC"
+		(property "Footprint" "oresat-c3-eagle-import:RV3028C732768KHZ1PPMTAQC"
 			(at 0 24.13 0)
 			(effects
 				(font
@@ -19002,7 +19002,7 @@
 			)
 		)
 		(property "Description" "Real Time Clock (RTC) IC Clock/Calendar 2B, 43B I²C, 2-Wire Serial 8-WCDFN"
-			(at 0 0 0)
+			(at 0 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
