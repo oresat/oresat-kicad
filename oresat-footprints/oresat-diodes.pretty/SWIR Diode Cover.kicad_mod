@@ -7,7 +7,6 @@
 		(at 18.4 -6.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "bdfbc81a-6c10-4138-ae59-ba63c0fc4298")
 		(effects
 			(font
@@ -67,7 +66,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start -12.375 7.400001)
 		(end -12.375 -7.349999)
