@@ -24914,7 +24914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a21366.pdf?ts=1719378502445&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS5A21366%253Fbm-verify%253DAAQAAAAJ_____8Cml7QfglfdfpzACMiKmhlgM6D2P1j0V6NSbKXr_8mpDQxEVEF7WeZYkJ8DP1a7PfdrKpKXtt2NHpCjXrRj-qCw0HLUoA2us7Z2HHWOngmEE-23_cKBi6JWkQO86gU0sboAlAzYh5UoDgS_P8rLHTyLzuMDVn3dJ76goWgnJX1ONgEhjCc2z2aDZq5N0cKp2gwrqratDdWY9fOa1DzfeUFsCIoC7TNuh5Agt2Cf52P6N1AQV8xTcKgE7a_NHLGMzH0A9QuUSMfNV690TelArW7npp-bTlot59Fh8_UN_XR64ueG8uk"
 			(at -7.62 -8.89 0)
 			(effects
 				(font
