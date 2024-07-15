@@ -26845,7 +26845,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-			(at -7.62 -8.89 0)
+			(at 0.254 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26854,7 +26854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a21366.pdf?ts=1719378502445&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS5A21366%253Fbm-verify%253DAAQAAAAJ_____8Cml7QfglfdfpzACMiKmhlgM6D2P1j0V6NSbKXr_8mpDQxEVEF7WeZYkJ8DP1a7PfdrKpKXtt2NHpCjXrRj-qCw0HLUoA2us7Z2HHWOngmEE-23_cKBi6JWkQO86gU0sboAlAzYh5UoDgS_P8rLHTyLzuMDVn3dJ76goWgnJX1ONgEhjCc2z2aDZq5N0cKp2gwrqratDdWY9fOa1DzfeUFsCIoC7TNuh5Agt2Cf52P6N1AQV8xTcKgE7a_NHLGMzH0A9QuUSMfNV690TelArW7npp-bTlot59Fh8_UN_XR64ueG8uk"
-			(at -7.62 -8.89 0)
+			(at 0.254 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26871,7 +26871,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TS5A21366_0_1"
+		(symbol "TS5A21366_1_1"
 			(rectangle
 				(start -8.89 8.89)
 				(end 8.89 -8.89)
@@ -26880,12 +26880,10 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TS5A21366_1_1"
-			(pin input line
+			(pin passive line
 				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "NO1"
@@ -26903,7 +26901,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "COM1"
@@ -26939,7 +26937,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
@@ -26957,7 +26955,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "NO2"
@@ -26975,7 +26973,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "COM2"
@@ -27011,7 +27009,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 11.43 270)
 				(length 2.54)
 				(name "Vcc"
