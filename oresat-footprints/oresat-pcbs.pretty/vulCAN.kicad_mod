@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -185,36 +188,44 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 5.6 5.6)
+		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(solder_mask_margin 1.6)
+		(solder_paste_margin 1.6)
+		(clearance 1.6)
 		(uuid "d10cfc43-df38-467b-ae78-ffa8f68fc499")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 31.75)
-		(size 5.6 5.6)
+		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(solder_mask_margin 1.6)
+		(solder_paste_margin 1.6)
+		(clearance 1.6)
 		(uuid "27c3143e-0dd8-42d3-ae4c-e4f4d370aa96")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 25.4 0)
-		(size 5.6 5.6)
+		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(solder_mask_margin 1.6)
+		(solder_paste_margin 1.6)
+		(clearance 1.6)
 		(uuid "4bf03971-0604-4386-9440-7d22631cb33e")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 25.4 31.75)
-		(size 5.6 5.6)
+		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(solder_mask_margin 1.6)
+		(solder_paste_margin 1.6)
+		(clearance 1.6)
 		(uuid "05764bcf-384e-40e2-92a8-fd3ca2de048e")
 	)
 )
