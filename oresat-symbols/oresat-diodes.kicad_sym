@@ -294,6 +294,197 @@
 			)
 		)
 	)
+	(symbol "LTC4411"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at -2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at -2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LTC4411_1_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "CTL"
+				(at -2.286 -1.27 0)
+				(effects
+					(font
+						(size 0.8636 0.8636)
+					)
+				)
+			)
+			(text "GND"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 0.8636 0.8636)
+					)
+				)
+			)
+			(text "IN"
+				(at -2.794 1.27 0)
+				(effects
+					(font
+						(size 0.8636 0.8636)
+					)
+				)
+			)
+			(text "OUT"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 0.8636 0.8636)
+					)
+				)
+			)
+			(text "STAT\n"
+				(at 2.032 -1.524 0)
+				(effects
+					(font
+						(size 0.8636 0.8636)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 1.27 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -1.27 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "MTMD142345PDT38"
 		(pin_names hide)
 		(exclude_from_sim no)
