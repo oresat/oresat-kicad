@@ -66,7 +66,7 @@
 
     (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 6bd24ac2-3542-4f3d-977e-7ffd3005a292))
   (pad "1" smd roundrect (at -0.4 0) (size 0.55 0.5) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.1)
-    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp e32d5970-29f5-428f-937c-362b9f0f42d5))
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp e32d5970-29f5-428f-937c-362b9f0f42d5))
   (pad "2" smd roundrect (at 0.4 0) (size 0.55 0.5) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.1)
-    (solder_mask_margin 0.1016) (thermal_bridge_angle 45) (tstamp 821f74c1-bb7d-4ee0-8421-71b862d1b613))
+    (solder_mask_margin 0.1016) (thermal_bridge_angle 0) (tstamp 821f74c1-bb7d-4ee0-8421-71b862d1b613))
 )

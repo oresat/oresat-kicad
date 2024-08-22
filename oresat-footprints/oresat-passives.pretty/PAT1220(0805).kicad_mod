@@ -209,7 +209,7 @@
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.0635)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "9ad92f9b-14f2-49f1-a2d4-e1cd4ce92d0e")
 	)
 	(pad "2" smd rect
@@ -217,7 +217,7 @@
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.0635)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "d341da75-9eb4-444c-a863-7fb0f5445847")
 	)
 	(pad "3" smd rect
@@ -225,7 +225,7 @@
 		(size 2.3 0.7)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.0635)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "5e019989-8408-407a-be36-2eee9af5e63a")
 	)
 )
