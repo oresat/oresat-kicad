@@ -6939,54 +6939,6 @@
 			)
 		)
 		(symbol "SM06B-SRSS-TB(LF)(SN)_1_0"
-			(polyline
-				(pts
-					(xy -5.08 -10.16) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 7.62) (xy -5.08 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy 2.54 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 7.62) (xy -5.08 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
 				(at -7.62 5.08 0)
 				(length 2.54)
@@ -7129,6 +7081,19 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SM06B-SRSS-TB(LF)(SN)_1_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

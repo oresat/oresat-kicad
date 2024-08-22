@@ -12444,17 +12444,6 @@
 			)
 		)
 		(symbol "NCS3-272+_0_1"
-			(rectangle
-				(start -7.62 11.43)
-				(end 6.35 -5.08)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start -3.81 0)
 				(mid -3.2399 0.635)
@@ -12649,6 +12638,17 @@
 			)
 		)
 		(symbol "NCS3-272+_1_1"
+			(rectangle
+				(start -7.62 11.43)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -12.7 7.62 0)
 				(length 2.54)
