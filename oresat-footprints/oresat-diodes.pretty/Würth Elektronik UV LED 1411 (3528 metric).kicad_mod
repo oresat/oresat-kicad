@@ -1,0 +1,94 @@
+(footprint "Würth Elektronik UV LED 1411 (3528 metric)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.45 -8.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "257f9453-cd78-46e6-8208-af02bce1ac38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Würth Elektronik UV LED 1411 (3528 metric)"
+		(at -2.45 -6.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae114859-8907-489a-b8dc-ef7d906dde2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.45 -7.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f670b2a-88bc-47f3-a995-fafdd42f1aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.45 -7.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99598ca3-3220-4a61-b162-69bd9082de35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.45 -7.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8de0e652-a2c2-4c14-905f-8aa81cce911e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -2.45 -5.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49ff751a-7580-49cc-82ac-06a7ced9bc35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.05 1.05)
+		(size 2.1 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61d42aed-79bc-4e99-bebe-b8ed6c74a884")
+	)
+	(pad "2" smd rect
+		(at 3.15 1.05)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1734e36-8b35-402b-90ea-e6e28239e218")
+	)
+)
