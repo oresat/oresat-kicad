@@ -1,0 +1,205 @@
+(footprint "KXOB101K08TF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "D8"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cff49ea9-0e2c-4189-a5f0-aa53b36e9cf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KXOB101K08TF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "543f4e1e-6759-445c-bb2b-24cb7f11056d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "oresat-misc:KXOB101K08TF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "520af161-6aff-4aec-874c-ce6c6c537e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e2e6021-9b29-4af5-bfaf-1d2ca56dea83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfe6319a-4033-4958-a6c7-cb83550b8c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -16.74 0)
+		(end -13.74 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "654a4489-d1b0-4b03-81f8-924f785068a2")
+	)
+	(fp_line
+		(start -15.24 1.5)
+		(end -15.24 -1.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d108c67-009e-4c50-a9ed-a9fcc5099c33")
+	)
+	(fp_line
+		(start 15.24 -1.5)
+		(end 15.24 1.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc57c7ac-fa3b-43ac-8742-6d17bff5c115")
+	)
+	(fp_rect
+		(start -21 -11.5)
+		(end 21 11.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a84e3be8-74ec-480c-a065-e12d178515da")
+	)
+	(fp_circle
+		(center -15.24 0)
+		(end -12.7 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e7e6b631-f0b8-4f58-babe-867e7262ccdd")
+	)
+	(fp_circle
+		(center 15.24 0)
+		(end 17.78 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3056435-f627-4023-9140-6670fcb2f897")
+	)
+	(fp_rect
+		(start -21 -11.5)
+		(end 21 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "65294b5c-f03f-472e-aa21-1714b44a7f0d")
+	)
+	(fp_rect
+		(start -21 -6)
+		(end -19 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4c29d260-10e0-4f7d-b16c-8ccec41fdee0")
+	)
+	(fp_rect
+		(start 19 -6)
+		(end 21 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "36508d5a-b725-495d-87b7-3a9635a05439")
+	)
+	(fp_rect
+		(start -21.5 -12)
+		(end 21.5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "98d966f1-0fca-49f2-a563-5766fea4b23d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c0116c8-9d87-4a74-82bc-227200335628")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "NEG2" smd roundrect
+		(at 19.75 0)
+		(size 2.5 13)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "221e6aa0-bd62-453f-9a8c-b0d472991767")
+	)
+	(pad "POS1" smd roundrect
+		(at -19.75 0)
+		(size 2.5 13)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "abea5aa5-ca5b-40ea-8992-75acd5f6095a")
+	)
+)

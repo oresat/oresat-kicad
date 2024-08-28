@@ -698,7 +698,7 @@
 					(type outline)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -8.89 90)
 				(length 0)
 				(name "C2"
@@ -716,7 +716,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 7.62 270)
 				(length 0)
 				(name "A1"
@@ -978,7 +978,7 @@
 					(type outline)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -8.89 90)
 				(length 0)
 				(name "C2"
@@ -996,7 +996,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 7.62 270)
 				(length 0)
 				(name "A1"
