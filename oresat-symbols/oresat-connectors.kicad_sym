@@ -7273,7 +7273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "1u_panel:SAMTEC-MMS-104-02-X-SH"
+		(property "Footprint" "oresat-connectors:SAMTEC-MMS-104-02-X-SH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7298,14 +7298,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "SAMTEC-MMS-104-02-X-SHJ_1_0"
@@ -7473,15 +7465,6 @@
 				(effects
 					(font
 						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "SAMTEC-MMS-104-02-X-SH"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 2.286 1.9431)
 					)
 					(justify left bottom)
 				)
