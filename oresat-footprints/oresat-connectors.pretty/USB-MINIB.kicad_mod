@@ -1,0 +1,213 @@
+(footprint "USB-MINIB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at 4.19 -4.35 0)
+		(layer "F.SilkS")
+		(uuid "ffbf7ac1-7850-4fa7-9852-1aeb83fc045b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "USB_C_Plug_USB2.0"
+		(at -3.81 6.35 0)
+		(layer "F.Fab")
+		(uuid "cfb27901-bbee-417c-ae60-4d5c59b18d4c")
+		(effects
+			(font
+				(size 0.760781 0.760781)
+				(thickness 0.052019)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83992396-ad7e-458b-9a55-8daf5b71ef68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f3d4b7b-5151-4c73-8eae-25d1a9bc4a79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB 2.0-only Type-C Plug connector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8418ad3f-a9f7-4396-8de2-216181da0f5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.3 -3.8)
+		(end 0.8 -3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82bc5e59-0d1c-4642-bec6-e3adde29fb38")
+	)
+	(fp_line
+		(start 0.8 3.8)
+		(end -1.3 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7af708e-275f-4028-a33e-451a6605875a")
+	)
+	(fp_line
+		(start 3.3 -3.1)
+		(end 3.3 -2.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1f84c9d-362a-4b93-bcd0-a894c3c2eaa7")
+	)
+	(fp_line
+		(start 3.3 2.2)
+		(end 3.3 3.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0fd38a6-24ab-4940-b59c-1e2659b5b56a")
+	)
+	(fp_line
+		(start -5.9 -3.8)
+		(end -5.9 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "468ace37-bbd3-4020-8430-c16779d273b9")
+	)
+	(fp_line
+		(start -5.9 -3.8)
+		(end -4.5 -3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9996e6e-52b6-44f7-934a-763eed9a01ac")
+	)
+	(fp_line
+		(start -5.9 3.8)
+		(end -4.5 3.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6f9bf54-53d7-496b-a4b4-fdc96701def9")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -2.2)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7b70b904-6755-4f70-9cf4-56a6f8a52092")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.2)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3f53406e-612f-4735-aa88-33a95db1f71f")
+	)
+	(pad "A1" smd rect
+		(at 2.5 1.6)
+		(size 2.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "997c73b9-92ec-49a1-be0e-e77f72fd1f5d")
+	)
+	(pad "A4" smd rect
+		(at 2.5 -1.6)
+		(size 2.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "21b41f41-6f4e-47f4-b3f8-b5866aed1e91")
+	)
+	(pad "A6" smd rect
+		(at 2.5 0)
+		(size 2.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "1c3ecf13-f082-4f54-8049-9b0be220591d")
+	)
+	(pad "A7" smd rect
+		(at 2.5 -0.8)
+		(size 2.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "6b5a2b18-efde-42fa-907b-4d7aaee1b1eb")
+	)
+	(pad "ID" smd rect
+		(at 2.5 0.8)
+		(size 2.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "98d5f810-0ee0-425c-b0c2-8d2ec22e955b")
+	)
+	(pad "S1" smd rect
+		(at -3 -4.5)
+		(size 2.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "0dac8570-027f-47b3-bd8e-e0da83d1366e")
+	)
+	(pad "S1" smd rect
+		(at -3 4.5)
+		(size 2.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "2b063aef-9c1a-415d-9993-036bc557b988")
+	)
+	(pad "S1" smd rect
+		(at 2.5 -4.5)
+		(size 2.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "8b676346-60f2-4623-a7f1-be4f6c761bb4")
+	)
+	(pad "S1" smd rect
+		(at 2.5 4.5)
+		(size 2.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0635)
+		(uuid "9c467d05-e143-4dce-8761-10e6854320b1")
+	)
+)
