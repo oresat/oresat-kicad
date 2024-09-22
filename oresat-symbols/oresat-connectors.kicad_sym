@@ -6283,54 +6283,6 @@
 			)
 		)
 		(symbol "M55-6021242R_1_0"
-			(polyline
-				(pts
-					(xy -8.89 -10.16) (xy 8.89 -10.16)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 7.62) (xy -8.89 -10.16)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -10.16) (xy 8.89 7.62)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 7.62) (xy -8.89 7.62)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive inverted
 				(at -2.54 5.08 0)
 				(length 2.54)
@@ -6617,6 +6569,19 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "M55-6021242R_1_1"
+			(rectangle
+				(start -8.89 7.62)
+				(end 8.89 -10.16)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -7301,54 +7266,6 @@
 			)
 		)
 		(symbol "SAMTEC-MMS-104-02-X-SHJ_1_0"
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy 0 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 20.3 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20.3 -12.7) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20.3 5.08) (xy 20.3 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start 20.32 -7.62)
 				(mid 10.16 -3.4116)
@@ -7611,6 +7528,19 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SAMTEC-MMS-104-02-X-SHJ_1_1"
+			(rectangle
+				(start 0 5.08)
+				(end 20.32 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
