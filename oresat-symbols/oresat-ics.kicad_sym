@@ -6553,7 +6553,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 2.54 0)
+				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -6599,6 +6599,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
