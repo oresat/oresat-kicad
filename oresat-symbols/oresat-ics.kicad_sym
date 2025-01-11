@@ -12613,15 +12613,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 6.35 3.556 0)
+			(at -2.54 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MP2410A LED Driver"
-			(at 9.144 1.778 0)
+		(property "Value" "MP2410A"
+			(at 0.254 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +12629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -8.89 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +12638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -8.89 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -8.89 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,8 +12657,8 @@
 		)
 		(symbol "MP2410A_LED_Driver_1_1"
 			(rectangle
-				(start 0 0)
-				(end 17.78 -15.24)
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -12668,7 +12668,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -17.78 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -12686,7 +12686,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -7.62 180)
+				(at 11.43 0 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -12704,7 +12704,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -3.81 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -12722,7 +12722,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -12.7 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -12740,7 +12740,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -11.43 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "EN/DIM"
 					(effects
@@ -12758,7 +12758,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -2.54 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "BST"
 					(effects
