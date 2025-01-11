@@ -12613,15 +12613,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 1.016 0)
+			(at 6.35 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MP2410A LED Driver"
+			(at 9.144 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,8 +12664,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 1)
+					(type background)
 				)
 			)
 			(pin input line
