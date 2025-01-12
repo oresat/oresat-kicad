@@ -670,4 +670,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "64c8f585-bfbb-4322-a245-277f9ea0f427")
 	)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/SAMTEC-MMS-104-02-X-SH.step"
+		(offset
+			(xyz 0 -2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
