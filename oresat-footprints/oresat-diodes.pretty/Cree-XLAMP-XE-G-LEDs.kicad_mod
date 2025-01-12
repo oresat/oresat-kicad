@@ -1,0 +1,205 @@
+(footprint "Cree-XLAMP-XE-G-LEDs"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.1 0.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e700b709-965f-46a7-b938-971e230af0da")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "CREE_XLAMP_XE-G"
+		(at 0 -3.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e31f4855-cc9c-4654-b700-1d2b90730c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "941e7b64-3674-4c6b-8950-ca2ec3b072b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c0593c77-708d-48ba-9f2e-5ca2e4f29c18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Cree XLAMP XE-G LED footprint"
+		(at 0 -8 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "5703bfab-b700-4935-b1b3-4873eb62afe9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.925 -0.4)
+		(end -0.925 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38b5784a-47cd-43c2-af70-6dd77e107587")
+	)
+	(fp_line
+		(start -0.925 0.4)
+		(end -0.925 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60df8ac8-3734-42a6-a2dc-1022eaf52cde")
+	)
+	(fp_line
+		(start -0.925 1.15)
+		(end 0.925 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efb10660-ee2a-432a-a779-b1ff0a6ef645")
+	)
+	(fp_line
+		(start -0.175 -1.15)
+		(end -0.925 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cac63315-c240-4c5a-b438-a4a0874571f1")
+	)
+	(fp_line
+		(start 0.925 -1.15)
+		(end 0.175 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cb40c91-0cb9-4a3b-b4fe-3c0931259e2a")
+	)
+	(fp_line
+		(start 0.925 -0.4)
+		(end 0.925 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "209c59b5-2204-4b5a-9ae7-158eb47c47bc")
+	)
+	(fp_line
+		(start 0.925 0.4)
+		(end 0.925 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c1d7a09-1efc-42d5-a5cf-620dcb3cb73d")
+	)
+	(fp_rect
+		(start -0.85 -1.075)
+		(end 0.85 1.075)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "46c9e619-c1c5-4b40-bffa-9f1b62be485e")
+	)
+	(fp_rect
+		(start -0.8 -1.025)
+		(end 0.8 1.025)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3af50f24-fc7e-4eb1-833b-66c339866ae7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -4.9 0)
+		(layer "F.Fab")
+		(uuid "9d1f10c4-5581-4d90-b840-4820031c1ee0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.43 -0.76)
+		(size 0.56 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin -0.05)
+		(uuid "7ab2253e-d003-44f3-85d2-51c6ad034b4d")
+	)
+	(pad "2" smd rect
+		(at 0.43 -0.76)
+		(size 0.56 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin -0.05)
+		(uuid "40c737e1-5a40-4ceb-9ce6-eecfaddc1573")
+	)
+	(pad "3" smd rect
+		(at 0 0.29)
+		(size 1.41 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin -0.05)
+		(uuid "bba8e912-a61f-47c7-a481-87485bc2b197")
+	)
+	(model ":ORESAT_LIBRARIES:oresat-3dmodels/D-XCREE-XPEBRD-L1-0000-00901.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
