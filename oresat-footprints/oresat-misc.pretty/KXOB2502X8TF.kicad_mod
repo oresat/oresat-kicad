@@ -1,4 +1,4 @@
-(footprint "KXOB2502X8F"
+(footprint "KXOB2502X8TF"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -11,11 +11,12 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
-	(property "Value" "KXOB2502X8F"
+	(property "Value" "KXOB2502X8TF"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf"
+	(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Atf8/DubuDisk/www/Gen3/KXOB25-02X8TF%20DATA%20SHEET%20202012.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +54,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" " Monocrystalline Silicon Solar Cell 26.3 mW 5.53 V thin"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
