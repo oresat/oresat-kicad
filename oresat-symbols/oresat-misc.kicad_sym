@@ -736,7 +736,7 @@
 			)
 		)
 	)
-	(symbol "IXOLAR-KXOB2502X8F"
+	(symbol "IXOLAR-KXOB2502X8TF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -749,7 +749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXOB2502X8F"
+		(property "Value" "KXOB2502X8TF"
 			(at 2.286 -7.62 0)
 			(effects
 				(font
@@ -758,7 +758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-misc:KXOB2502X8F"
+		(property "Footprint" "oresat-misc:KXOB2502X8TF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -767,7 +767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf"
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Atf8/DubuDisk/www/Gen3/KXOB25-02X8TF%20DATA%20SHEET%20202012.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -776,7 +776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " Monocrystalline Silicon Solar Cell 26.3 mW 5.53 V thin"
 			(at 0 0 0)
 			(effects
 				(font
@@ -785,7 +785,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "IXOLAR-KXOB2502X8F_1_0"
+		(symbol "IXOLAR-KXOB2502X8TF_1_0"
 			(polyline
 				(pts
 					(xy -5.715 2.54) (xy 0 -3.81)

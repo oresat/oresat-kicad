@@ -541,4 +541,15 @@
 		(solder_mask_margin 0.0635)
 		(uuid "b9e6d342-7241-4eb6-b9de-7ac9288049e9")
 	)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/M55-6001242R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
