@@ -3,22 +3,23 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "D8"
-		(at 0 -0.5 0)
+	(property "Reference" "REF**"
+		(at -21.5 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cff49ea9-0e2c-4189-a5f0-aa53b36e9cf7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.5 0.5)
+				(thickness 0.127)
 			)
 		)
 	)
 	(property "Value" "KXOB101K08TF"
-		(at 0 1 0)
+		(at 0 -15 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "543f4e1e-6759-445c-bb2b-24cb7f11056d")
 		(effects
 			(font
@@ -28,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "oresat-misc:KXOB101K08TF"
-		(at 0 0 0)
+		(at 0 -17.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
-		(at 0 0 0)
+		(at 0 -19.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,8 +54,8 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
+		(at 0 -22 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -66,7 +67,38 @@
 			)
 		)
 	)
+	(solder_paste_ratio -0.15)
 	(attr smd)
+	(fp_line
+		(start -21 -11.5)
+		(end 21 -11.5)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf9e90ab-4b88-46c9-b5c2-449b4f0877c5")
+	)
+	(fp_line
+		(start -21 -7)
+		(end -21 -11.5)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34ca3451-8e56-451a-a854-799a9c77fdf3")
+	)
+	(fp_line
+		(start -21 11.5)
+		(end -21 7)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5416609c-9502-452f-aba0-3f1e7423782f")
+	)
 	(fp_line
 		(start -16.74 0)
 		(end -13.74 0)
@@ -97,16 +129,35 @@
 		(layer "F.SilkS")
 		(uuid "cc57c7ac-fa3b-43ac-8742-6d17bff5c115")
 	)
-	(fp_rect
-		(start -21 -11.5)
-		(end 21 11.5)
+	(fp_line
+		(start 21 -11.5)
+		(end 21 -7)
 		(stroke
-			(width 0.2)
+			(width 0.127)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "a84e3be8-74ec-480c-a065-e12d178515da")
+		(uuid "3c5158ce-d0a2-4654-af9e-53e59d5b3afa")
+	)
+	(fp_line
+		(start 21 7)
+		(end 21 11.5)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d2b7b2d-c7c1-4c8b-843c-5841d53f67ed")
+	)
+	(fp_line
+		(start 21 11.5)
+		(end -21 11.5)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcc38b89-b86a-44e6-8d23-6507aa358e58")
 	)
 	(fp_circle
 		(center -15.24 0)
@@ -131,39 +182,6 @@
 		(uuid "e3056435-f627-4023-9140-6670fcb2f897")
 	)
 	(fp_rect
-		(start -21 -11.5)
-		(end 21 11.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "65294b5c-f03f-472e-aa21-1714b44a7f0d")
-	)
-	(fp_rect
-		(start -21 -6)
-		(end -19 6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "4c29d260-10e0-4f7d-b16c-8ccec41fdee0")
-	)
-	(fp_rect
-		(start 19 -6)
-		(end 21 6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "36508d5a-b725-495d-87b7-3a9635a05439")
-	)
-	(fp_rect
 		(start -21.5 -12)
 		(end 21.5 12)
 		(stroke
@@ -174,8 +192,41 @@
 		(layer "F.CrtYd")
 		(uuid "98d966f1-0fca-49f2-a563-5766fea4b23d")
 	)
+	(fp_rect
+		(start -21 -11.5)
+		(end 21 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "65294b5c-f03f-472e-aa21-1714b44a7f0d")
+	)
+	(fp_rect
+		(start -21 -6)
+		(end -19 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4c29d260-10e0-4f7d-b16c-8ccec41fdee0")
+	)
+	(fp_rect
+		(start 19 -6)
+		(end 21 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "36508d5a-b725-495d-87b7-3a9635a05439")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8c0116c8-9d87-4a74-82bc-227200335628")

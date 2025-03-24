@@ -241,4 +241,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "028f84c1-e925-45c9-827c-d3985d416152")
 	)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/1226AS-H-1R0N_P2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

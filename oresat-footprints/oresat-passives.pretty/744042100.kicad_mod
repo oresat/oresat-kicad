@@ -4,19 +4,21 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.3 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "d3a05011-9ead-483f-baf7-a637b209973a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.508 0.508)
+				(thickness 0.127)
+				(bold yes)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 0 0)
+		(at -0.4 3.7 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "8786bce8-435b-44ae-93fe-c655545086ae")
 		(effects
 			(font
@@ -62,50 +64,111 @@
 		)
 	)
 	(fp_line
-		(start -2.85 -2.75)
-		(end 2.85 -2.75)
+		(start -0.5 -2.4)
+		(end 0.5 -2.4)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0.127)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "33aaa327-0b0d-450b-b007-dd38b4dc320e")
+		(uuid "a45d2988-81b5-4f6f-8da3-079dbb133446")
 	)
 	(fp_line
-		(start -2.85 2.75)
-		(end -2.85 -2.75)
+		(start -0.5 2.4)
+		(end 0.5 2.4)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0.127)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0b3453c5-8062-4c66-9252-459d5e3056ff")
+		(uuid "aeb8cca0-aa9e-400a-b550-a903c3858ade")
 	)
 	(fp_line
-		(start 2.85 -2.75)
-		(end 2.85 2.75)
+		(start -2.75 -2.75)
+		(end 2.75 -2.75)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "94429d96-3053-4f42-a1e2-09188297e1bf")
+		(layer "F.CrtYd")
+		(uuid "e4e6f140-0478-40f2-aa5e-e4cbda57f899")
 	)
 	(fp_line
-		(start 2.85 2.75)
-		(end -2.85 2.75)
+		(start -2.75 2.75)
+		(end -2.75 -2.75)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "e2f50b18-3f27-41bf-a8cb-7516da1dd8fb")
+		(layer "F.CrtYd")
+		(uuid "61ec101d-9353-4b68-8cce-1ad18051be18")
+	)
+	(fp_line
+		(start 2.75 -2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1750ee4b-929b-462e-a2e2-7f5cd21c9a31")
+	)
+	(fp_line
+		(start 2.75 2.75)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8362b08a-2466-4d5a-ad98-34f19b55bd0e")
+	)
+	(fp_line
+		(start -2.4 -2.4)
+		(end 2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5c7cdf67-b26d-4aab-bc1c-f38e5dc31268")
+	)
+	(fp_line
+		(start -2.4 2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec22eb98-b807-4473-a991-f404c336cab4")
+	)
+	(fp_line
+		(start 2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4d48dbf4-e61a-482f-bfef-0de04faf8305")
+	)
+	(fp_line
+		(start 2.4 2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cac7c78d-21dc-429a-956c-2490fce5583e")
 	)
 	(pad "1" smd custom
 		(at -1.91 0 180)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0635)
+		(solder_paste_margin -0.3)
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -132,6 +195,7 @@
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0635)
+		(solder_paste_margin -0.3)
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -152,5 +216,16 @@
 			)
 		)
 		(uuid "ccf7e46f-8128-4f8a-b82d-9acd0027c56f")
+	)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/744042001_Download_STP_WE-TPC-4818_rev1.stp"
+		(offset
+			(xyz 0 0 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
