@@ -211,7 +211,7 @@
 			)
 		)
 		(symbol "ORESAT-CARD-V1.3-2RF-LEFT_1_1"
-			(text "OreSat Card v1.3 with RF Connectors 2,3"
+			(text "OreSat Card v1.3 with RF Connectors 1,2"
 				(at 0 0 0)
 				(effects
 					(font
