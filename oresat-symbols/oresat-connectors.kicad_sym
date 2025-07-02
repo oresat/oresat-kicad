@@ -241,126 +241,6 @@
 			)
 		)
 		(symbol "DM3BT-DSF-PEJS_1_0"
-			(polyline
-				(pts
-					(xy -12.7 12.7) (xy -12.7 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -12.7) (xy 12.7 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 12.7) (xy -12.7 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 13.97) (xy 0 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 13.97) (xy 2.54 13.97)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 12.7) (xy 3.81 13.97)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 12.7) (xy 3.81 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 13.97) (xy 5.08 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 13.97) (xy 6.35 13.97)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -12.7) (xy 12.7 13.97)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at -15.24 10.16 0)
 				(length 2.54)
@@ -415,7 +295,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "VDD"
@@ -451,7 +331,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "VSS"
@@ -541,7 +421,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "CGND"
@@ -647,6 +527,21 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "DM3BT-DSF-PEJS_1_1"
+			(polyline
+				(pts
+					(xy -12.7 12.7) (xy 0 12.7) (xy 2.54 13.97) (xy 3.81 13.97) (xy 3.81 12.7) (xy 5.08 12.7) (xy 6.35 13.97)
+					(xy 12.7 13.97) (xy 12.7 -12.7) (xy -12.7 -12.7) (xy -12.7 12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

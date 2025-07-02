@@ -3156,7 +3156,7 @@
 			)
 		)
 		(property "Description" "IC FLASH 16GBIT EMMC 153FBGA"
-			(at 0 0 0)
+			(at 0.254 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,6 +4363,14 @@
 					(type background)
 				)
 			)
+			(text "KEEP OUT ZONE (UNCONNECTED PINS)"
+				(at 34.798 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 20.32 2.54 180)
 				(length 2.54)
@@ -4640,7 +4648,7 @@
 						)
 					)
 				)
-				(number "E9"
+				(number "E10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4659,7 +4667,7 @@
 						)
 					)
 				)
-				(number "E10"
+				(number "E12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4678,25 +4686,6 @@
 						)
 					)
 				)
-				(number "E12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 91.44 -12.7 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "E13"
 					(effects
 						(font
@@ -4706,7 +4695,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 91.44 -15.24 180)
+				(at 91.44 -12.7 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8016,54 +8005,6 @@
 			)
 		)
 		(symbol "LTC4305_1_0"
-			(polyline
-				(pts
-					(xy -12.7 15.24) (xy -12.7 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -15.24) (xy 12.7 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 15.24) (xy -12.7 15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -15.24) (xy 12.7 15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
 				(at -15.24 10.16 0)
 				(length 2.54)
@@ -8350,6 +8291,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LTC4305_1_1"
+			(rectangle
+				(start -12.7 15.24)
+				(end 12.7 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -8689,7 +8643,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
@@ -8707,7 +8661,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15.24 90)
 				(length 2.54)
 				(hide yes)
@@ -9258,54 +9212,6 @@
 			)
 		)
 		(symbol "MAX2771ETI+_1_0"
-			(polyline
-				(pts
-					(xy -22.86 35.56) (xy -22.86 -35.56)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -22.86 -35.56) (xy 22.86 -35.56)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 35.56) (xy -22.86 35.56)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 -35.56) (xy 22.86 35.56)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
 				(at -25.4 30.48 0)
 				(length 2.54)
@@ -9811,6 +9717,19 @@
 				)
 			)
 		)
+		(symbol "MAX2771ETI+_1_1"
+			(rectangle
+				(start -22.86 35.56)
+				(end 22.86 -35.56)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "MAX4211FETE"
@@ -9858,19 +9777,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "MAX4211FETE_0_1"
-			(rectangle
-				(start -10.16 17.78)
-				(end 10.16 -22.86)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
 			)
 		)
 		(symbol "MAX4211FETE_1_0"
@@ -10165,6 +10071,17 @@
 			)
 		)
 		(symbol "MAX4211FETE_1_1"
+			(rectangle
+				(start -10.16 17.78)
+				(end 10.16 -22.86)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin no_connect line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -10234,19 +10151,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "MAX7310_0_1"
-			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -12.7)
-				(stroke
-					(width 0.25)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
 			)
 		)
 		(symbol "MAX7310_1_0"
@@ -10555,6 +10459,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "MAX7310_1_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0.25)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -10959,19 +10876,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "MAX8510EXK29+T_0_1"
-			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "MAX8510EXK29+T_1_0"
 			(pin power_in line
 				(at -7.62 2.54 0)
@@ -11061,6 +10965,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "MAX8510EXK29+T_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -11869,10 +11786,10 @@
 				(radius 2.54)
 				(stroke
 					(width 0.254)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -11937,46 +11854,10 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 7.62) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -2.54) (xy -8.255 -2.54)
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -2.54) (xy -5.08 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -7.62) (xy 8.255 0)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -12115,18 +11996,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 8.255 0) (xy -5.08 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(text "1.24V"
 				(at -10.16 -2.032 0)
 				(effects
@@ -12210,6 +12079,18 @@
 			)
 		)
 		(symbol "MIC842LYC5_1_1"
+			(polyline
+				(pts
+					(xy -5.08 7.62) (xy 8.255 0) (xy -5.08 -7.62) (xy -5.08 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin no_connect line
 				(at 2.54 0 0)
 				(length 2.54)
@@ -12308,93 +12189,9 @@
 			)
 		)
 		(symbol "MIC94090YC6-TR_1_0"
-			(polyline
-				(pts
-					(xy -12.7 7.62) (xy -12.7 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -7.62) (xy 12.7 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 7.62) (xy -12.7 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -7.62) (xy 12.7 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin output line
-				(at -17.78 0 0)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -12.7 90)
-				(length 5.08)
-				(name "GND_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 12.7 270)
-				(length 5.08)
+			(pin power_in line
+				(at -10.16 3.81 0)
+				(length 2.54)
 				(name "VIN"
 					(effects
 						(font
@@ -12410,27 +12207,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -12.7 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 17.78 1.27 180)
-				(length 5.08)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "EN"
 					(effects
 						(font
@@ -12446,12 +12225,78 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MIC94090YC6-TR_1_1"
-			(pin input line
-				(at 17.78 -1.27 180)
-				(length 5.08)
-				(name "EN"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14359,52 +14204,15 @@
 			)
 		)
 		(symbol "ORION-B16_1_0"
-			(polyline
-				(pts
-					(xy -15.24 20.32) (xy 15.24 20.32)
-				)
+			(rectangle
+				(start -15.24 20.32)
+				(end 15.24 -20.32)
 				(stroke
-					(width 0.254)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -15.24 -20.32) (xy -15.24 20.32)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 20.32) (xy 15.24 -20.32)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -20.32) (xy -15.24 -20.32)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -15682,7 +15490,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -35.56 38.1 0)
 				(length 5.08)
 				(name "PMIC_BAT_SENSE"
@@ -16006,7 +15814,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 78.74 180)
 				(length 5.08)
 				(name "SYS_VOUT@1"
@@ -16024,7 +15832,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 76.2 180)
 				(length 5.08)
 				(name "SYS_VOUT@2"
@@ -16042,7 +15850,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 73.66 180)
 				(length 5.08)
 				(name "SYS_VOUT@3"
@@ -16060,7 +15868,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 71.12 180)
 				(length 5.08)
 				(name "SYS_VOUT@4"
@@ -16078,7 +15886,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 60.96 180)
 				(length 5.08)
 				(name "SYS_VDD1_3P3V@1"
@@ -16096,7 +15904,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 58.42 180)
 				(length 5.08)
 				(name "SYS_VDD1_3P3V@2"
@@ -16114,7 +15922,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 55.88 180)
 				(length 5.08)
 				(name "SYS_VDD1_3P3V@3"
@@ -16132,7 +15940,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 53.34 180)
 				(length 5.08)
 				(name "SYS_VDD1_3P3V@4"
@@ -16150,7 +15958,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 43.18 180)
 				(length 5.08)
 				(name "SYS_VDD2_3P3V@1"
@@ -16168,7 +15976,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 40.64 180)
 				(length 5.08)
 				(name "SYS_VDD2_3P3V@2"
@@ -16186,7 +15994,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 30.48 180)
 				(length 5.08)
 				(name "SYS_RTC_1P8V@1"
@@ -16204,7 +16012,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 27.94 180)
 				(length 5.08)
 				(name "SYS_RTC_1P8V@2"
@@ -16222,7 +16030,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 12.7 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@1"
@@ -16240,7 +16048,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 10.16 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@2"
@@ -16258,7 +16066,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 7.62 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@3"
@@ -16276,7 +16084,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 5.08 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@4"
@@ -16294,7 +16102,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 2.54 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@5"
@@ -16312,7 +16120,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 0 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@6"
@@ -16330,7 +16138,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 -2.54 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@7"
@@ -16348,7 +16156,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 35.56 -5.08 180)
 				(length 5.08)
 				(name "SYS_VDD3_3P3V@8"
@@ -17043,7 +16851,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -30.48 43.18 0)
 				(length 5.08)
 				(name "OSC0_IN"
@@ -17061,7 +16869,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 27.94 0)
 				(length 5.08)
 				(name "OSC0_OUT"
@@ -17079,7 +16887,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 22.86 0)
 				(length 5.08)
 				(name "OSC0_GND"
@@ -17097,7 +16905,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -30.48 12.7 0)
 				(length 5.08)
 				(name "OSC1_IN"
@@ -17115,7 +16923,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 -2.54 0)
 				(length 5.08)
 				(name "OSC1_OUT"
@@ -17133,7 +16941,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -7.62 0)
 				(length 5.08)
 				(name "OSC1_GND"
@@ -17385,7 +17193,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at 30.48 45.72 180)
 				(length 5.08)
 				(name "SYS_ADC_1P8V"
@@ -17403,7 +17211,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 35.56 180)
 				(length 5.08)
 				(name "VREFP"
@@ -17421,7 +17229,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 15.24 180)
 				(length 5.08)
 				(name "AGND_ADC"
@@ -17439,7 +17247,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 5.08 180)
 				(length 5.08)
 				(name "VREFN"
@@ -17457,7 +17265,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "AIN0"
@@ -17475,7 +17283,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -7.62 180)
 				(length 5.08)
 				(name "AIN1"
@@ -17493,7 +17301,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "AIN2"
@@ -17511,7 +17319,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -12.7 180)
 				(length 5.08)
 				(name "AIN3"
@@ -17529,7 +17337,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -15.24 180)
 				(length 5.08)
 				(name "AIN4"
@@ -17547,7 +17355,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -17.78 180)
 				(length 5.08)
 				(name "AIN5"
@@ -17565,7 +17373,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -20.32 180)
 				(length 5.08)
 				(name "AIN6"
@@ -17583,7 +17391,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 30.48 -22.86 180)
 				(length 5.08)
 				(name "AIN7"
@@ -17816,7 +17624,7 @@
 					(justify left bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 55.88 0)
 				(length 5.08)
 				(name "UART0_TXD"
@@ -17834,7 +17642,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 53.34 0)
 				(length 5.08)
 				(name "UART0_RXD"
@@ -17852,7 +17660,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 50.8 0)
 				(length 5.08)
 				(name "UART0_CTSN"
@@ -17870,7 +17678,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 48.26 0)
 				(length 5.08)
 				(name "UART0_RTSN"
@@ -17888,7 +17696,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 40.64 0)
 				(length 5.08)
 				(name "UART1_TXD"
@@ -17906,7 +17714,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 38.1 0)
 				(length 5.08)
 				(name "UART1_RXD"
@@ -17924,7 +17732,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 35.56 0)
 				(length 5.08)
 				(name "UART1_CTSN"
@@ -17942,7 +17750,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 33.02 0)
 				(length 5.08)
 				(name "UART1_RTSN"
@@ -17960,7 +17768,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 25.4 0)
 				(length 5.08)
 				(name "SPI0_SCLK"
@@ -18050,7 +17858,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -30.48 7.62 0)
 				(length 5.08)
 				(name "MMC0_CLK"
@@ -19929,7 +19737,7 @@
 					(justify bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 25.4 0)
 				(length 5.08)
 				(name "DGND@1"
@@ -19947,7 +19755,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 22.86 0)
 				(length 5.08)
 				(name "DGND@2"
@@ -19965,7 +19773,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 17.78 0)
 				(length 5.08)
 				(name "DGND@3"
@@ -19983,7 +19791,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 15.24 0)
 				(length 5.08)
 				(name "DGND@4"
@@ -20001,7 +19809,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 12.7 0)
 				(length 5.08)
 				(name "DGND@5"
@@ -20019,7 +19827,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 10.16 0)
 				(length 5.08)
 				(name "DGND@6"
@@ -20037,7 +19845,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 7.62 0)
 				(length 5.08)
 				(name "DGND@7"
@@ -20055,7 +19863,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 5.08 0)
 				(length 5.08)
 				(name "DGND@8"
@@ -20073,7 +19881,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 2.54 0)
 				(length 5.08)
 				(name "DGND@9"
@@ -20091,7 +19899,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 0 0)
 				(length 5.08)
 				(name "DGND@10"
@@ -20109,7 +19917,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -5.08 0)
 				(length 5.08)
 				(name "DGND@11"
@@ -20127,7 +19935,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -7.62 0)
 				(length 5.08)
 				(name "DGND@12"
@@ -20145,7 +19953,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -12.7 0)
 				(length 5.08)
 				(name "DGND@13"
@@ -20163,7 +19971,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -15.24 0)
 				(length 5.08)
 				(name "DGND@14"
@@ -20181,7 +19989,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -20.32 0)
 				(length 5.08)
 				(name "DGND@15"
@@ -20199,7 +20007,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -22.86 0)
 				(length 5.08)
 				(name "DGND@16"
@@ -20217,7 +20025,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -25.4 0)
 				(length 5.08)
 				(name "DGND@17"
@@ -20235,7 +20043,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -30.48 -27.94 0)
 				(length 5.08)
 				(name "DGND@18"
@@ -20253,7 +20061,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 25.4 180)
 				(length 5.08)
 				(name "DGND@19"
@@ -20271,7 +20079,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 22.86 180)
 				(length 5.08)
 				(name "DGND@20"
@@ -20289,7 +20097,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 20.32 180)
 				(length 5.08)
 				(name "DGND@21"
@@ -20307,7 +20115,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 17.78 180)
 				(length 5.08)
 				(name "DGND@22"
@@ -20325,7 +20133,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 12.7 180)
 				(length 5.08)
 				(name "DGND@23"
@@ -20343,7 +20151,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 10.16 180)
 				(length 5.08)
 				(name "DGND@24"
@@ -20361,7 +20169,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 5.08 180)
 				(length 5.08)
 				(name "DGND@25"
@@ -20379,7 +20187,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 2.54 180)
 				(length 5.08)
 				(name "DGND@26"
@@ -20397,7 +20205,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -2.54 180)
 				(length 5.08)
 				(name "DGND@27"
@@ -20415,7 +20223,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "DGND@28"
@@ -20433,7 +20241,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -7.62 180)
 				(length 5.08)
 				(name "DGND@29"
@@ -20451,7 +20259,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "DGND@30"
@@ -20469,7 +20277,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -12.7 180)
 				(length 5.08)
 				(name "DGND@31"
@@ -20487,7 +20295,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -15.24 180)
 				(length 5.08)
 				(name "DGND@32"
@@ -20505,7 +20313,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -17.78 180)
 				(length 5.08)
 				(name "DGND@33"
@@ -20523,7 +20331,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -20.32 180)
 				(length 5.08)
 				(name "DGND@34"
@@ -20541,7 +20349,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -25.4 180)
 				(length 5.08)
 				(name "DGND@35"
@@ -20559,7 +20367,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 30.48 -27.94 180)
 				(length 5.08)
 				(name "DGND@36"
@@ -20719,7 +20527,7 @@
 					(justify bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 20.32 0)
 				(length 5.08)
 				(name "VDDS_DDR"
@@ -20737,7 +20545,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 15.24 0)
 				(length 5.08)
 				(name "VDD_CORE"
@@ -20755,7 +20563,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 10.16 0)
 				(length 5.08)
 				(name "VDD_MPU"
@@ -20773,7 +20581,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 5.08 0)
 				(length 5.08)
 				(name "VDDS_PLL"
@@ -20791,7 +20599,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 -5.08 0)
 				(length 5.08)
 				(name "CAP_VDD_RTC"
@@ -20809,7 +20617,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -27.94 -10.16 0)
 				(length 5.08)
 				(name "VPP"
@@ -20827,7 +20635,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 27.94 -5.08 180)
 				(length 5.08)
 				(name "NC@1"
@@ -20845,7 +20653,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 27.94 -7.62 180)
 				(length 5.08)
 				(name "NC@2"
@@ -20863,7 +20671,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 27.94 -10.16 180)
 				(length 5.08)
 				(name "NC@3"
@@ -23316,6 +23124,18 @@
 			)
 			(polyline
 				(pts
+					(xy -1.27 2.54) (xy -1.27 -2.54) (xy 2.54 0) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
 					(xy -1.27 0) (xy -1.27 -2.54)
 				)
 				(stroke
@@ -23470,7 +23290,7 @@
 					(justify bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "A"
@@ -23488,7 +23308,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 2.54 0)
 				(length 0)
 				(name "VCC"
@@ -23506,7 +23326,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 0)
 				(name "GND"
@@ -23543,7 +23363,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "Y"
@@ -24393,7 +24213,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "RXD"
@@ -24411,7 +24231,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "TXD"
@@ -25449,20 +25269,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLV733P-Q1_0_1"
+		(symbol "TLV733P-Q1_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 5.08 -5.08)
 				(stroke
 					(width 0.1524)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TLV733P-Q1_1_1"
 			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -27516,54 +27334,6 @@
 			)
 		)
 		(symbol "TQP9111_1_0"
-			(polyline
-				(pts
-					(xy -13.97 15.24) (xy -13.97 -15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -13.97 15.24) (xy 13.97 15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -15.24) (xy -13.97 -15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -15.24) (xy 13.97 15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
 				(at -16.51 3.81 0)
 				(length 2.54)
@@ -27940,6 +27710,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "TQP9111_1_1"
+			(rectangle
+				(start -13.97 15.24)
+				(end 13.97 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -28811,20 +28594,18 @@
 				)
 			)
 		)
-		(symbol "TUSB4020BI_0_1"
+		(symbol "TUSB4020BI_1_1"
 			(rectangle
 				(start -19.05 33.02)
 				(end 19.05 -34.29)
 				(stroke
 					(width 0.1524)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TUSB4020BI_1_1"
 			(pin input line
 				(at -21.59 26.67 0)
 				(length 2.54)
