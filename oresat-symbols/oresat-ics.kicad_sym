@@ -25823,52 +25823,15 @@
 			)
 		)
 		(symbol "TPS2041BQDBVRQ1_1_0"
-			(polyline
-				(pts
-					(xy -10.16 5.08) (xy -10.16 -10.16)
-				)
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -10.16)
 				(stroke
-					(width 0.1524)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -10.16 -10.16) (xy 10.16 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 5.08) (xy -10.16 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -10.16) (xy 10.16 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin open_collector line
