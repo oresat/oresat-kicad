@@ -26334,7 +26334,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 -17.78 0)
+			(at 4.826 -21.336 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -26351,8 +26351,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:S-PVQFN-16"
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
+			(at 0.508 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26408,6 +26408,7 @@
 			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
+				(hide yes)
 				(name "VIN"
 					(effects
 						(font
@@ -26418,31 +26419,13 @@
 				(number "3"
 					(effects
 						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin power_in line
-				(at -12.7 2.54 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "VINA"
 					(effects
@@ -26514,9 +26497,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -20.32 90)
 				(length 2.54)
-				(name "GND"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -26526,14 +26509,15 @@
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -20.32 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -26544,14 +26528,15 @@
 				(number "11"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -20.32 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -26562,15 +26547,16 @@
 				(number "12"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -20.32 90)
 				(length 2.54)
-				(name "GND"
+				(hide yes)
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -26580,15 +26566,16 @@
 				(number "16"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -20.32 90)
 				(length 2.54)
-				(name "GND"
+				(hide yes)
+				(name "AGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -26598,25 +26585,7 @@
 				(number "9"
 					(effects
 						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -17.78 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "PAD"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -26642,6 +26611,7 @@
 			(pin output line
 				(at 12.7 7.62 180)
 				(length 2.54)
+				(hide yes)
 				(name "SW"
 					(effects
 						(font
@@ -26652,7 +26622,7 @@
 				(number "15"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -26715,7 +26685,7 @@
 		(symbol "TPS6211X_1_1"
 			(rectangle
 				(start -10.16 10.16)
-				(end 10.16 -15.24)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0.254)
 					(type solid)
