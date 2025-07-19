@@ -1,11 +1,19 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# Ignore local archives and build folders
+archive
+build
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -21,9 +29,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# KiCAD 6
-
-*-backups
-*.kicad_prl
-
-.DS_Store
+# Exported BOM files
+*.xml
+*.csv

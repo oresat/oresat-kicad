@@ -17303,7 +17303,7 @@
 	(symbol
 		(lib_name "MCXN947VKLT_3")
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 181.61 25.4 0)
+		(at 308.61 85.09 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17311,7 +17311,7 @@
 		(dnp no)
 		(uuid "3d501bfd-98a0-4af6-b9fa-87cf2abf0a57")
 		(property "Reference" "IC1"
-			(at 181.356 20.828 0)
+			(at 308.356 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17320,7 +17320,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 181.356 23.368 0)
+			(at 308.356 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17329,7 +17329,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 182.88 -3.81 0)
+			(at 309.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17339,7 +17339,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 182.626 2.616 0)
+			(at 309.626 62.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17349,7 +17349,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 206.502 0 0)
+			(at 333.502 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17358,7 +17358,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 256.54 410.16 0)
+			(at 383.54 469.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17368,7 +17368,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 256.54 510.16 0)
+			(at 383.54 569.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17378,7 +17378,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VNLT"
-			(at 256.54 610.16 0)
+			(at 383.54 669.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17388,7 +17388,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VNLT"
-			(at 256.54 710.16 0)
+			(at 383.54 769.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17398,7 +17398,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MCXN947VNLT?qs=Z%252BL2brAPG1JdBwTv%2FdATDA%3D%3D"
-			(at 256.54 810.16 0)
+			(at 383.54 869.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17408,7 +17408,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MCXN947VNLT"
-			(at 256.54 910.16 0)
+			(at 383.54 969.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17418,7 +17418,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcxn947vnlt/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 256.54 1010.16 0)
+			(at 383.54 1069.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17428,7 +17428,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 256.54 510.16 0)
+			(at 383.54 569.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +17438,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 256.54 610.16 0)
+			(at 383.54 669.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19472,7 +19472,7 @@
 	(symbol
 		(lib_name "MCXN947VKLT_4")
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 181.61 59.69 0)
+		(at 308.61 119.38 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19480,7 +19480,7 @@
 		(dnp no)
 		(uuid "ce3e8231-1efb-4b5a-b018-647730618bcb")
 		(property "Reference" "IC1"
-			(at 181.356 55.626 0)
+			(at 308.356 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19489,7 +19489,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 181.356 58.166 0)
+			(at 308.356 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19498,7 +19498,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 182.88 30.48 0)
+			(at 309.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,7 +19508,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 182.626 36.906 0)
+			(at 309.626 96.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19518,7 +19518,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 206.502 34.29 0)
+			(at 333.502 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19527,7 +19527,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 256.54 444.45 0)
+			(at 383.54 504.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19537,7 +19537,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 256.54 544.45 0)
+			(at 383.54 604.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19547,7 +19547,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VNLT"
-			(at 256.54 644.45 0)
+			(at 383.54 704.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19557,7 +19557,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VNLT"
-			(at 256.54 744.45 0)
+			(at 383.54 804.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19567,7 +19567,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MCXN947VNLT?qs=Z%252BL2brAPG1JdBwTv%2FdATDA%3D%3D"
-			(at 256.54 844.45 0)
+			(at 383.54 904.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19577,7 +19577,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MCXN947VNLT"
-			(at 256.54 944.45 0)
+			(at 383.54 1004.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,7 +19587,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcxn947vnlt/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 256.54 1044.45 0)
+			(at 383.54 1104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19597,7 +19597,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 256.54 544.45 0)
+			(at 383.54 604.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19607,7 +19607,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 256.54 644.45 0)
+			(at 383.54 704.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20140,9 +20140,9 @@
 		)
 	)
 	(symbol
-		(lib_name "MCXN947VKLT_1")
+		(lib_name "MCXN947VKLT_3")
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 220.98 26.67 0)
+		(at 347.98 86.36 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20150,7 +20150,7 @@
 		(dnp no)
 		(uuid "e836e090-9518-49db-99de-c1d54b4be1e1")
 		(property "Reference" "IC1"
-			(at 220.98 22.098 0)
+			(at 347.98 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20159,7 +20159,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 220.98 24.638 0)
+			(at 347.98 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20168,7 +20168,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 222.25 -2.54 0)
+			(at 349.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20178,7 +20178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 221.996 3.886 0)
+			(at 348.996 63.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20188,7 +20188,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 245.872 1.27 0)
+			(at 372.872 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20197,7 +20197,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 295.91 411.43 0)
+			(at 422.91 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20207,7 +20207,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 295.91 511.43 0)
+			(at 422.91 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20217,7 +20217,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VNLT"
-			(at 295.91 611.43 0)
+			(at 422.91 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20227,7 +20227,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VNLT"
-			(at 295.91 711.43 0)
+			(at 422.91 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20237,7 +20237,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MCXN947VNLT?qs=Z%252BL2brAPG1JdBwTv%2FdATDA%3D%3D"
-			(at 295.91 811.43 0)
+			(at 422.91 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20247,7 +20247,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MCXN947VNLT"
-			(at 295.91 911.43 0)
+			(at 422.91 971.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +20257,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcxn947vnlt/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 295.91 1011.43 0)
+			(at 422.91 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20267,7 +20267,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 295.91 511.43 0)
+			(at 422.91 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20277,7 +20277,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 295.91 611.43 0)
+			(at 422.91 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20610,7 @@
 	(symbol
 		(lib_name "MCXN947VKLT_6")
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 256.54 26.67 0)
+		(at 383.54 86.36 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20618,7 +20618,7 @@
 		(dnp no)
 		(uuid "e8c5fa99-8b6b-4f54-9b2a-7092b309f7db")
 		(property "Reference" "IC1"
-			(at 256.794 21.844 0)
+			(at 383.794 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20627,7 +20627,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 256.794 24.384 0)
+			(at 383.794 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +20636,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 257.81 -2.54 0)
+			(at 384.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20646,7 +20646,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 257.556 3.886 0)
+			(at 384.556 63.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +20656,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 281.432 1.27 0)
+			(at 408.432 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +20665,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 331.47 411.43 0)
+			(at 458.47 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20675,7 +20675,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 331.47 511.43 0)
+			(at 458.47 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +20685,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VNLT"
-			(at 331.47 611.43 0)
+			(at 458.47 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20695,7 +20695,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VNLT"
-			(at 331.47 711.43 0)
+			(at 458.47 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,7 +20705,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MCXN947VNLT?qs=Z%252BL2brAPG1JdBwTv%2FdATDA%3D%3D"
-			(at 331.47 811.43 0)
+			(at 458.47 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20715,7 +20715,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MCXN947VNLT"
-			(at 331.47 911.43 0)
+			(at 458.47 971.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20725,7 +20725,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mcxn947vnlt/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 331.47 1011.43 0)
+			(at 458.47 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20735,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 331.47 511.43 0)
+			(at 458.47 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20745,7 +20745,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 331.47 611.43 0)
+			(at 458.47 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
