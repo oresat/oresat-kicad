@@ -11351,7 +11351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:QFP50P1600X1600X160-101N"
+		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
 			(at 1.27 29.21 0)
 			(effects
 				(font
@@ -12513,7 +12513,6 @@
 				(alternate "SMARTDMA_PIO4" passive line)
 				(alternate "TRACE_DATA0" passive line)
 				(alternate "TSI0_CH17/ADC1_A8" passive line)
-				(alternate "UART_RXD" passive line)
 				(alternate "WUU0_IN10/LPTMR1_ALT3" passive line)
 			)
 			(pin passive line
@@ -12568,7 +12567,6 @@
 				(alternate "FC4_P2" passive line)
 				(alternate "FC5_P6" passive line)
 				(alternate "FLEXIO0_D18" passive line)
-				(alternate "ISP-CAN_TXD" passive line)
 				(alternate "PLU_IN0" passive line)
 				(alternate "SCT0_IN2" passive line)
 				(alternate "SMARDMA_PIO6" passive line)
@@ -12598,9 +12596,9 @@
 				(alternate "FC4_P3" passive line)
 				(alternate "FLEXIO0_D19" passive line)
 				(alternate "I3C31_PUR" passive line)
-				(alternate "ISP-CAN_RXD" passive line)
 				(alternate "PLU_IN1" passive line)
 				(alternate "SCT0_IN3" passive line)
+				(alternate "SMARTDMA_PIO7" passive line)
 				(alternate "TRACE_DATA3" passive line)
 				(alternate "TSI0_CH20/ADC1_A11" passive line)
 				(alternate "WUU0_IN11" passive line)
