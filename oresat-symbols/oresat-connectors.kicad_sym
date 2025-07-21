@@ -7431,14 +7431,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "ORESAT-DEBUG-CONNECTOR-ALL_1_0"
 			(text "PADs"
 				(at -1.27 -31.75 0)
@@ -7498,7 +7490,7 @@
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7506,6 +7498,7 @@
 			(pin passive line
 				(at 11.43 27.94 180)
 				(length 2.54)
+				(hide yes)
 				(name "VBUSP"
 					(effects
 						(font
@@ -7516,7 +7509,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7534,7 +7527,7 @@
 				(number "11"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7552,7 +7545,7 @@
 				(number "10"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7570,7 +7563,7 @@
 				(number "14"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7588,7 +7581,7 @@
 				(number "15"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7606,7 +7599,7 @@
 				(number "16"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7624,7 +7617,7 @@
 				(number "13"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7642,7 +7635,7 @@
 				(number "12"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7660,7 +7653,7 @@
 				(number "4"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7678,7 +7671,7 @@
 				(number "5"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7696,7 +7689,7 @@
 				(number "7"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7714,7 +7707,7 @@
 				(number "8"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7732,7 +7725,7 @@
 				(number "17"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7750,7 +7743,7 @@
 				(number "18"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7768,7 +7761,7 @@
 				(number "19"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7786,7 +7779,7 @@
 				(number "20"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7804,7 +7797,7 @@
 				(number "3"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7812,6 +7805,7 @@
 			(pin passive line
 				(at 11.43 -27.94 180)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -7822,7 +7816,7 @@
 				(number "6"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -7830,6 +7824,7 @@
 			(pin passive line
 				(at 11.43 -27.94 180)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -7840,7 +7835,7 @@
 				(number "9"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
