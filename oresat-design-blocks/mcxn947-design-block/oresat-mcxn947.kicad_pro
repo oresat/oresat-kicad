@@ -255,7 +255,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|469900|711200|ce8462f8-dc57-4c11-8c21-76716a0c3ae6|00000000-0000-0000-0000-000000000000|/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1|/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -459,7 +464,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -499,7 +504,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
@@ -725,6 +730,14 @@
     [
       "52595c9f-7fa1-4e87-8727-2a72b29e4974",
       "Root"
+    ],
+    [
+      "ee56f181-4a87-45c4-82f0-bfd072fe3741",
+      "Breakout Connectors"
+    ],
+    [
+      "923ffb4f-d804-4f4a-a385-592515e766a1",
+      "Power & Signal"
     ]
   ],
   "text_variables": {}
