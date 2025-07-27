@@ -9549,7 +9549,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "HW1")
 					(unit 1)
@@ -9797,7 +9797,7 @@
 			(uuid "8455eace-cb3f-4563-9395-aa3a25de6604")
 		)
 		(instances
-			(project ""
+			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "#FLG02")
 					(unit 1)
@@ -10383,10 +10383,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8455eace-cb3f-4563-9395-aa3a25de6604")
+			(uuid "8455eace-cb3f-4563-9395-aa3a25de6605")
 		)
 		(instances
-			(project ""
+			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "#FLG03")
 					(unit 1)
@@ -12657,7 +12657,7 @@
 			(uuid "af6e222e-fa90-49d3-990f-d0dfbe4502b1")
 		)
 		(instances
-			(project ""
+			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "J10")
 					(unit 1)

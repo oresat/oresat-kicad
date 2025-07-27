@@ -36,7 +36,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSignal_sch.kicad_sch"
+		(property "Sheetfile" "oresat-mcxn-sch-power-signal.kicad_sch"
 			(at 204.47 127.5846 0)
 			(effects
 				(font
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "oresat-mcxn-sch-connectors.kicad_sch"
 			(at 204.47 116.1546 0)
 			(effects
 				(font
