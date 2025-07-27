@@ -7441,7 +7441,7 @@
 					(justify left bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 1.27 -35.56 90)
 				(length 2.54)
 				(name "PAD"
@@ -7459,7 +7459,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 1.27 -35.56 90)
 				(length 2.54)
 				(name "PAD"
@@ -7514,7 +7514,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 11.43 22.86 180)
 				(length 2.54)
 				(name "VTARGET"
@@ -7604,7 +7604,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "CARD-TX"
@@ -7622,7 +7622,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "CARD-RX"
