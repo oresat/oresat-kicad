@@ -10,7 +10,7 @@
 		(uuid "824f86df-5602-4476-90f2-d35f8fe0b214")
 		(effects
 			(font
-				(size 0.68 0.68)
+				(size 0.5 0.5)
 				(thickness 0.12)
 			)
 			(justify left bottom)
@@ -51,30 +51,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(fp_poly
-		(pts
-			(xy -0.26 0.84) (xy -1.74 0.84) (xy -1.74 -0.84) (xy -0.26 -0.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "e3a232d3-e72c-453d-80de-174930bb5ac8")
-	)
-	(fp_poly
-		(pts
-			(xy 1.74 0.84) (xy 0.26 0.84) (xy 0.26 -0.84) (xy 1.74 -0.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "87da3e6a-ca93-4df0-8509-4a735d6daaba")
 	)
 	(fp_line
 		(start -2.095 -1.195)
@@ -183,7 +159,7 @@
 	(pad "1" smd roundrect
 		(at -1 0)
 		(size 1.35 1.55)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.13)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
@@ -192,7 +168,7 @@
 	(pad "2" smd roundrect
 		(at 1 0)
 		(size 1.35 1.55)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.13)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)

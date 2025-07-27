@@ -1,7 +1,7 @@
 (footprint "0603-C-NOSILK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 	(property "Reference" "REF**"
@@ -10,8 +10,8 @@
 		(uuid "61949b15-09ff-40ba-9864-6c1f34869822")
 		(effects
 			(font
-				(size 0.425 0.425)
-				(thickness 0.075)
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -26,18 +26,6 @@
 				(thickness 0.12)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de57f133-cad1-4cbf-ad38-83081be9d6c9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -232,7 +220,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "67dde1ab-1c47-4fb3-b2a9-4e0a2d8aa4fb")
 	)
@@ -244,7 +232,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "58601844-7ad7-4f76-8fe6-70b103ab6af3")
 	)
@@ -266,6 +254,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "4387b044-ad6c-444f-83b2-812a378ecada")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)

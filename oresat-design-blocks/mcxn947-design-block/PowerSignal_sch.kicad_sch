@@ -11517,7 +11517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -11785,7 +11785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -12095,7 +12095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 67.31 222.25 0)
 			(effects
 				(font
@@ -12165,7 +12165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 80.01 228.6 0)
 			(effects
 				(font
@@ -12364,7 +12364,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 40.3352 86.36 0)
 			(effects
 				(font
@@ -12473,7 +12473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -12900,7 +12900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 232.41 170.18 0)
 			(effects
 				(font
@@ -13123,7 +13123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -13324,7 +13324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 143.51 144.78 0)
 			(effects
 				(font
@@ -13459,7 +13459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 44.45 40.64 0)
 			(effects
 				(font
@@ -13593,7 +13593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -13968,7 +13968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14916,7 +14916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 294.64 189.23 0)
 			(effects
 				(font
@@ -15377,7 +15377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 86.36 243.84 0)
 			(effects
 				(font
@@ -15447,7 +15447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 50.8 208.28 0)
 			(effects
 				(font
@@ -16190,7 +16190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 96.52 40.64 0)
 			(effects
 				(font
@@ -16565,7 +16565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -16701,7 +16701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 143.51 153.67 0)
 			(effects
 				(font
@@ -16836,7 +16836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 275.59 186.69 0)
 			(effects
 				(font
@@ -16977,7 +16977,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 121.6152 87.63 0)
 			(effects
 				(font
@@ -17607,7 +17607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -18662,7 +18662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -18731,7 +18731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -18867,7 +18867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -19592,7 +19592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 248.92 153.67 0)
 			(effects
 				(font
@@ -20057,7 +20057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 218.44 242.57 0)
 			(effects
 				(font
@@ -20386,7 +20386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 218.44 234.95 0)
 			(effects
 				(font
@@ -20741,7 +20741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -20875,7 +20875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 232.41 182.88 0)
 			(effects
 				(font
