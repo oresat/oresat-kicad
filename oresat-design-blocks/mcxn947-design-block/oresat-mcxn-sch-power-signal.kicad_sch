@@ -7258,6 +7258,12 @@
 		(uuid "335d0632-36a3-4843-b1bc-96cc6adf3121")
 	)
 	(junction
+		(at 311.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37d05753-bee9-4a3a-95b0-53857939bbdc")
+	)
+	(junction
 		(at 81.28 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7408,12 +7414,6 @@
 		(uuid "92797c97-0cfe-47fb-a9e5-9804d7026a37")
 	)
 	(junction
-		(at 311.15 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bceb2d7-dfe9-4c3b-95e0-53ca9fefc59c")
-	)
-	(junction
 		(at 234.95 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7450,6 +7450,12 @@
 		(uuid "a9186571-b75e-4638-86f1-00ba68c0e9bf")
 	)
 	(junction
+		(at 308.61 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d32f69-cbcc-4193-8c6b-ec8fa985891e")
+	)
+	(junction
 		(at 81.28 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7466,12 +7472,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2b9bfd8-74ad-4eba-b558-fee8c43d1bed")
-	)
-	(junction
-		(at 308.61 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b451be9e-57b5-4b36-9ab2-8b8c1d969df1")
 	)
 	(junction
 		(at 55.88 91.44)
@@ -7987,7 +7987,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 157.48) (xy 308.61 157.48)
+			(xy 278.13 157.48) (xy 311.15 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8034,16 +8034,6 @@
 			(type default)
 		)
 		(uuid "229c62da-41f9-4fe1-9f2c-b496f7197133")
-	)
-	(wire
-		(pts
-			(xy 308.61 139.7) (xy 308.61 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2330444c-9c58-4af4-a1f8-eed32864a44d")
 	)
 	(wire
 		(pts
@@ -8917,6 +8907,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 154.94) (xy 336.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c79b1b-eaaa-4254-b168-ad2c57db8e07")
+	)
+	(wire
+		(pts
 			(xy 280.67 130.81) (xy 280.67 144.78)
 		)
 		(stroke
@@ -8964,6 +8964,16 @@
 			(type default)
 		)
 		(uuid "7a95b048-f9ff-4cce-8c4f-6867d0d6721e")
+	)
+	(wire
+		(pts
+			(xy 311.15 157.48) (xy 336.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b237c96-3b20-46f6-b315-f8d406180f73")
 	)
 	(wire
 		(pts
@@ -9127,7 +9137,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 154.94) (xy 311.15 154.94)
+			(xy 280.67 154.94) (xy 308.61 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9174,16 +9184,6 @@
 			(type default)
 		)
 		(uuid "90dff19e-828e-47c2-9def-e28a8256bf5d")
-	)
-	(wire
-		(pts
-			(xy 311.15 154.94) (xy 336.55 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9174460b-2815-4af4-abe7-dcc8d590ae9a")
 	)
 	(wire
 		(pts
@@ -9634,6 +9634,16 @@
 			(type default)
 		)
 		(uuid "ba236fd9-eb47-459c-b517-20f599227c43")
+	)
+	(wire
+		(pts
+			(xy 311.15 137.16) (xy 311.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb749ec4-6596-468f-b03e-f9428179606c")
 	)
 	(wire
 		(pts
@@ -10307,16 +10317,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 157.48) (xy 336.55 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7d8fb8-128d-493b-a3d2-082e81975cfa")
-	)
-	(wire
-		(pts
 			(xy 82.55 106.68) (xy 82.55 109.22)
 		)
 		(stroke
@@ -10354,16 +10354,6 @@
 			(type default)
 		)
 		(uuid "f0f01954-bb0f-479e-8de2-ac8a00fb0195")
-	)
-	(wire
-		(pts
-			(xy 311.15 137.16) (xy 311.15 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e046d4-793d-4718-882c-02d3d95561cc")
 	)
 	(wire
 		(pts
@@ -10454,6 +10444,16 @@
 			(type default)
 		)
 		(uuid "f8dad499-d4d7-4619-899e-58caf3990db9")
+	)
+	(wire
+		(pts
+			(xy 308.61 139.7) (xy 308.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f953f84c-a99f-464a-b4cb-7e0c5247f320")
 	)
 	(wire
 		(pts
@@ -15316,7 +15316,6 @@
 		)
 		(pin "49"
 			(uuid "6053a7ea-78ec-4ae0-aef6-4f91aa3de3fd")
-			(alternate "XTAL32K/ADC1_B9")
 		)
 		(pin "50"
 			(uuid "a8961e53-d6fa-4379-9232-b331a917ac52")
@@ -15332,7 +15331,6 @@
 		)
 		(pin "48"
 			(uuid "8b7305c8-f1bd-452a-9b4c-ab9a95cb0a16")
-			(alternate "EXTAL32K/ADC1_B8")
 		)
 		(pin "39"
 			(uuid "ab24620d-0de4-48e0-bf06-881904b0294a")
@@ -16904,7 +16902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:PAT0816(0603)"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 62.865 179.705 0)
 			(effects
 				(font
@@ -19264,6 +19262,7 @@
 		)
 		(pin "1"
 			(uuid "58c08f4c-24c7-4d6e-bf09-f3671235eb54")
+			(alternate "ISP-UART_RXD")
 		)
 		(pin "3"
 			(uuid "350f433e-2f83-4534-965d-8baa4d49b989")
@@ -19282,6 +19281,7 @@
 		)
 		(pin "2"
 			(uuid "a3b8175f-600e-4d3a-9700-a255d9c5ed7e")
+			(alternate "ISP-UART_TXD")
 		)
 		(pin "95"
 			(uuid "e1b5dfd1-aa6e-40e6-81a2-3168ab55b07a")
