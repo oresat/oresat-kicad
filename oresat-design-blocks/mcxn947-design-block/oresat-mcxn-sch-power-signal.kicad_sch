@@ -11812,6 +11812,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Samsung"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1005F6653CS"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9c3fba3-5000-4b5a-8a12-47a9944d3fb7")
 		)
@@ -12373,7 +12391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL10X106MO8NRNC_Spec.pdf"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12382,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±20% 16V Ceramic Capacitor X6S 0603 (1608 Metric)"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12421,7 +12439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG"
+		(property "MPN" "CL10X106MO8NRNC"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -13351,6 +13369,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Samsung"
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1005F6653CS"
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "562a3442-8980-45bc-a377-d20c1a334fe4")
 		)
@@ -13986,7 +14022,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "2.2 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 58.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 58.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A225KO8NNNC"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14447,6 +14501,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Texas Instruments"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -15472,6 +15535,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Yageo"
+			(at 50.8 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R7BB105"
+			(at 50.8 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70d4bcbf-803f-4909-aa66-3ed8cff1fd56")
 		)
@@ -16369,7 +16450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Samsung"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -16379,7 +16460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-3AEB272V"
+		(property "MPN" "RC1005F6653CS"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -18687,6 +18768,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Samsung"
+			(at 283.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1005F6653CS"
+			(at 283.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fef4e4b-d97e-4cea-9929-e0e22e4aca5e")
 		)
@@ -18884,6 +18983,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1005F6653CS"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -20760,6 +20877,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1005F6653CS"
 			(at 254 66.04 0)
 			(effects
 				(font
