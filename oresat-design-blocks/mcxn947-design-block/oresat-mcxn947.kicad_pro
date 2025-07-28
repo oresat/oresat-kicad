@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|141752727|116488880|9cc992c6-ef77-4f48-b95a-aab8c3bf2754|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|143695759|119238020|9112753c-cc3d-4765-97a8-839393e3b801|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|164850000|80475000|0c05a032-d8ad-48df-a6e7-dc40e52c39b4|1fde3527-9a22-4130-873d-509207ee2d3f",
+          ""
+        ],
+        [
+          "silk_overlap|166212500|80125000|0c05a032-d8ad-48df-a6e7-dc40e52c39b4|c6cd502f-d577-43b4-a482-9fee308245ca",
+          ""
+        ],
+        [
+          "silk_overlap|167562500|79725000|a6635f43-32f2-4ddd-87c1-694e054684a7|c6cd502f-d577-43b4-a482-9fee308245ca",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -551,7 +572,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
