@@ -7052,17 +7052,6 @@
 		)
 		(uuid "59349203-691a-40b6-9432-b7cbbc6e4e53")
 	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 36.83 86.106 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c2d5106-4750-4cb0-8e62-137f7c94556d")
-	)
 	(text "ISP I2C"
 		(exclude_from_sim no)
 		(at 331.216 69.85 0)
@@ -11526,7 +11515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -11535,7 +11524,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -11803,7 +11810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -11812,7 +11819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -11821,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -11890,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor_big-symbol"
+		(property "Description" "6.8 µH Shielded Inductor 2.4 A 91mOhm 1816 (4540 Metric)"
 			(at 107.95 76.2 0)
 			(effects
 				(font
@@ -12122,7 +12129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
 			(at 67.31 222.25 0)
 			(effects
 				(font
@@ -12131,7 +12138,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 67.31 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 67.31 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E475KE11D"
 			(at 67.31 222.25 0)
 			(effects
 				(font
@@ -12192,7 +12217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.murata.com/en-sg/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GCJ31CR71A685KA13%23"
 			(at 80.01 228.6 0)
 			(effects
 				(font
@@ -12201,7 +12226,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "6.8 µF ±10% 10V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 80.01 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 80.01 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCJ31CR71A685KA13L"
 			(at 80.01 228.6 0)
 			(effects
 				(font
@@ -12391,7 +12434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL10X106MO8NRNC_Spec.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12400,7 +12443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±20% 16V Ceramic Capacitor X6S 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12429,7 +12472,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12439,7 +12482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10X106MO8NRNC"
+		(property "MPN" "GRM188R61E106KA73D"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -12500,7 +12543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -12509,7 +12552,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -12644,6 +12705,24 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 217.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "GCT"
+			(at 217.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BD120-10-A-0305-0229-L-B"
 			(at 217.17 55.88 0)
 			(effects
 				(font
@@ -12811,6 +12890,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Adam Tech"
+			(at 237.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-02-UA"
+			(at 237.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87f1903d-1bf2-4078-bfe2-001ff61b8715")
 		)
@@ -12936,7 +13033,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 232.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 232.41 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT60R4"
 			(at 232.41 170.18 0)
 			(effects
 				(font
@@ -13005,7 +13120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck Switching Regulator IC Positive Fixed 3.3V 1 Output 1.5A 16-VQFN Exposed Pad"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -13044,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS62111RSA"
+		(property "MPN" "TPS62111RSAR"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -13150,7 +13265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -13159,7 +13274,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -13360,7 +13493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 143.51 144.78 0)
 			(effects
 				(font
@@ -13369,7 +13502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 143.51 144.78 0)
 			(effects
 				(font
@@ -13378,7 +13511,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 143.51 144.78 0)
 			(effects
 				(font
@@ -13504,7 +13637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 44.45 40.64 0)
 			(effects
 				(font
@@ -13513,7 +13646,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 44.45 40.64 0)
 			(effects
 				(font
@@ -13638,7 +13789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -13647,7 +13798,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -13837,7 +14006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -13846,7 +14015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -13875,7 +14044,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -13885,7 +14054,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -14013,7 +14182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E225KA12-01.pdf"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14022,7 +14191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14031,7 +14200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14040,7 +14209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A225KO8NNNC"
+		(property "MPN" "GRM188R61E225KA12D"
 			(at 58.42 222.25 0)
 			(effects
 				(font
@@ -14518,6 +14687,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TCAN330DCNR"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2d897345-6da5-4005-9cfe-3825eb5a0eac")
 		)
@@ -14900,7 +15078,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120 ohm ?"
+		(property "Value" "120 ohm"
 			(at 40.602 200.66 0)
 			(effects
 				(font
@@ -14918,7 +15096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19226"
 			(at 41.91 198.12 0)
 			(effects
 				(font
@@ -14927,7 +15105,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" "120 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 6A 25mOhm"
+			(at 41.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Fair-Rite"
+			(at 41.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2508051217Y6"
 			(at 41.91 198.12 0)
 			(effects
 				(font
@@ -14988,7 +15184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
 			(at 294.64 189.23 0)
 			(effects
 				(font
@@ -14997,7 +15193,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 294.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 294.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H4R7WA01D"
 			(at 294.64 189.23 0)
 			(effects
 				(font
@@ -15447,7 +15661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
 			(at 86.36 243.84 0)
 			(effects
 				(font
@@ -15456,7 +15670,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 86.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 86.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E475KE11D"
 			(at 86.36 243.84 0)
 			(effects
 				(font
@@ -15517,7 +15749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM185R61E105KA12-01.pdf"
 			(at 50.8 208.28 0)
 			(effects
 				(font
@@ -15526,7 +15758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 50.8 208.28 0)
 			(effects
 				(font
@@ -15535,7 +15767,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 50.8 208.28 0)
 			(effects
 				(font
@@ -15544,7 +15776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRM185R61E105KA12J"
 			(at 50.8 208.28 0)
 			(effects
 				(font
@@ -16278,7 +16510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 96.52 40.64 0)
 			(effects
 				(font
@@ -16287,7 +16519,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 96.52 40.64 0)
 			(effects
 				(font
@@ -16412,7 +16662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -16421,7 +16671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -16450,7 +16700,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -16460,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -16653,7 +16903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -16662,7 +16912,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -16789,7 +17057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 143.51 153.67 0)
 			(effects
 				(font
@@ -16798,7 +17066,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 143.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 143.51 153.67 0)
 			(effects
 				(font
@@ -16924,7 +17210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
 			(at 275.59 186.69 0)
 			(effects
 				(font
@@ -16933,7 +17219,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 275.59 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 275.59 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H4R7WA01D"
 			(at 275.59 186.69 0)
 			(effects
 				(font
@@ -17011,6 +17315,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Nexperia"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT54CW,115"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3b2d1f9c-d68a-440a-8873-13650d6f76a1")
 		)
@@ -17056,7 +17378,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 121.6152 87.63 0)
 			(effects
 				(font
@@ -17065,7 +17387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01.pdf"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -17074,7 +17396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -17103,7 +17425,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -17113,7 +17435,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BD71A226ME44L"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -17695,7 +18017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -17704,7 +18026,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -18201,7 +18541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM185R61E105KA12-01.pdf"
 			(at 60.96 97.79 0)
 			(effects
 				(font
@@ -18210,7 +18550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 60.96 97.79 0)
 			(effects
 				(font
@@ -18239,7 +18579,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 60.96 97.79 0)
 			(effects
 				(font
@@ -18249,7 +18589,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRM185R61E105KA12J"
 			(at 60.96 97.79 0)
 			(effects
 				(font
@@ -18611,6 +18951,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Adam Tech"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-06-UA"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2002aa39-96b9-4474-9a98-b3ddc03263ad")
 		)
@@ -18692,6 +19050,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Adam Tech"
+			(at 214.63 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-04-UA"
+			(at 214.63 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdc25314-8287-49ed-979b-e027d01d2358")
 		)
@@ -18759,7 +19135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -18768,7 +19144,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -18777,7 +19153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -18837,7 +19213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -18846,7 +19222,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -18982,7 +19376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -18991,7 +19385,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -19000,7 +19394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -19582,7 +19976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 237.49 34.29 0)
 			(effects
 				(font
@@ -19591,7 +19985,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "OMRON"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3F-1000"
 			(at 237.49 39.37 0)
 			(effects
 				(font
@@ -19718,7 +20130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
 			(at 248.92 153.67 0)
 			(effects
 				(font
@@ -19727,7 +20139,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 248.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 248.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
 			(at 248.92 153.67 0)
 			(effects
 				(font
@@ -19863,6 +20293,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Adam Tech"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-02-UA"
 			(at 46.99 182.88 0)
 			(effects
 				(font
@@ -20183,7 +20631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
 			(at 218.44 242.57 0)
 			(effects
 				(font
@@ -20192,8 +20640,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 218.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 218.44 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 218.44 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20512,7 +20978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
 			(at 218.44 234.95 0)
 			(effects
 				(font
@@ -20521,8 +20987,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 218.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 218.44 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 218.44 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20580,7 +21064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 274.32 71.12 0)
 			(effects
 				(font
@@ -20589,7 +21073,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+			(at 274.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "OMRON"
+			(at 274.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3F-1000"
 			(at 274.32 76.2 0)
 			(effects
 				(font
@@ -20876,7 +21378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -20885,7 +21387,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -20894,7 +21396,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -21028,7 +21530,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 232.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 232.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT60R4"
 			(at 232.41 182.88 0)
 			(effects
 				(font
