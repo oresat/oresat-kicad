@@ -7,7 +7,7 @@
 	(title_block
 		(title "MCNX947KVLT Breakout")
 		(date "2025-07-19")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -6273,16 +6273,6 @@
 		)
 		(uuid "04e6daac-ac96-4e68-97fb-e1c09f05363b")
 	)
-	(text "15 unused pins"
-		(exclude_from_sim no)
-		(at 274.574 237.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2f69d0ab-a05b-4927-bdd2-05c27b30ae8c")
-	)
 	(text "FTDI 6pin cable interface\nUART (MCXN ISP)"
 		(exclude_from_sim no)
 		(at 143.51 115.57 0)
@@ -6292,16 +6282,6 @@
 			)
 		)
 		(uuid "474a7ed3-7344-4787-b435-f7978b61e80c")
-	)
-	(text "USB0_VUS_DET\n"
-		(exclude_from_sim no)
-		(at 234.95 199.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "525c9198-54aa-4bc7-b94f-85757f0b79fe")
 	)
 	(text "CAN\n(MCXN ISP)"
 		(exclude_from_sim no)
@@ -6313,9 +6293,9 @@
 		)
 		(uuid "59349203-691a-40b6-9432-b7cbbc6e4e53")
 	)
-	(text "free available pins"
+	(text "Available pins"
 		(exclude_from_sim no)
-		(at 78.994 243.078 0)
+		(at 119.38 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6352,6 +6332,16 @@
 			)
 		)
 		(uuid "d310c56a-9502-49df-9f10-1d1459ba7a0b")
+	)
+	(text "(3.3V max)"
+		(exclude_from_sim no)
+		(at 227.33 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe0f49b2-6f52-4c74-a767-0582de3eb050")
 	)
 	(junction
 		(at 118.11 151.13)
@@ -6454,6 +6444,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f27bd2f-c4f5-4679-97eb-fc53dee6d289")
+	)
+	(junction
+		(at 218.44 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fde3d85-06b5-4ac7-a095-5eb9121c9cc0")
 	)
 	(junction
 		(at 109.22 241.3)
@@ -6676,6 +6672,16 @@
 			(type default)
 		)
 		(uuid "05b9349e-59e5-4850-b100-89ca04872474")
+	)
+	(wire
+		(pts
+			(xy 218.44 209.55) (xy 218.44 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e84448-8419-4f57-9576-692b260da2aa")
 	)
 	(wire
 		(pts
@@ -6956,16 +6962,6 @@
 			(type default)
 		)
 		(uuid "1aec8f77-6a95-4c99-8541-055e3a660dc8")
-	)
-	(wire
-		(pts
-			(xy 234.95 205.74) (xy 234.95 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba9ef87-ddce-4b07-9f84-f05f9709850f")
 	)
 	(wire
 		(pts
@@ -7329,6 +7325,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 195.58) (xy 218.44 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3804b193-92f5-478d-9cae-057c3c54a7dd")
+	)
+	(wire
+		(pts
 			(xy 129.54 241.3) (xy 125.73 241.3)
 		)
 		(stroke
@@ -7406,6 +7412,16 @@
 			(type default)
 		)
 		(uuid "3c7c49cd-eb79-425f-b09a-bb218e86cd3f")
+	)
+	(wire
+		(pts
+			(xy 234.95 203.2) (xy 234.95 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d302227-b5ff-4dcb-ad40-f10871f47122")
 	)
 	(wire
 		(pts
@@ -8619,6 +8635,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 201.93) (xy 218.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd2f245-99f8-438a-8a80-ef7d5db0c23f")
+	)
+	(wire
+		(pts
 			(xy 288.29 74.93) (xy 321.31 74.93)
 		)
 		(stroke
@@ -9419,6 +9445,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 203.2) (xy 234.95 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3514257-204b-4130-99b2-d8564084e28a")
+	)
+	(wire
+		(pts
 			(xy 176.53 139.7) (xy 163.83 139.7)
 		)
 		(stroke
@@ -9666,6 +9702,16 @@
 			(type default)
 		)
 		(uuid "e75d13ed-54f3-4c2f-884f-617d6cfd69d8")
+	)
+	(wire
+		(pts
+			(xy 218.44 203.2) (xy 218.44 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c6cbfc-81f8-4239-9fc9-fe8e4dd8c9b3")
 	)
 	(wire
 		(pts
@@ -9936,6 +9982,16 @@
 			(justify right bottom)
 		)
 		(uuid "34f36ed7-33ce-4f9f-9b77-a784aba79e77")
+	)
+	(label "USB0_VUS_DET"
+		(at 219.71 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e99045d-885a-4102-8667-7df09be9bb5c")
 	)
 	(label "BOOT"
 		(at 96.52 59.69 0)
@@ -13086,7 +13142,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 234.95 205.74 0)
+		(at 218.44 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13095,7 +13151,7 @@
 		(dnp no)
 		(uuid "5076f8ee-1a64-49cf-8344-2a16fe0b3798")
 		(property "Reference" "#PWR054"
-			(at 234.95 209.55 0)
+			(at 218.44 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +13160,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 234.95 201.93 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13112,7 +13168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 205.74 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13121,7 +13177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 205.74 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,7 +13186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 234.95 205.74 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,6 +14541,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 218.44 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e2ee7e3-947b-4723-a403-43fad907d7c3")
+		(property "Reference" "R14"
+			(at 217.17 205.8557 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 217.17 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT60R4"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85fd1250-638c-4efd-802e-8f62cc5aeff9")
+		)
+		(pin "2"
+			(uuid "ae09ea59-c72e-4313-a093-dada2b47cc28")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 162.56 30.48 0)
 		(mirror y)
@@ -14899,6 +15043,71 @@
 			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ae385b5-9735-4ed7-95b7-dabfd74750f2")
+		(property "Reference" "#PWR061"
+			(at 218.44 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc7d3ba-3c02-4bf0-81e6-f50d9021de8b")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16370,7 +16579,6 @@
 		)
 		(pin "1"
 			(uuid "58c08f4c-24c7-4d6e-bf09-f3671235eb54")
-			(alternate "ISP-UART_RXD")
 		)
 		(pin "3"
 			(uuid "350f433e-2f83-4534-965d-8baa4d49b989")
@@ -16389,7 +16597,6 @@
 		)
 		(pin "2"
 			(uuid "a3b8175f-600e-4d3a-9700-a255d9c5ed7e")
-			(alternate "ISP-UART_TXD")
 		)
 		(pin "95"
 			(uuid "e1b5dfd1-aa6e-40e6-81a2-3168ab55b07a")
@@ -16772,6 +16979,94 @@
 			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 218.44 199.39 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2fcc2dc-0e51-4e97-a8fe-30a1fed7ff29")
+		(property "Reference" "R13"
+			(at 217.17 198.2357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15k"
+			(at 217.17 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT60R4"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289e2c29-1392-4bdc-bc82-4e89e15ca82c")
+		)
+		(pin "2"
+			(uuid "6096f03a-6c64-4465-aef6-0fddb77487c4")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "R13")
 					(unit 1)
 				)
 			)

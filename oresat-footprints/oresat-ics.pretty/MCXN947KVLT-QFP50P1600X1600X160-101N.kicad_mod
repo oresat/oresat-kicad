@@ -64,6 +64,50 @@
 		(layer "F.SilkS")
 		(uuid "1c43d1f2-1741-49c0-a0a1-6ac9ccbca756")
 	)
+	(fp_rect
+		(start -2 -2)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "2ead85b7-1fc3-4905-bc0e-f7430898b7da")
+	)
+	(fp_rect
+		(start -2 0.5)
+		(end -0.5 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "3014eacf-d4a3-4f4e-beeb-46cc5f0676c6")
+	)
+	(fp_rect
+		(start 0.5 -2)
+		(end 2 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "b7f3742d-25a8-443a-8022-ad34130ca93d")
+	)
+	(fp_rect
+		(start 0.5 0.5)
+		(end 2 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "db551d90-7a3f-45eb-a282-acf4fe6f97af")
+	)
 	(fp_line
 		(start -8.725 -8.725)
 		(end 8.725 -8.725)
@@ -768,7 +812,7 @@
 	(pad "101" smd rect
 		(at 0 0)
 		(size 4.4 4.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(uuid "b729bb23-ee3a-44a4-8278-6af83799e9b5")
 	)
 	(embedded_fonts no)
