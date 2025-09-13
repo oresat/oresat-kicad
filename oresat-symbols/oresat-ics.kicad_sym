@@ -7041,7 +7041,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U9"
-			(at 20.955 11.43 0)
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7049,15 +7049,15 @@
 			)
 		)
 		(property "Value" "LT3042IMSE"
-			(at 20.955 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm_ThermalVias"
-			(at 21.59 7.366 0)
+		(property "Footprint" "oresat-ics:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm_0.254_ThermalVias"
+			(at 0 30.734 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7065,12 +7065,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -1.27 2.54 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf"
+			(at 0.254 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7092,56 +7093,19 @@
 			)
 		)
 		(symbol "LT3042IMSE_1_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -12.7)
-				)
+			(rectangle
+				(start -10.16 6.35)
+				(end 10.16 -6.35)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -12.7) (xy 34.29 -12.7)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 34.29 -12.7) (xy 34.29 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
-				(at 5.08 0 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -7159,8 +7123,9 @@
 				)
 			)
 			(pin input line
-				(at 5.08 0 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -7177,7 +7142,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -2.54 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "EN/UV"
 					(effects
@@ -7195,7 +7160,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -5.08 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "PGFB"
 					(effects
@@ -7213,7 +7178,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -7.62 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "SET"
 					(effects
@@ -7231,8 +7196,9 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -15.24 90)
+				(at 0 -8.89 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -7249,7 +7215,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -15.24 90)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7267,7 +7233,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 0 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -7285,7 +7251,7 @@
 				)
 			)
 			(pin input line
-				(at 36.83 -2.54 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(name "OUTS"
 					(effects
@@ -7303,7 +7269,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -5.08 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -7321,7 +7287,7 @@
 				)
 			)
 			(pin passive line
-				(at 36.83 -7.62 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -26667,52 +26633,15 @@
 			)
 		)
 		(symbol "TLC3704_1_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -27.94)
-				)
+			(rectangle
+				(start 7.62 5.08)
+				(end 40.64 -27.94)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -27.94) (xy 40.64 -27.94)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40.64 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40.64 -27.94) (xy 40.64 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -31448,7 +31377,7 @@
 			)
 		)
 		(property "Footprint" "U-PIR-PIRT1280A1-12:PIRT1280A1-12"
-			(at -8.89 3.81 0)
+			(at -0.254 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31466,7 +31395,7 @@
 			)
 		)
 		(property "Description" "Princeton IR PIRT1280A1-12 SWIR Sensor"
-			(at 0 0 0)
+			(at 0.254 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31484,20 +31413,18 @@
 				)
 			)
 		)
-		(symbol "U-PIRT-PIRT1280A1-12_0_1"
+		(symbol "U-PIRT-PIRT1280A1-12_1_1"
 			(rectangle
 				(start -17.78 25.4)
 				(end 17.78 -22.86)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "U-PIRT-PIRT1280A1-12_1_1"
 			(pin input line
 				(at -20.32 13.97 0)
 				(length 2.54)
@@ -31656,6 +31583,310 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "2"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "28"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "3"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "32"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "33"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "34"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "35"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "36"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "37"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "38"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "39"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "40"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "41"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "42"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "43"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.4986 1.4986)
 						)
 					)
 				)
@@ -31949,7 +32180,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -12.065 180)
+				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "ABITOUT"
 					(effects
