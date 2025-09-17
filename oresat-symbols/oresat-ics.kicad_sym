@@ -30476,9 +30476,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "TUSB4020BI"
-		(pin_numbers
-			(hide yes)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -30499,7 +30496,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm"
-			(at 0 -49.53 0)
+			(at -0.508 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30517,12 +30514,11 @@
 			)
 		)
 		(property "Description" "2-Port USB 2.0 Hub"
-			(at 0 0 0)
+			(at 0.508 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TUSB4020BI_0_0"
@@ -30709,24 +30705,6 @@
 			(pin input line
 				(at -5.08 35.56 270)
 				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 35.56 270)
-				(length 2.54)
 				(hide yes)
 				(name "VDD"
 					(effects
@@ -30819,44 +30797,7 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -36.83 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 35.56 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDD33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
+			(pin power_in line
 				(at 5.08 35.56 270)
 				(length 2.54)
 				(hide yes)
@@ -30887,24 +30828,6 @@
 					)
 				)
 				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 35.56 270)
-				(length 2.54)
-				(name "VDD33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30962,25 +30885,6 @@
 					)
 				)
 				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 35.56 270)
-				(length 2.54)
-				(hide yes)
-				(name "VDD33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31125,6 +31029,328 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TUSB4020BI_1_0"
+			(pin power_in line
+				(at -5.08 35.56 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(hide yes)
+				(name "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -36.83 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 35.56 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 35.56 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 35.56 270)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31588,7 +31814,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 20.32 180)
 				(length 2.54)
 				(hide yes)
 				(name "2"
@@ -31607,26 +31833,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "28"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 17.78 180)
 				(length 2.54)
 				(hide yes)
 				(name "3"
@@ -31645,7 +31852,45 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 15.24 180)
+				(length 2.54)
+				(hide yes)
+				(name "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "28"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 10.16 180)
 				(length 2.54)
 				(hide yes)
 				(name "32"
@@ -31664,7 +31909,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "33"
@@ -31683,7 +31928,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "34"
@@ -31702,7 +31947,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 2.54 180)
 				(length 2.54)
 				(hide yes)
 				(name "35"
@@ -31721,7 +31966,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 0 180)
 				(length 2.54)
 				(hide yes)
 				(name "36"
@@ -31740,7 +31985,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -2.54 180)
 				(length 2.54)
 				(hide yes)
 				(name "37"
@@ -31759,7 +32004,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "38"
@@ -31797,26 +32042,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "4"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.4986 1.4986)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -10.16 180)
 				(length 2.54)
 				(hide yes)
 				(name "40"
@@ -31835,7 +32061,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -12.7 180)
 				(length 2.54)
 				(hide yes)
 				(name "41"
@@ -31854,7 +32080,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -15.24 180)
 				(length 2.54)
 				(hide yes)
 				(name "42"
@@ -31873,7 +32099,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -7.62 180)
+				(at -3.81 -17.78 180)
 				(length 2.54)
 				(hide yes)
 				(name "43"
