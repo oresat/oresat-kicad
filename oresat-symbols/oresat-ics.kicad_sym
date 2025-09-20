@@ -31057,7 +31057,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "16"
@@ -31076,7 +31076,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -7.62 0)
 				(length 2.54)
 				(hide yes)
 				(name "17"
@@ -31095,7 +31095,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -8.89 0)
 				(length 2.54)
 				(hide yes)
 				(name "19"
@@ -31114,7 +31114,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -10.16 0)
 				(length 2.54)
 				(hide yes)
 				(name "20"
@@ -31133,7 +31133,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -11.43 0)
 				(length 2.54)
 				(hide yes)
 				(name "28"
@@ -31152,7 +31152,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -12.7 0)
 				(length 2.54)
 				(hide yes)
 				(name "29"
@@ -31171,7 +31171,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -13.97 0)
 				(length 2.54)
 				(hide yes)
 				(name "31"
@@ -31190,7 +31190,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -15.24 0)
 				(length 2.54)
 				(hide yes)
 				(name "32"
@@ -31209,7 +31209,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -16.51 0)
 				(length 2.54)
 				(hide yes)
 				(name "43"
@@ -31228,7 +31228,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -17.78 0)
 				(length 2.54)
 				(hide yes)
 				(name "44"
@@ -31247,7 +31247,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -19.05 0)
 				(length 2.54)
 				(hide yes)
 				(name "46"
@@ -31266,7 +31266,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
+				(at -5.08 -20.32 0)
 				(length 2.54)
 				(hide yes)
 				(name "47"
