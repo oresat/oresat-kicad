@@ -6929,6 +6929,12 @@
 		(uuid "e0a62949-3df3-4f1c-b270-be05a7c6d0f2")
 	)
 	(junction
+		(at 193.04 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72fabbe-a0d9-4c80-a6f4-6ffd139054c3")
+	)
+	(junction
 		(at 125.73 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8028,6 +8034,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 143.51) (xy 200.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e71a13d-07d4-4a92-9623-70254ccf9a2f")
+	)
+	(wire
+		(pts
 			(xy 63.5 146.05) (xy 63.5 147.32)
 		)
 		(stroke
@@ -8398,6 +8414,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 137.16) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a08a81-0f29-44bd-8882-42ac4f23a6e2")
+	)
+	(wire
+		(pts
 			(xy 116.84 200.66) (xy 116.84 201.93)
 		)
 		(stroke
@@ -8465,6 +8491,16 @@
 			(type default)
 		)
 		(uuid "d393756a-0c5a-4cf3-bd04-6cc78e3b778c")
+	)
+	(wire
+		(pts
+			(xy 193.04 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bdfc49-e3ae-4dfc-892b-b146c22a0be4")
 	)
 	(wire
 		(pts
@@ -10431,6 +10467,93 @@
 			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35b72848-9779-478d-af77-f51c4e6bcc59")
+		(property "Reference" "C3"
+			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1608c61e-da3a-4b18-94aa-2e5d2d1384ce")
+		)
+		(pin "1"
+			(uuid "ab1f2e68-cf9f-4dd7-81e4-0f221f6aece0")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15804,6 +15927,71 @@
 			(project "oresat-mcxn947"
 				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4ad0650-9162-4479-8625-4358745757db")
+		(property "Reference" "#PWR03"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3606b0-dad9-4186-a33d-b08c6b6f8c86")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/ee56f181-4a87-45c4-82f0-bfd072fe3741"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
