@@ -2451,6 +2451,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -3332,7 +3517,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 31.75 0)
+					(at -21.59 34.29 0)
 					(length 3.81)
 					(name "VDD_P3_1"
 						(effects
@@ -3350,7 +3535,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 29.21 0)
+					(at -21.59 31.75 0)
 					(length 3.81)
 					(name "VDD_P3_2"
 						(effects
@@ -3368,7 +3553,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 26.67 0)
+					(at -21.59 29.21 0)
 					(length 3.81)
 					(name "VDD_P3_3"
 						(effects
@@ -3386,7 +3571,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 21.59 0)
+					(at -21.59 26.67 0)
 					(length 3.81)
 					(name "VDD_P4"
 						(effects
@@ -3404,7 +3589,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 13.97 0)
+					(at -21.59 21.59 0)
 					(length 3.81)
 					(name "VDD_USB"
 						(effects
@@ -3422,7 +3607,43 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 7.62 0)
+					(at -21.59 16.51 0)
+					(length 3.81)
+					(name "VDD_LDO_CORE/VDD/VDD_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -21.59 11.43 0)
+					(length 3.81)
+					(name "VDD_DCDC/VDD_LDO_SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -21.59 2.54 0)
 					(length 3.81)
 					(name "VDD_BAT"
 						(effects
@@ -3440,7 +3661,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 0 0)
+					(at -21.59 -3.81 0)
 					(length 3.81)
 					(name "VDD_ANA"
 						(effects
@@ -3458,7 +3679,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 -6.35 0)
+					(at -21.59 -10.16 0)
 					(length 3.81)
 					(name "VREFH"
 						(effects
@@ -3476,7 +3697,7 @@
 					)
 				)
 				(pin power_in line
-					(at -21.59 -8.89 0)
+					(at -21.59 -12.7 0)
 					(length 3.81)
 					(name "VREFL"
 						(effects
@@ -3494,7 +3715,7 @@
 					)
 				)
 				(pin power_out line
-					(at -21.59 -16.51 0)
+					(at -21.59 -20.32 0)
 					(length 3.81)
 					(name "VDD_SYS"
 						(effects
@@ -3511,26 +3732,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -21.59 -20.32 0)
-					(length 3.81)
-					(name "VDD_DCDC/VDD_LDO_SYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
-					(at -21.59 -26.67 0)
+					(at -21.59 -27.94 0)
 					(length 3.81)
 					(name "DCDC_LX"
 						(effects
@@ -3540,24 +3743,6 @@
 						)
 					)
 					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -21.59 -33.02 0)
-					(length 3.81)
-					(name "VDD_LDO_CORE/VDD/VDD_P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5911,6 +6096,201 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-passives:R-US"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-US_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -6554,6 +6934,12 @@
 		(uuid "e2a72529-be81-4ceb-9485-858aca4dd92a")
 	)
 	(junction
+		(at 83.82 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f41ec783-6d54-4f80-bd92-158dda70cb48")
+	)
+	(junction
 		(at 74.93 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6845,6 +7231,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 167.64) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1366c8a6-2688-4442-a4fa-53483a9eafe9")
+	)
+	(wire
+		(pts
 			(xy 68.58 110.49) (xy 72.39 110.49)
 		)
 		(stroke
@@ -6852,6 +7248,16 @@
 			(type default)
 		)
 		(uuid "1447704d-9f3b-4c65-9f64-addc2a1daccd")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 83.82 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15d5a5f4-8f24-484c-aea8-12d55b3c8fce")
 	)
 	(wire
 		(pts
@@ -7002,6 +7408,16 @@
 			(type default)
 		)
 		(uuid "1d9099d4-4385-42ec-b878-242f0a9c9a57")
+	)
+	(wire
+		(pts
+			(xy 83.82 143.51) (xy 93.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee6a104-aa67-4323-a0bb-b7d1f1e53359")
 	)
 	(wire
 		(pts
@@ -9025,6 +9441,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 143.51) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b60ee222-2480-4e9c-9cf3-560535dcd074")
+	)
+	(wire
+		(pts
 			(xy 275.59 64.77) (xy 279.4 64.77)
 		)
 		(stroke
@@ -9805,7 +10231,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 143.51) (xy 72.39 143.51)
+			(xy 68.58 143.51) (xy 83.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10785,7 +11211,7 @@
 	)
 	(global_label "P1_13"
 		(shape input)
-		(at 72.39 143.51 0)
+		(at 93.98 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10795,7 +11221,7 @@
 		)
 		(uuid "8db6a0b0-c341-4b4f-80ce-7da9a26994ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2413 143.51 0)
+			(at 102.8313 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,6 +12342,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "Mouser"
+			(at 53.34 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 53.34 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3400f71f-711b-4780-8312-a4f01d60c842")
 		)
@@ -12271,7 +12715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -12299,6 +12743,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -12491,7 +12953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" "https://gct.co/files/specs/1.27mm-header-spec.pdf"
 			(at 171.45 81.28 90)
 			(effects
 				(font
@@ -12500,7 +12962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+		(property "Description" "Connector Header Through Hole 10 position 0.050\" (1.27mm)"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -12519,6 +12981,24 @@
 			)
 		)
 		(property "MPN" "BD120-10-A-0305-0229-L-B"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2073-BD120-10-A-0305-0229-L-BCT-ND"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -12603,7 +13083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 167.64 151.13 0)
 			(effects
 				(font
@@ -12612,7 +13092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
 			(at 167.64 151.13 0)
 			(effects
 				(font
@@ -12631,6 +13111,24 @@
 			)
 		)
 		(property "MPN" "PH1-02-UA"
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2057-PH1-02-UA-ND"
 			(at 167.64 151.13 0)
 			(effects
 				(font
@@ -12691,7 +13189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 172.72 146.05 0)
 			(effects
 				(font
@@ -12719,6 +13217,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT60R4"
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT60R4CT-ND"
 			(at 172.72 146.05 0)
 			(effects
 				(font
@@ -12776,7 +13292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
 			(at 118.11 215.9 0)
 			(effects
 				(font
@@ -12785,7 +13301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 20 position 0.100\" (2.54mm)"
 			(at 118.11 215.9 0)
 			(effects
 				(font
@@ -12804,6 +13320,24 @@
 			)
 		)
 		(property "MPN" "PH2-20-UA"
+			(at 118.11 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 118.11 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2057-PH2-20-UA-ND"
 			(at 118.11 215.9 0)
 			(effects
 				(font
@@ -13279,6 +13813,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "Mouser"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3400f71f-711b-4780-8312-a4f01d60c841")
 		)
@@ -13669,6 +14221,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-46215-1-ND"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2d897345-6da5-4005-9cfe-3825eb5a0eac")
 		)
@@ -13891,7 +14461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 110.49 165.1 0)
 			(effects
 				(font
@@ -13901,6 +14471,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 110.49 165.1 0)
 			(effects
 				(font
@@ -13994,6 +14582,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14315,6 +14921,115 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-passives:R-US")
+		(at 83.82 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "698b0719-72a7-4014-aeda-355e6a51937f")
+		(property "Reference" "R15"
+			(at 85.09 162.56 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "5.11k"
+			(at 85.09 165.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT5K11CT-ND"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT5K11"
+			(at 83.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4471d06f-7db0-4191-85cf-da8fa26b56fb")
+		)
+		(pin "1"
+			(uuid "e2796db8-1fdf-4512-b3b5-e220711d5e3b")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
 		(at 118.11 157.48 270)
 		(mirror x)
@@ -14349,7 +15064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830108212309.pdf"
 			(at 118.11 157.48 0)
 			(effects
 				(font
@@ -14358,7 +15073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "24 MHz ±10ppm Crystal 8pF 100 Ohms 4-SMD, No Lead"
 			(at 118.11 157.48 0)
 			(effects
 				(font
@@ -14377,6 +15092,24 @@
 			)
 		)
 		(property "MPN" "830108212309"
+			(at 118.11 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DIgiKey"
+			(at 118.11 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1923-830108212309CT-ND"
 			(at 118.11 157.48 90)
 			(effects
 				(font
@@ -14577,7 +15310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 218.44 207.01 0)
 			(effects
 				(font
@@ -14586,7 +15319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 218.44 207.01 0)
 			(effects
 				(font
@@ -14604,7 +15337,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT60R4"
+		(property "MPN" "RMCF0603FT10K0"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 218.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 218.44 207.01 0)
 			(effects
 				(font
@@ -14751,7 +15502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -14761,6 +15512,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -15049,6 +15818,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 83.82 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e5033e-25dd-472b-8944-73dc02c1a36d")
+		(property "Reference" "D2"
+			(at 85.09 172.72 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "AMBER"
+			(at 85.09 175.26 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 83.82 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+			(at 83.82 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-150060AS75000CT-ND"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Wurth"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060AS75000"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed8f15d7-463a-4a48-bda6-63ec5f96a486")
+		)
+		(pin "1"
+			(uuid "8a77b8fa-70ff-4731-b367-2ec64e5dfc02")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 210.82 0)
 		(unit 1)
@@ -15283,7 +16179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830009678.pdf"
 			(at 292.1 138.43 0)
 			(effects
 				(font
@@ -15292,7 +16188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" "32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead"
 			(at 292.1 138.43 0)
 			(effects
 				(font
@@ -15311,6 +16207,24 @@
 			)
 		)
 		(property "MPN" "830009678"
+			(at 292.1 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DIgiKey"
+			(at 292.1 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-830009678CT-ND"
 			(at 292.1 138.43 90)
 			(effects
 				(font
@@ -15403,6 +16317,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 259.08 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 259.08 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15724,6 +16656,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 83.82 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf6297a-36e3-43e8-bf14-08a373192b19")
+		(property "Reference" "#GND01"
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8871f4ac-1345-45ed-a440-eb4c12489510")
+		)
+		(instances
+			(project "oresat-mcxn947"
+				(path "/52595c9f-7fa1-4e87-8727-2a72b29e4974/923ffb4f-d804-4f4a-a385-592515e766a1"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 184.15 135.89 0)
 		(mirror y)
@@ -15889,7 +16887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -15898,7 +16896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FTDI USB to UART Adapter 0.1 in 6pin standard connector"
+		(property "Description" "Connector Header Through Hole 6 position 0.100\" (2.54mm)"
 			(at 143.51 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15918,6 +16916,24 @@
 			)
 		)
 		(property "MPN" "PH1-06-UA"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2057-PH1-06-UA-ND"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -15988,7 +17004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -15997,7 +17013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 4 position 0.100\" (2.54mm)"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -16016,6 +17032,24 @@
 			)
 		)
 		(property "MPN" "PH1-04-UA"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2057-PH1-04-UA-ND"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -16083,7 +17117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -16111,6 +17145,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 96.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -16172,7 +17224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -16200,6 +17252,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 118.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -16425,6 +17495,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16817,6 +17905,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW400-ND"
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d23e7389-5e81-495d-b72b-f07a24bfb192")
 		)
@@ -16868,7 +17974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -16877,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -16886,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -16895,7 +18001,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -17021,7 +18145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 218.44 199.39 0)
 			(effects
 				(font
@@ -17049,6 +18173,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT60R4"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT60R4CT-ND"
 			(at 218.44 199.39 0)
 			(effects
 				(font
@@ -17124,7 +18266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 299.72 142.24 90)
 			(effects
 				(font
@@ -17134,6 +18276,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 299.72 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 299.72 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 299.72 142.24 90)
 			(effects
 				(font
@@ -17343,7 +18503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 299.72 134.62 90)
 			(effects
 				(font
@@ -17353,6 +18513,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 299.72 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 299.72 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 299.72 134.62 90)
 			(effects
 				(font
@@ -17448,6 +18626,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW400-ND"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0dba3b3-6897-48da-b7d8-33cdae7fa95d")
 		)
@@ -17498,7 +18694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -17507,7 +18703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 20 position 0.100\" (2.54mm)"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -17526,6 +18722,24 @@
 			)
 		)
 		(property "MPN" "PH2-20-UA"
+			(at 326.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 326.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2057-PH2-20-UA-ND"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -17800,6 +19014,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18158,7 +19390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -18186,6 +19418,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -18312,7 +19562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 172.72 158.75 0)
 			(effects
 				(font
@@ -18340,6 +19590,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT60R4"
+			(at 172.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 172.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT60R4CT-ND"
 			(at 172.72 158.75 0)
 			(effects
 				(font
