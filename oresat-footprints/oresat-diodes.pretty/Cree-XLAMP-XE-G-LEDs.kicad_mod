@@ -1,7 +1,7 @@
 (footprint "Cree-XLAMP-XE-G-LEDs"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2.1 0.4 0)
@@ -26,19 +26,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "941e7b64-3674-4c6b-8950-ca2ec3b072b5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(property "Datasheet" ""
@@ -144,7 +131,7 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "46c9e619-c1c5-4b40-bffa-9f1b62be485e")
 	)
@@ -155,7 +142,7 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3af50f24-fc7e-4eb1-833b-66c339866ae7")
 	)
@@ -171,26 +158,27 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.43 -0.76)
-		(size 0.56 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin -0.05)
-		(uuid "7ab2253e-d003-44f3-85d2-51c6ad034b4d")
-	)
-	(pad "2" smd rect
 		(at 0.43 -0.76)
 		(size 0.56 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
 		(uuid "40c737e1-5a40-4ceb-9ce6-eecfaddc1573")
+	)
+	(pad "2" smd rect
+		(at -0.43 -0.76)
+		(size 0.56 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.05)
+		(uuid "7ab2253e-d003-44f3-85d2-51c6ad034b4d")
 	)
 	(pad "3" smd rect
 		(at 0 0.29)
 		(size 1.41 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -0.05)
 		(uuid "bba8e912-a61f-47c7-a481-87485bc2b197")
 	)
+	(embedded_fonts no)
 	(model ":ORESAT_LIBRARIES:oresat-3dmodels/D-XCREE-XPEBRD-L1-0000-00901.step"
 		(offset
 			(xyz 0 0 0)
