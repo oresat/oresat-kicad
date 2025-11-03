@@ -11387,7 +11387,7 @@
 			(pin power_in line
 				(at -21.59 41.91 0)
 				(length 3.81)
-				(name "VDD_1"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11405,7 +11405,7 @@
 			(pin power_in line
 				(at -21.59 39.37 0)
 				(length 3.81)
-				(name "VDD_2"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11423,7 +11423,7 @@
 			(pin power_in line
 				(at -21.59 34.29 0)
 				(length 3.81)
-				(name "VDD_P3_1"
+				(name "VDD_P3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11441,7 +11441,7 @@
 			(pin power_in line
 				(at -21.59 31.75 0)
 				(length 3.81)
-				(name "VDD_P3_2"
+				(name "VDD_P3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11459,7 +11459,7 @@
 			(pin power_in line
 				(at -21.59 29.21 0)
 				(length 3.81)
-				(name "VDD_P3_3"
+				(name "VDD_P3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11657,7 +11657,7 @@
 			(pin power_in line
 				(at -21.59 -39.37 0)
 				(length 3.81)
-				(name "VDD_CORE_1"
+				(name "VDD_CORE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11675,7 +11675,7 @@
 			(pin power_in line
 				(at -21.59 -41.91 0)
 				(length 3.81)
-				(name "VDD_CORE_2"
+				(name "VDD_CORE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11743,34 +11743,6 @@
 						)
 					)
 				)
-			)
-			(pin no_connect line
-				(at 21.59 0 180)
-				(length 3.81)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "CT2_MAT1 " passive line)
-				(alternate "DIS" passive line)
-				(alternate "FC2_P5 " passive line)
-				(alternate "FLEXIO0_D29 " passive line)
-				(alternate "OPAMP2_INN " passive line)
-				(alternate "OPAMP2_INP1/ADC1_B6 " passive line)
-				(alternate "P4_21 " passive line)
-				(alternate "P4_21/ANA_22" passive line)
-				(alternate "SINC0_MBIT2" passive line)
-				(alternate "TRIG_IN9 " passive line)
 			)
 			(pin power_in line
 				(at 21.59 -36.83 180)
@@ -13405,8 +13377,8 @@
 		)
 		(symbol "MCXN947VKLT_6_1"
 			(rectangle
-				(start -12.7 21.59)
-				(end 12.7 -21.59)
+				(start -12.7 22.86)
+				(end 12.7 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -13416,7 +13388,7 @@
 				)
 			)
 			(pin passive line
-				(at -16.51 19.05 0)
+				(at -16.51 20.32 0)
 				(length 3.81)
 				(name "P4_0/ANA_0"
 					(effects
@@ -13441,7 +13413,7 @@
 				(alternate "TRIG_IN6" passive line)
 			)
 			(pin passive line
-				(at -16.51 16.51 0)
+				(at -16.51 17.78 0)
 				(length 3.81)
 				(name "P4_1/ANA_1"
 					(effects
@@ -13465,7 +13437,7 @@
 				(alternate "TRIG_IN7" passive line)
 			)
 			(pin passive line
-				(at -16.51 13.97 0)
+				(at -16.51 15.24 0)
 				(length 3.81)
 				(name "P4_2"
 					(effects
@@ -13492,7 +13464,7 @@
 				(alternate "TRIG_IN6" passive line)
 			)
 			(pin passive line
-				(at -16.51 11.43 0)
+				(at -16.51 12.7 0)
 				(length 3.81)
 				(name "P4_3"
 					(effects
@@ -13518,7 +13490,7 @@
 				(alternate "TRIG_IN7" passive line)
 			)
 			(pin passive line
-				(at -16.51 8.89 0)
+				(at -16.51 10.16 0)
 				(length 3.81)
 				(name "P4_4/ANA_4"
 					(effects
@@ -13542,7 +13514,7 @@
 				(alternate "SMARTDMA_PIO28" passive line)
 			)
 			(pin passive line
-				(at -16.51 6.35 0)
+				(at -16.51 7.62 0)
 				(length 3.81)
 				(name "P4_5/ANA_5"
 					(effects
@@ -13566,7 +13538,7 @@
 				(alternate "SMARTDMA_PIO29" passive line)
 			)
 			(pin passive line
-				(at -16.51 3.81 0)
+				(at -16.51 5.08 0)
 				(length 3.81)
 				(name "P4_6/ANA_6"
 					(effects
@@ -13590,7 +13562,7 @@
 				(alternate "TRIG_OUT4" passive line)
 			)
 			(pin passive line
-				(at -16.51 1.27 0)
+				(at -16.51 2.54 0)
 				(length 3.81)
 				(name "P4_7/ANA_7"
 					(effects
@@ -13611,7 +13583,7 @@
 				(alternate "VREFI/VREFO/ADC0_A7/ADC1_A7 " passive line)
 			)
 			(pin passive line
-				(at -16.51 -1.27 0)
+				(at -16.51 0 0)
 				(length 3.81)
 				(name "P4_12"
 					(effects
@@ -13637,7 +13609,7 @@
 				(alternate "USB0_VBUS_DET" passive line)
 			)
 			(pin passive line
-				(at -16.51 -3.81 0)
+				(at -16.51 -2.54 0)
 				(length 3.81)
 				(name "P4_13/ANA_14"
 					(effects
@@ -13665,7 +13637,7 @@
 				(alternate "USB1_OTGn_ID" passive line)
 			)
 			(pin passive line
-				(at -16.51 -6.35 0)
+				(at -16.51 -5.08 0)
 				(length 3.81)
 				(name "P4_15"
 					(effects
@@ -13691,7 +13663,7 @@
 				(alternate "USB1_VBUSVALID_EXT" passive line)
 			)
 			(pin passive line
-				(at -16.51 -8.89 0)
+				(at -16.51 -7.62 0)
 				(length 3.81)
 				(name "P4_16"
 					(effects
@@ -13717,7 +13689,7 @@
 				(alternate "USB1_OTGn_PWR" passive line)
 			)
 			(pin passive line
-				(at -16.51 -11.43 0)
+				(at -16.51 -10.16 0)
 				(length 3.81)
 				(name "P4_17/ANA_18"
 					(effects
@@ -13744,7 +13716,7 @@
 				(alternate "USB1_OTGn_OC" passive line)
 			)
 			(pin passive line
-				(at -16.51 -13.97 0)
+				(at -16.51 -12.7 0)
 				(length 3.81)
 				(name "P4_19"
 					(effects
@@ -13768,7 +13740,7 @@
 				(alternate "TRIG_OUT5" passive line)
 			)
 			(pin passive line
-				(at -16.51 -16.51 0)
+				(at -16.51 -15.24 0)
 				(length 3.81)
 				(name "P4_20"
 					(effects
@@ -13792,7 +13764,35 @@
 				(alternate "TRIG_IN8" passive line)
 			)
 			(pin passive line
-				(at -16.51 -19.05 0)
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "P4_21/ANA_22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CT2_MAT1 " passive line)
+				(alternate "DIS" passive line)
+				(alternate "FC2_P5 " passive line)
+				(alternate "FLEXIO0_D29 " passive line)
+				(alternate "OPAMP2_INN " passive line)
+				(alternate "OPAMP2_INP1/ADC1_B6 " passive line)
+				(alternate "P4_21 " passive line)
+				(alternate "P4_21/ANA_22" passive line)
+				(alternate "SINC0_MBIT2" passive line)
+				(alternate "TRIG_IN9 " passive line)
+			)
+			(pin passive line
+				(at -16.51 -20.32 0)
 				(length 3.81)
 				(name "P4_23"
 					(effects
@@ -32619,6 +32619,238 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ip4234cz6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 4.064 -8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IP4234CZ6,125"
+			(at 4.064 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 0 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf"
+			(at 0 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Clamp Ipp Tvs Diode Surface Mount 6-TSOP"
+			(at 0 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1727-4717-1-ND"
+			(at 0 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IP4234CZ6,125"
+			(at -0.254 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 0 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ip4234cz6_1_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 1.27) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -1.27) (xy 3.175 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 2.54)
+				(name "Vbus"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
