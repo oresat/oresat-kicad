@@ -1146,23 +1146,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -15.494 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AT86RF215"
+			(at -1.778 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at -2.794 -56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,8 +1170,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf"
+			(at -0.508 -58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1237,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -24.13 11.43 0)
 				(length 7.62)
 				(name "FEA24"
@@ -1255,7 +1255,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -24.13 8.89 0)
 				(length 7.62)
 				(name "FEB24"
@@ -1670,24 +1670,6 @@
 				)
 			)
 			(pin power_out line
-				(at 21.59 11.43 180)
-				(length 7.62)
-				(name "AVSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
 				(at 21.59 8.89 180)
 				(length 7.62)
 				(name "AVSS"
@@ -1816,7 +1798,7 @@
 			(pin input line
 				(at 21.59 -8.89 180)
 				(length 7.62)
-				(name "SCLLK"
+				(name "SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1996,7 +1978,7 @@
 			(pin output line
 				(at 21.59 -34.29 180)
 				(length 7.62)
-				(name "RXDN09"
+				(name "RXDP09"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2014,7 +1996,7 @@
 			(pin output line
 				(at 21.59 -36.83 180)
 				(length 7.62)
-				(name "RXDP09"
+				(name "RXDN09"
 					(effects
 						(font
 							(size 1.27 1.27)
