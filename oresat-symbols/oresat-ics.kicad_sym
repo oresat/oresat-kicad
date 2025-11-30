@@ -1273,7 +1273,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 6.35 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1327,7 +1327,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -1.27 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1345,7 +1345,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -3.81 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1399,7 +1399,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -11.43 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1471,7 +1471,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -24.13 -21.59 0)
 				(length 7.62)
 				(name "AVDD0"
@@ -1507,7 +1507,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -26.67 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1561,7 +1561,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -34.29 0)
 				(length 7.62)
 				(name "AVSS"
@@ -1579,7 +1579,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -36.83 0)
 				(length 7.62)
 				(name "DVSS"
@@ -1597,7 +1597,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -24.13 -39.37 0)
 				(length 7.62)
 				(name "DEVDD"
@@ -1633,7 +1633,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -44.45 0)
 				(length 7.62)
 				(name "DVSS"
@@ -1651,7 +1651,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -24.13 -46.99 0)
 				(length 7.62)
 				(name "DVSS"
@@ -1669,7 +1669,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 21.59 8.89 180)
 				(length 7.62)
 				(name "AVSS"
@@ -1687,7 +1687,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 21.59 6.35 180)
 				(length 7.62)
 				(name "AVDD1"
@@ -1723,7 +1723,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 21.59 1.27 180)
 				(length 7.62)
 				(name "AVSS"
@@ -1831,7 +1831,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 21.59 -13.97 180)
 				(length 7.62)
 				(name "DEVDD"
@@ -1849,7 +1849,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 21.59 -16.51 180)
 				(length 7.62)
 				(name "DVSS"
@@ -1867,7 +1867,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 21.59 -19.05 180)
 				(length 7.62)
 				(name "DVDD"
@@ -1957,7 +1957,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 21.59 -31.75 180)
 				(length 7.62)
 				(name "DVSS"
@@ -2011,7 +2011,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 21.59 -39.37 180)
 				(length 7.62)
 				(name "DEVDD"
