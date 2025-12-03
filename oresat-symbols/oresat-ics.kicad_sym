@@ -1509,7 +1509,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -17.78 -22.86 0)
 				(length 2.54)
 				(name "TXCO"
@@ -1527,7 +1527,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -17.78 -25.4 0)
 				(length 2.54)
 				(name "XTAL2"
@@ -1902,7 +1902,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 31.75 180)
+				(at 17.78 22.86 180)
 				(length 2.54)
 				(name "AVDD0"
 					(effects
@@ -1919,80 +1919,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 17.78 27.94 180)
-				(length 2.54)
-				(name "AVDD1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 24.13 180)
-				(length 2.54)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 5.08 180)
-				(length 2.54)
-				(name "RFP09"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 2.54 180)
-				(length 2.54)
-				(name "RFN09"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 17.78 -2.54 180)
+				(at 17.78 16.51 180)
 				(length 2.54)
 				(name "FEA09"
 					(effects
@@ -2010,7 +1938,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -5.08 180)
+				(at 17.78 13.97 180)
 				(length 2.54)
 				(name "FEB09"
 					(effects
@@ -2028,7 +1956,43 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 17.78 8.89 180)
+				(length 2.54)
+				(name "RFP09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 6.35 180)
+				(length 2.54)
+				(name "RFN09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -6.35 180)
 				(length 2.54)
 				(name "RFP24"
 					(effects
@@ -2046,7 +2010,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 180)
+				(at 17.78 -8.89 180)
 				(length 2.54)
 				(name "RFN24"
 					(effects
@@ -2064,7 +2028,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -20.32 180)
+				(at 17.78 -13.97 180)
 				(length 2.54)
 				(name "FEA24"
 					(effects
@@ -2082,7 +2046,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -22.86 180)
+				(at 17.78 -16.51 180)
 				(length 2.54)
 				(name "FEB24"
 					(effects
@@ -2092,6 +2056,42 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -22.86 180)
+				(length 2.54)
+				(name "AVDD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -33.02 180)
+				(length 2.54)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
