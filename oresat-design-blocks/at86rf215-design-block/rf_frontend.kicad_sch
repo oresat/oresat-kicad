@@ -921,6 +921,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "-correct the u.fl footprints"
+		(exclude_from_sim no)
+		(at 170.18 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f2b0131-3d56-4460-b360-36f42528664f")
+	)
 	(text "sanity check on the footprint for this plz\nimported the footprint model for this but it seems \nslightly off in the distance between pads in the x direction"
 		(exclude_from_sim no)
 		(at 65.532 24.892 0)
@@ -1281,7 +1291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 40.64 0)
 			(effects
 				(font
@@ -1349,7 +1359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -1417,7 +1427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 40.64 0)
 			(effects
 				(font
@@ -1554,7 +1564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 45.72 0)
 			(effects
 				(font
@@ -1706,7 +1716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -1776,7 +1786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 40.64 0)
 			(effects
 				(font
@@ -1846,7 +1856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 46.99 0)
 			(effects
 				(font
@@ -1983,7 +1993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 46.99 0)
 			(effects
 				(font
@@ -2120,7 +2130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-connectors:J-U.FL"
 			(at 127 40.64 0)
 			(effects
 				(font
