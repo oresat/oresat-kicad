@@ -624,6 +624,14 @@
     [
       "4bd27adf-ee4d-4bbe-8c91-278961bf82dc",
       "Root"
+    ],
+    [
+      "631cdfc9-cb70-4c09-a4da-15f8b30d511c",
+      "Power"
+    ],
+    [
+      "8c4121fb-a57e-4064-b3f7-b0128eefdadf",
+      "RF Frontend"
     ]
   ],
   "text_variables": {}
