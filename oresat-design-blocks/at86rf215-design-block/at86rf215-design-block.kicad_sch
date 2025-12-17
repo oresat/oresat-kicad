@@ -2,9 +2,99 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 4bd27adf-ee4d-4bbe-8c91-278961bf82dc)
-	(paper "A4")
+	(uuid "4bd27adf-ee4d-4bbe-8c91-278961bf82dc")
+	(paper "B")
+	(title_block
+		(title "OreSat AT86RF215 Evaluation Board")
+		(date "2025-12-16")
+		(rev "1.0")
+		(company "Portland State Aerospace Society")
+	)
 	(lib_symbols)
+	(sheet
+		(at 117.475 85.725)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "631cdfc9-cb70-4c09-a4da-15f8b30d511c")
+		(property "Sheetname" "Power"
+			(at 117.475 85.0134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 117.475 90.1196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 85.09)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c4121fb-a57e-4064-b3f7-b0128eefdadf")
+		(property "Sheetname" "RF Frontend"
+			(at 144.78 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_frontend.kicad_sch"
+			(at 144.78 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
