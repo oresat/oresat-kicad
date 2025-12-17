@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4bd27adf-ee4d-4bbe-8c91-278961bf82dc")
-	(paper "A4")
+	(paper "B")
+	(title_block
+		(title "OreSat AT86RF215 Evaluation Board")
+		(date "2025-12-16")
+		(rev "1.0")
+		(company "Portland State Aerospace Society")
+	)
 	(lib_symbols)
 	(sheet
 		(at 117.475 85.725)

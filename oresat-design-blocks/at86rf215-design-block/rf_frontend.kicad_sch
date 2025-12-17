@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "51861c65-3875-4083-a9fd-9c6ae187541c")
-	(paper "A4")
+	(paper "B")
+	(title_block
+		(title "OreSat AT86RF215 Evaluation Board")
+		(date "2025-12-16")
+		(rev "1.0")
+		(company "Portland State Aerospace Society")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -921,6 +927,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Synthesizer + Mixer + filters + balun for L band"
+		(exclude_from_sim no)
+		(at 67.818 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b9efb6d-7257-4b73-80c8-2e2bd6a83c3e")
+	)
 	(text "-correct the u.fl footprints"
 		(exclude_from_sim no)
 		(at 170.18 28.956 0)
@@ -940,6 +956,16 @@
 			)
 		)
 		(uuid "ae150d75-2a81-4615-9395-c769075c5c8b")
+	)
+	(text "NCS2-62+ balun goes here"
+		(exclude_from_sim no)
+		(at 68.326 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6db0a26-fc1a-4a2f-b1cb-855d1c6c40a5")
 	)
 	(junction
 		(at 48.26 40.64)
