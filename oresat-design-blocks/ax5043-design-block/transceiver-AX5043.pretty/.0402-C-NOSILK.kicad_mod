@@ -1,0 +1,206 @@
+(footprint ".0402-C-NOSILK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0402 (metric 1005) tight 'IPC-C' without silkscreen\nIn house package for minimum spacing based on IPC-7351B. This package is identical to 0402-C, but has its tPlace silkscreen layer removed.")
+	(property "Reference" "REF**"
+		(at -0.7 -0.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e6bf7937-16d4-4450-8e1b-ea2759bb08f7")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ".0402-C-NOSILK"
+		(at -0.7 1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0deb001e-7f55-4392-92d0-75a9ffbc843c")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41890c0c-2231-4b38-b525-6e0421275c76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "241159b0-ebe2-45b2-8894-f8dcb5462f2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.76 0.36) (xy -0.14 0.36) (xy -0.14 -0.36) (xy -0.76 -0.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "eddcde71-6214-4e9d-8ee6-49196b5d5116")
+	)
+	(fp_poly
+		(pts
+			(xy 0.14 0.36) (xy 0.76 0.36) (xy 0.76 -0.36) (xy 0.14 -0.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4f2ed46b-6a4d-49e7-8eac-eb481a1718f2")
+	)
+	(fp_line
+		(start -0.795 -0.395)
+		(end -0.795 0.395)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4300e37f-5cab-4324-a557-4fa781f35228")
+	)
+	(fp_line
+		(start -0.795 0.395)
+		(end 0.795 0.395)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c964311-7608-44d8-bf25-414d385c5547")
+	)
+	(fp_line
+		(start 0.795 -0.395)
+		(end -0.795 -0.395)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ec4c92f-c5cc-475c-b504-5e7bcbaaba72")
+	)
+	(fp_line
+		(start 0.795 0.395)
+		(end 0.795 -0.395)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "699b38bd-3f91-49e7-9f49-8c9f3f15321f")
+	)
+	(fp_line
+		(start -0.525 -0.275)
+		(end 0.525 -0.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ff8b7dd-fb54-41da-94d5-4242a12bafa1")
+	)
+	(fp_line
+		(start -0.525 0.275)
+		(end -0.525 -0.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95707984-3f0b-4944-9b66-cdd7f0d64e00")
+	)
+	(fp_line
+		(start 0.525 -0.275)
+		(end 0.525 0.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b34b3499-254e-4ad7-bd7e-a89c9b68f41f")
+	)
+	(fp_line
+		(start 0.525 0.275)
+		(end -0.525 0.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d57b55e-1526-47d2-80e5-3e20ac3a8222")
+	)
+	(fp_poly
+		(pts
+			(xy -0.35 0.275) (xy -0.2 0.275) (xy -0.2 -0.275) (xy -0.35 -0.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b0434602-ffb2-49ea-82f9-e2663fb48c8a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 0.275) (xy 0.35 0.275) (xy 0.35 -0.275) (xy 0.2 -0.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "14f70c6d-6ffa-4d10-82dd-6e5dfa7cfc2e")
+	)
+	(pad "1" smd roundrect
+		(at -0.45 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "56b8e01b-c72b-4447-adbf-b60b81663d32")
+	)
+	(pad "2" smd roundrect
+		(at 0.45 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2bd4d4b7-e894-4920-9b99-b5e9fe7a1ea3")
+	)
+	(embedded_fonts no)
+)

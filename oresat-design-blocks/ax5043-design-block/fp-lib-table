@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "transceiver-AX5043")(type "KiCad")(uri "$(KIPRJMOD)/transceiver-AX5043.pretty")(options "")(descr ""))
+)
