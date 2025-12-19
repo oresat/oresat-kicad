@@ -1,0 +1,12 @@
+(version 1)
+(rule "class 1:1"
+  (condition "A.NetClass == 'RF1' && B.NetClass == 'RF1'")
+  (constraint clearance (min 0.762mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == 'RF2' && B.NetClass == 'RF2'")
+  (constraint clearance (min 0.2032mm)))
+
+(rule "class 3:3"
+  (condition "A.NetClass == 'RF3' && B.NetClass == 'RF3'")
+  (constraint clearance (min 0.3556mm)))

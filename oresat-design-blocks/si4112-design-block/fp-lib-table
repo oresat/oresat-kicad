@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "synthesizer-IF-Si4112")(type "KiCad")(uri "$(KIPRJMOD)/synthesizer-IF-Si4112.pretty")(options "")(descr ""))
+)
