@@ -3126,7 +3126,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "Test-Point-RF-Probe-Stripline"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"

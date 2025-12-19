@@ -596,6 +596,12 @@
           "label": "MFR",
           "name": "MFR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DST",
+          "name": "DST",
+          "show": false
         }
       ],
       "filter_string": "",
