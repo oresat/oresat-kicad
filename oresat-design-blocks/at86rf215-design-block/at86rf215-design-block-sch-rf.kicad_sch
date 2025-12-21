@@ -1696,6 +1696,16 @@
 		)
 		(uuid "4c8019b1-05d2-4baf-8f81-11dedfa40344")
 	)
+	(text "does it matter if RFN and RFP are swapped here?"
+		(exclude_from_sim no)
+		(at 140.97 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a795a160-aa19-477f-968c-4680781b5095")
+	)
 	(text "TX OR RX??!?!\n"
 		(exclude_from_sim no)
 		(at 307.34 150.876 0)
@@ -1705,6 +1715,18 @@
 			)
 		)
 		(uuid "ac30bf66-c227-48c5-91b5-aa298a9a3069")
+	)
+	(text "TO DO:\n- fix BOM\n- go through Glenn's messages in oresat-comms"
+		(exclude_from_sim no)
+		(at 285.75 36.322 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left)
+		)
+		(uuid "c25acfcb-9ae9-40c1-8073-da0f836e0979")
 	)
 	(text "436 MHz balun"
 		(exclude_from_sim no)
@@ -6059,7 +6081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 256.54 121.92 0)
 			(effects
 				(font
