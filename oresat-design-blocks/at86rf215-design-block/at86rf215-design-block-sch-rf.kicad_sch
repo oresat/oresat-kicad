@@ -1686,9 +1686,9 @@
 		)
 		(uuid "4ab6edb3-5a14-4869-8d76-b6b7e7acdd50")
 	)
-	(text "TX OR RX??!?!\n"
+	(text "TRANSMIT"
 		(exclude_from_sim no)
-		(at 307.848 162.052 0)
+		(at 304.546 151.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,19 +1696,9 @@
 		)
 		(uuid "4c8019b1-05d2-4baf-8f81-11dedfa40344")
 	)
-	(text "does it matter if RFN and RFP are swapped here?"
+	(text "RECEIVE"
 		(exclude_from_sim no)
-		(at 140.97 161.544 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a795a160-aa19-477f-968c-4680781b5095")
-	)
-	(text "TX OR RX??!?!\n"
-		(exclude_from_sim no)
-		(at 307.34 150.876 0)
+		(at 302.768 161.036 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1738,6 +1728,30 @@
 		)
 		(uuid "d1272aa5-5ee3-48aa-bc78-05b4ad707232")
 	)
+	(text "435 MHz TX/RX Switch Control"
+		(exclude_from_sim no)
+		(at 292.862 176.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "edbb25b2-f0dd-4422-8bb2-9c618af98455")
+	)
+	(text "pg 187 of AT86RF215 datasheet: Digital pin output voltage = (AT86_VDD-0.4) = 2.9V\nCTRL Typ Voltage rating = 1.8V\n\nthat is why there is a voltage divider here"
+		(exclude_from_sim no)
+		(at 258.064 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbfe2b73-5e40-449b-b419-3db03e82ca8d")
+	)
 	(junction
 		(at 280.67 151.13)
 		(diameter 0)
@@ -1761,6 +1775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c6607cc-608d-4c12-9817-f1717b695fda")
+	)
+	(junction
+		(at 267.97 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f4c7b20-64bc-4e97-ba1f-be17b8d7053e")
 	)
 	(junction
 		(at 238.76 137.16)
@@ -1822,12 +1842,6 @@
 		(color 0 0 0 0)
 		(uuid "e912fd6a-b68f-4b16-b00b-5146787d8df1")
 	)
-	(junction
-		(at 267.97 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecc6c4e2-d54e-4a1b-9bf3-945131858da0")
-	)
 	(wire
 		(pts
 			(xy 228.6 162.56) (xy 228.6 163.83)
@@ -1870,16 +1884,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 186.69) (xy 267.97 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f84a1b-2a27-4b61-98b2-d9c96cece3f2")
-	)
-	(wire
-		(pts
 			(xy 200.66 156.21) (xy 205.74 156.21)
 		)
 		(stroke
@@ -1890,6 +1894,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 185.42) (xy 255.27 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee1650a-799a-47ae-9d3c-304cefd7c3da")
+	)
+	(wire
+		(pts
 			(xy 229.87 71.12) (xy 229.87 73.66)
 		)
 		(stroke
@@ -1897,16 +1911,6 @@
 			(type default)
 		)
 		(uuid "1448db1a-481e-43d1-94b0-219ae365adff")
-	)
-	(wire
-		(pts
-			(xy 168.91 185.42) (xy 267.97 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1787b754-ff93-4eeb-819c-a9c7f30c0765")
 	)
 	(wire
 		(pts
@@ -1937,6 +1941,16 @@
 			(type default)
 		)
 		(uuid "19bdd207-5181-4e53-aff9-a5414ebfd97b")
+	)
+	(wire
+		(pts
+			(xy 267.97 185.42) (xy 267.97 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be82d28-5f60-46df-96b9-41dffc7d21b3")
 	)
 	(wire
 		(pts
@@ -2170,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 185.42) (xy 267.97 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f0a336-6dfa-4f9f-86ec-c101c18b8c4f")
+	)
+	(wire
+		(pts
 			(xy 229.87 62.23) (xy 240.03 62.23)
 		)
 		(stroke
@@ -2177,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "7877b145-fabb-4d67-aec7-f2865a1a1546")
+	)
+	(wire
+		(pts
+			(xy 267.97 196.85) (xy 267.97 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad4a01d-36a9-43a8-baad-75ccc8ad9b56")
 	)
 	(wire
 		(pts
@@ -2360,16 +2394,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 193.04) (xy 267.97 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a32aaa-6f72-448e-92fe-e64fc3737ae5")
-	)
-	(wire
-		(pts
 			(xy 256.54 125.73) (xy 256.54 127)
 		)
 		(stroke
@@ -2397,6 +2421,16 @@
 			(type default)
 		)
 		(uuid "c391655d-742a-480e-8c7e-78b0271ffe4a")
+	)
+	(wire
+		(pts
+			(xy 267.97 156.21) (xy 267.97 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97ad098-08ce-461b-a399-d5280e848dc2")
 	)
 	(wire
 		(pts
@@ -2490,16 +2524,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 156.21) (xy 267.97 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f861f5a3-a019-47b0-bedb-221c84606a7c")
-	)
-	(wire
-		(pts
 			(xy 190.5 156.21) (xy 195.58 156.21)
 		)
 		(stroke
@@ -2517,6 +2541,135 @@
 			(type default)
 		)
 		(uuid "fa35d689-b64e-4c7a-96a0-86a5f3824f37")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 11.43 27.94)
+		(row_heights 3.175 3.175 3.175)
+		(cells
+			(table_cell "CTRL"
+				(exclude_from_sim no)
+				(at 278.13 177.8 0)
+				(size 11.43 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "0ff1ec82-1090-402f-885a-70ffc304eac6")
+			)
+			(table_cell "RF Path"
+				(exclude_from_sim no)
+				(at 289.56 177.8 0)
+				(size 27.94 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "d775c612-252d-4d5a-99be-a5efb88e1049")
+			)
+			(table_cell "HIGH"
+				(exclude_from_sim no)
+				(at 278.13 180.975 0)
+				(size 11.43 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b1a5cec3-8661-47e3-bd16-a76c59611949")
+			)
+			(table_cell "RF1 - TX"
+				(exclude_from_sim no)
+				(at 289.56 180.975 0)
+				(size 27.94 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4c95242d-d744-4b7d-99c0-5c507c873b29")
+			)
+			(table_cell "LOW"
+				(exclude_from_sim no)
+				(at 278.13 184.15 0)
+				(size 11.43 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3a8f9dad-c417-4dfb-a728-a91d44404f9c")
+			)
+			(table_cell "RF2 - RX"
+				(exclude_from_sim no)
+				(at 289.56 184.15 0)
+				(size 27.94 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "021b12b4-ae06-439e-8fcf-6af9517e1059")
+			)
+		)
 	)
 	(global_label "FEA09"
 		(shape input)
@@ -2542,7 +2695,7 @@
 	)
 	(global_label "RFP09"
 		(shape input)
-		(at 168.91 166.37 180)
+		(at 168.91 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +2705,7 @@
 		)
 		(uuid "14c22229-15bd-418f-beec-7b02e5a62541")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8772 166.37 0)
+			(at 159.8167 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2761,7 @@
 	)
 	(global_label "RFN09"
 		(shape input)
-		(at 168.91 156.21 180)
+		(at 168.91 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2618,13 +2771,79 @@
 		)
 		(uuid "b512f9d3-a870-455b-a7f5-875f9219fcca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8167 156.21 0)
+			(at 159.8772 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 198.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "037f9119-7607-4a0d-b385-afdb0d3d58b3")
+		(property "Reference" "#PWR052"
+			(at 267.97 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24cf9208-59f9-475b-9046-99e89e61a2f8")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "#PWR052")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3067,112 +3286,6 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 267.97 189.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28583828-2694-4899-9fcc-3ba92f7e51f5")
-		(property "Reference" "C27"
-			(at 273.812 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 274.828 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0402-C"
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM1555C1H101GA16D "
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 267.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d482546-3736-45ad-be30-524dfe81afea")
-		)
-		(pin "1"
-			(uuid "56105ac1-9424-4f0b-b6ad-ee83e2fa3d6f")
-		)
-		(instances
-			(project "at86rf215-design-block"
-				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3626,6 +3739,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 259.08 185.42 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "401674ef-73eb-41ee-9db5-fedaf000f64f")
+		(property "Reference" "R14"
+			(at 256.794 181.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k"
+			(at 257.048 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0402-C"
+			(at 259.334 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P10.0KLCT-ND"
+			(at 259.08 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic "
+			(at 259.08 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 259.08 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8624c91-9f1d-4ed2-b6c9-37a753a1af0e")
+		)
+		(pin "1"
+			(uuid "25717c51-d311-41ab-a57e-72e00a9d2415")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-passives:Balun")
 		(at 177.8 161.29 0)
 		(mirror y)
@@ -3736,72 +3955,6 @@
 			(project ""
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 193.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4200fdbd-6594-4aa5-9d36-409c50d7f757")
-		(property "Reference" "#PWR045"
-			(at 267.97 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "100654a1-7fd6-426c-89a3-21448bdebc06")
-		)
-		(instances
-			(project "at86rf215-design-block"
-				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5923,6 +6076,110 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eacccacc-8ca2-453e-803c-e33a94f065db")
+		(property "Reference" "R15"
+			(at 264.668 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 264.16 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0402-C"
+			(at 266.954 193.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 5.62K OHM 1% 1/10W 0402"
+			(at 267.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P5.62KLCT-ND"
+			(at 267.97 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic "
+			(at 267.97 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF5621X"
+			(at 267.97 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 267.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fb8bcb6-e18e-45c1-8953-5468a28cfe3f")
+		)
+		(pin "1"
+			(uuid "2eca650e-baa9-46ac-8ebf-16bd916923ee")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "R15")
 					(unit 1)
 				)
 			)
