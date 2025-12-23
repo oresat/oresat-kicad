@@ -257,23 +257,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|1130300|1193800|bdd593b6-68d7-47e3-97b1-cdea85f5d269|96366c70-7610-44e8-966e-ff345ddb5eea|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c",
+        "power_pin_not_driven|2133600|1028700|e7825683-49d0-46fa-a137-986a146a0fb6|00000000-0000-0000-0000-000000000000|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|",
         ""
       ],
       [
-        "multiple_net_names|1181100|431800|e7825683-49d0-46fa-a137-986a146a0fb6|2f2e7c83-22a4-47e3-9c8b-67a2db390442|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c",
-        ""
-      ],
-      [
-        "power_pin_not_driven|3429000|1663700|ce4fa5e1-adfa-4db6-910f-5900c589681c|00000000-0000-0000-0000-000000000000|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|342900|469900|e7825683-49d0-46fa-a137-986a146a0fb6|00000000-0000-0000-0000-000000000000|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|457200|698500|bdd593b6-68d7-47e3-97b1-cdea85f5d269|00000000-0000-0000-0000-000000000000|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|",
+        "power_pin_not_driven|2247900|1257300|bdd593b6-68d7-47e3-97b1-cdea85f5d269|00000000-0000-0000-0000-000000000000|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c|",
         ""
       ]
     ],

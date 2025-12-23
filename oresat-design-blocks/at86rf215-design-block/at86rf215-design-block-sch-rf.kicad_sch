@@ -321,6 +321,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -1696,6 +1881,16 @@
 		)
 		(uuid "4c8019b1-05d2-4baf-8f81-11dedfa40344")
 	)
+	(text "2.1 V"
+		(exclude_from_sim no)
+		(at 271.526 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5dafb597-f569-452b-b3aa-ad764a7dd5ac")
+	)
 	(text "RECEIVE"
 		(exclude_from_sim no)
 		(at 302.768 161.036 0)
@@ -1728,6 +1923,16 @@
 		)
 		(uuid "d1272aa5-5ee3-48aa-bc78-05b4ad707232")
 	)
+	(text "On when TX"
+		(exclude_from_sim no)
+		(at 232.41 196.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7a326f7-5a7e-49d2-a339-47b787f19d46")
+	)
 	(text "435 MHz TX/RX Switch Control"
 		(exclude_from_sim no)
 		(at 292.862 176.276 0)
@@ -1741,14 +1946,14 @@
 		)
 		(uuid "edbb25b2-f0dd-4422-8bb2-9c618af98455")
 	)
-	(text "pg 187 of AT86RF215 datasheet: Digital pin output voltage = (AT86_VDD-0.4) = 2.9V\nCTRL Typ Voltage rating = 1.8V\n\nthat is why there is a voltage divider here"
+	(text "AT86RF215 output voltage = (2.9, 3.3, 3.3) V\nCTRL Voltage rating = (1.3, 1.8, 3.0) V\n... which is why we have voltage divider"
 		(exclude_from_sim no)
-		(at 269.24 208.28 0)
+		(at 272.542 195.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fbfe2b73-5e40-449b-b419-3db03e82ca8d")
 	)
@@ -1849,7 +2054,13 @@
 		(uuid "d9a6f85b-ba39-4476-9ae7-b953c5d50a58")
 	)
 	(junction
-		(at 247.65 185.42)
+		(at 241.3 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de8b5508-9f1f-4ff4-a329-3ac498623d17")
+	)
+	(junction
+		(at 252.73 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e516183e-4b14-4f32-8ee4-08db14528922")
@@ -1912,7 +2123,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 185.42) (xy 247.65 185.42)
+			(xy 241.3 191.77) (xy 241.3 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b061254-ed9e-4d2c-9375-05dffd2cd9fd")
+	)
+	(wire
+		(pts
+			(xy 168.91 185.42) (xy 241.3 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 185.42) (xy 267.97 189.23)
+			(xy 267.97 185.42) (xy 267.97 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 193.04) (xy 247.65 191.77)
+			(xy 252.73 195.58) (xy 252.73 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2443,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 185.42) (xy 267.97 185.42)
+			(xy 241.3 185.42) (xy 241.3 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b87a827-41d0-4098-b1dd-d3ef0954c49e")
+	)
+	(wire
+		(pts
+			(xy 266.7 185.42) (xy 267.97 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 185.42) (xy 247.65 186.69)
+			(xy 252.73 185.42) (xy 252.73 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 196.85) (xy 267.97 198.12)
+			(xy 267.97 194.31) (xy 267.97 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2299,6 +2530,16 @@
 			(type default)
 		)
 		(uuid "851d40f2-bbcb-4367-932e-f74e1094ec98")
+	)
+	(wire
+		(pts
+			(xy 241.3 198.12) (xy 241.3 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a192a8e-1ce8-42e8-a79c-ee1e54a069fe")
 	)
 	(wire
 		(pts
@@ -2472,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 185.42) (xy 252.73 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ec10d7-9de3-4541-8bd6-3eccc4ec5acd")
+	)
+	(wire
+		(pts
 			(xy 267.97 156.21) (xy 267.97 185.42)
 		)
 		(stroke
@@ -2502,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 185.42) (xy 255.27 185.42)
+			(xy 252.73 185.42) (xy 259.08 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +3097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 198.12 0)
+		(at 267.97 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2855,7 +3106,7 @@
 		(dnp no)
 		(uuid "037f9119-7607-4a0d-b385-afdb0d3d58b3")
 		(property "Reference" "#PWR052"
-			(at 267.97 204.47 0)
+			(at 267.97 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +3115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 201.93 0)
+			(at 267.97 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +3123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 198.12 0)
+			(at 267.97 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 198.12 0)
+			(at 267.97 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 198.12 0)
+			(at 267.97 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Value" "5.62k"
+		(property "Value" "5.1k"
 			(at 234.95 143.256 0)
 			(effects
 				(font
@@ -3160,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 5.62K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 5.1K OHM 1% 1/10W 0402"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -3356,7 +3607,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 247.65 189.23 0)
+		(at 252.73 189.23 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3365,7 +3616,7 @@
 		(dnp no)
 		(uuid "28583828-2694-4899-9fcc-3ba92f7e51f5")
 		(property "Reference" "C27"
-			(at 249.682 188.722 0)
+			(at 254.762 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3625,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 249.682 190.5 0)
+			(at 254.762 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3634,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C"
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3652,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +3661,7 @@
 			)
 		)
 		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +3670,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3679,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H101GA16D "
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3688,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 247.65 189.23 0)
+			(at 252.73 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 259.08 185.42 90)
+		(at 262.89 185.42 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3918,7 +4169,7 @@
 		(dnp no)
 		(uuid "401674ef-73eb-41ee-9db5-fedaf000f64f")
 		(property "Reference" "R14"
-			(at 256.794 181.356 90)
+			(at 260.604 181.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,8 +4177,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
-			(at 257.048 183.134 90)
+		(property "Value" "5.1k"
+			(at 260.858 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +4187,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C"
-			(at 259.334 186.436 90)
+			(at 263.144 186.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 185.42 0)
+			(at 262.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4205,7 @@
 			)
 		)
 		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
-			(at 259.08 185.42 0)
+			(at 262.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4214,7 @@
 			)
 		)
 		(property "DPN" "P10.0KLCT-ND"
-			(at 259.08 185.42 90)
+			(at 262.89 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4223,7 @@
 			)
 		)
 		(property "MFR" "Panasonic "
-			(at 259.08 185.42 90)
+			(at 262.89 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4232,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1002X"
-			(at 259.08 185.42 90)
+			(at 262.89 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4241,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 259.08 185.42 0)
+			(at 262.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4382,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 193.04 0)
+		(at 252.73 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4140,7 +4391,7 @@
 		(dnp no)
 		(uuid "4200fdbd-6594-4aa5-9d36-409c50d7f757")
 		(property "Reference" "#PWR045"
-			(at 247.65 199.39 0)
+			(at 252.73 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 196.85 0)
+			(at 252.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 193.04 0)
+			(at 252.73 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 193.04 0)
+			(at 252.73 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 193.04 0)
+			(at 252.73 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,6 +5504,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c708552-ee86-4f44-a26c-38e9f235e1e3")
+		(property "Reference" "R17"
+			(at 242.824 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 242.824 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT5K10CT-ND"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT5K10"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41937439-24b9-4bae-b909-c616c72a2882")
+		)
+		(pin "2"
+			(uuid "33e324df-43db-43e8-b4ac-bf0d57d36a01")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 238.76 132.08 0)
 		(mirror y)
@@ -5529,6 +5885,84 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 241.3 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a72735e8-6d8d-4345-bdf2-e5003a816083")
+		(property "Reference" "D2"
+			(at 242.824 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AMB"
+			(at 242.824 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 241.3 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24429110-758f-4b43-a924-678aa4fade79")
+		)
+		(pin "1"
+			(uuid "ac5732bf-9844-4083-938b-7473023c2721")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6384,6 +6818,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 241.3 199.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e228d927-6828-4929-a9d5-bd00a30e7563")
+		(property "Reference" "#PWR054"
+			(at 241.3 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d70fbda-962b-41e1-afc6-761d7e1ba6ed")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 256.54 170.18 0)
 		(mirror y)
 		(unit 1)
@@ -6450,7 +6950,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 267.97 193.04 0)
+		(at 267.97 190.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6459,15 +6959,15 @@
 		(dnp no)
 		(uuid "eacccacc-8ca2-453e-803c-e33a94f065db")
 		(property "Reference" "R15"
-			(at 264.668 192.024 0)
+			(at 264.668 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k"
-			(at 264.16 194.056 0)
+		(property "Value" "10k"
+			(at 264.16 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6975,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C"
-			(at 266.954 193.294 90)
+			(at 266.954 190.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 193.04 0)
+			(at 267.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6993,7 @@
 			)
 		)
 		(property "Description" "RES SMD 5.62K OHM 1% 1/10W 0402"
-			(at 267.97 193.04 0)
+			(at 267.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +7002,7 @@
 			)
 		)
 		(property "DPN" "P5.62KLCT-ND"
-			(at 267.97 193.04 90)
+			(at 267.97 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +7011,7 @@
 			)
 		)
 		(property "MFR" "Panasonic "
-			(at 267.97 193.04 90)
+			(at 267.97 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +7020,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF5621X"
-			(at 267.97 193.04 90)
+			(at 267.97 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +7029,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 267.97 193.04 0)
+			(at 267.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
