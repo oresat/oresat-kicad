@@ -3747,6 +3747,100 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:Test-Point-RF-Probe-Stripline"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+				(at 0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Test-Point-RF-Probe-Stripline_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Test-Point-RF-Probe-Stripline_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-power:3.3V"
 			(power)
 			(pin_names
@@ -4239,16 +4333,6 @@
 		)
 		(uuid "1202cc1c-688f-4680-b96b-0bd11d430f2e")
 	)
-	(text "(3)"
-		(exclude_from_sim no)
-		(at 331.47 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4eb596ec-4e53-43fe-9fc4-11a05d8fa49c")
-	)
 	(text "{"
 		(exclude_from_sim no)
 		(at 259.08 146.05 0)
@@ -4288,16 +4372,6 @@
 			)
 		)
 		(uuid "70b9d021-f4d3-499e-b2d0-a0f67588a1cf")
-	)
-	(text "(3)"
-		(exclude_from_sim no)
-		(at 331.47 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88d3575e-df68-4f3f-8bb7-7ce5e56ff531")
 	)
 	(text "SPI CONTROLLER"
 		(exclude_from_sim no)
@@ -4339,19 +4413,9 @@
 		)
 		(uuid "aba56a57-5259-49ef-831e-bd1cf7d68a2c")
 	)
-	(text "(3)"
-		(exclude_from_sim no)
-		(at 331.47 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b34dc712-da7c-4fc9-926a-c68a50f399d8")
-	)
 	(text "Front end control for 435 MHz"
 		(exclude_from_sim no)
-		(at 369.316 122.174 0)
+		(at 369.57 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4381,16 +4445,6 @@
 			(justify left)
 		)
 		(uuid "d10d1b22-a214-419b-abd0-faed037e014b")
-	)
-	(text "(3)"
-		(exclude_from_sim no)
-		(at 331.47 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd7f0cf8-6867-4ef2-bd13-dde112f1d6f6")
 	)
 	(text "Front end control for 435 MHz"
 		(exclude_from_sim no)
@@ -4455,12 +4509,6 @@
 		(uuid "08fc467f-935c-4175-86f8-12f7070dd7fe")
 	)
 	(junction
-		(at 341.63 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09d970fe-4da4-46cc-b27e-31d548e76eb5")
-	)
-	(junction
 		(at 224.79 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4495,6 +4543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49a6b846-cae8-436e-a3ee-e4e4152496c7")
+	)
+	(junction
+		(at 251.46 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b397355-cec8-422d-ab48-fb3186fba499")
 	)
 	(junction
 		(at 88.9 63.5)
@@ -4604,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 123.19) (xy 341.63 123.19)
+			(xy 312.42 123.19) (xy 344.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4754,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 184.15) (xy 251.46 186.69)
+			(xy 242.57 184.15) (xy 242.57 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5504,16 +5558,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 123.19) (xy 341.63 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcfb27a-48f2-48b9-b0a3-8fb855cca091")
-	)
-	(wire
-		(pts
 			(xy 224.79 105.41) (xy 234.95 105.41)
 		)
 		(stroke
@@ -5724,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 179.07) (xy 264.16 179.07)
+			(xy 247.65 179.07) (xy 251.46 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5851,6 +5895,16 @@
 			(type default)
 		)
 		(uuid "b427d7fd-c26e-4ff0-8201-316f50f16e6d")
+	)
+	(wire
+		(pts
+			(xy 251.46 179.07) (xy 264.16 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b1c99a-fde0-4503-916e-279a0ed33b2b")
 	)
 	(wire
 		(pts
@@ -6144,16 +6198,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 123.19) (xy 341.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d58e86-5479-4856-8d62-5527274128b1")
-	)
-	(wire
-		(pts
 			(xy 224.79 142.24) (xy 224.79 143.51)
 		)
 		(stroke
@@ -6311,16 +6355,6 @@
 			(type default)
 		)
 		(uuid "f169be53-081e-48b9-b320-6a145f3b399a")
-	)
-	(wire
-		(pts
-			(xy 341.63 130.81) (xy 341.63 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f27d7abf-7e78-4153-895f-2786cf0a9a56")
 	)
 	(wire
 		(pts
@@ -6500,7 +6534,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6522,7 +6555,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6544,7 +6576,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6566,7 +6597,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6588,7 +6618,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6610,7 +6639,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6632,7 +6660,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6654,7 +6681,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6676,7 +6702,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6698,7 +6723,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6720,7 +6744,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6742,7 +6765,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6764,7 +6786,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6786,7 +6807,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6808,7 +6828,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6830,7 +6849,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6852,7 +6870,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6874,7 +6891,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6896,7 +6912,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6918,7 +6933,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6940,7 +6954,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6962,7 +6975,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6984,7 +6996,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7006,7 +7017,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7028,7 +7038,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7050,7 +7059,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7072,7 +7080,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7094,7 +7101,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7116,7 +7122,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7138,7 +7143,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7160,7 +7164,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7182,7 +7185,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7204,7 +7206,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7226,7 +7227,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7248,7 +7248,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7270,7 +7269,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7292,7 +7290,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7314,7 +7311,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7336,7 +7332,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7358,7 +7353,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7380,7 +7374,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7402,7 +7395,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7424,7 +7416,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7446,7 +7437,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7468,7 +7458,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -8251,7 +8240,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 251.46 179.07 0)
+		(at 242.57 179.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8260,7 +8249,7 @@
 		(dnp no)
 		(uuid "1960efab-9879-4940-99ad-e00f3822c27c")
 		(property "Reference" "J1"
-			(at 248.9199 178.151 0)
+			(at 240.0299 178.151 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8258,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 248.9199 180.5753 0)
+			(at 240.0299 180.5753 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8267,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8276,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8285,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8294,7 @@
 			)
 		)
 		(property "MFR" "Samtec"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8303,7 @@
 			)
 		)
 		(property "MPN" "SMA-J-P-H-ST-EM1"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8312,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8321,7 @@
 			)
 		)
 		(property "DPN" "SAM8857-ND"
-			(at 251.46 179.07 0)
+			(at 242.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,112 +8550,6 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 341.63 127 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28583828-2694-4899-9fcc-3ba92f7e51f5")
-		(property "Reference" "C27"
-			(at 343.662 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 343.662 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0402-C"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM1555C1H101GA16D "
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d482546-3736-45ad-be30-524dfe81afea")
-		)
-		(pin "1"
-			(uuid "56105ac1-9424-4f0b-b6ad-ee83e2fa3d6f")
-		)
-		(instances
-			(project "at86rf215-design-block"
-				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9133,72 +9016,6 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 341.63 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4200fdbd-6594-4aa5-9d36-409c50d7f757")
-		(property "Reference" "#PWR045"
-			(at 341.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "100654a1-7fd6-426c-89a3-21448bdebc06")
-		)
-		(instances
-			(project "at86rf215-design-block"
-				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9689,6 +9506,72 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 251.46 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "66d07b93-4080-449a-87ab-4c81dc082391")
+		(property "Reference" "TP10"
+			(at 253.492 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 243.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 241.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 244.094 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ca8ba3-6805-4bd3-a9a4-8f3d3a25ddb4")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -13155,7 +13038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 186.69 0)
+		(at 242.57 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13163,7 +13046,7 @@
 		(dnp no)
 		(uuid "eb42189d-1f25-4f31-814e-0d137e9fda95")
 		(property "Reference" "#PWR07"
-			(at 251.46 193.04 0)
+			(at 242.57 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 190.5 0)
+			(at 242.57 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13180,7 +13063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,7 +13072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +13081,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

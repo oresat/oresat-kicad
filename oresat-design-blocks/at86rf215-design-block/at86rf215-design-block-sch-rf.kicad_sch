@@ -1706,7 +1706,7 @@
 		)
 		(uuid "ac30bf66-c227-48c5-91b5-aa298a9a3069")
 	)
-	(text "TO DO:\n- fix BOM\n- go through Glenn's messages in oresat-comms"
+	(text "TO DO:\n- fix BOM"
 		(exclude_from_sim no)
 		(at 285.75 36.322 0)
 		(effects
@@ -1743,7 +1743,7 @@
 	)
 	(text "pg 187 of AT86RF215 datasheet: Digital pin output voltage = (AT86_VDD-0.4) = 2.9V\nCTRL Typ Voltage rating = 1.8V\n\nthat is why there is a voltage divider here"
 		(exclude_from_sim no)
-		(at 258.064 194.31 0)
+		(at 269.24 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1781,6 +1781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f4c7b20-64bc-4e97-ba1f-be17b8d7053e")
+	)
+	(junction
+		(at 248.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637576c7-3d8e-4a20-b18d-fc070a654a72")
 	)
 	(junction
 		(at 238.76 137.16)
@@ -1831,10 +1837,22 @@
 		(uuid "ce9b4b57-5e5f-4109-acd0-2d0104febb98")
 	)
 	(junction
+		(at 238.76 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56472fe-c256-4324-bc60-dac9c1efef0a")
+	)
+	(junction
 		(at 240.03 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a6f85b-ba39-4476-9ae7-b953c5d50a58")
+	)
+	(junction
+		(at 247.65 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e516183e-4b14-4f32-8ee4-08db14528922")
 	)
 	(junction
 		(at 190.5 156.21)
@@ -1894,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 185.42) (xy 255.27 185.42)
+			(xy 168.91 185.42) (xy 247.65 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 62.23) (xy 245.11 62.23)
+			(xy 240.03 62.23) (xy 248.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 67.31) (xy 250.19 69.85)
+			(xy 260.35 67.31) (xy 260.35 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2172,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 193.04) (xy 247.65 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535636c3-a6c2-41fd-a991-a8295a9bca9e")
+	)
+	(wire
+		(pts
+			(xy 248.92 62.23) (xy 255.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f9a9a4-69ae-4115-b5b3-60dea0d5b3d1")
+	)
+	(wire
+		(pts
 			(xy 238.76 135.89) (xy 238.76 137.16)
 		)
 		(stroke
@@ -2194,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 185.42) (xy 247.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73755d9e-e232-4c44-b21a-24b3e29b24c5")
+	)
+	(wire
+		(pts
 			(xy 229.87 62.23) (xy 240.03 62.23)
 		)
 		(stroke
@@ -2224,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 156.21) (xy 246.38 156.21)
+			(xy 228.6 156.21) (xy 238.76 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2454,6 +2502,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 185.42) (xy 255.27 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8db13b-5f44-4ce6-a5a3-268374ed1234")
+	)
+	(wire
+		(pts
 			(xy 180.34 62.23) (xy 182.88 62.23)
 		)
 		(stroke
@@ -2511,6 +2569,16 @@
 			(type default)
 		)
 		(uuid "f2935344-db9e-4ca1-92ac-d297d722496f")
+	)
+	(wire
+		(pts
+			(xy 238.76 156.21) (xy 246.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bcc990-bfc0-465f-abef-45ad12e02d78")
 	)
 	(wire
 		(pts
@@ -2689,7 +2757,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2711,7 +2778,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2733,7 +2799,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2755,7 +2820,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2777,7 +2841,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3286,6 +3349,112 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 189.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28583828-2694-4899-9fcc-3ba92f7e51f5")
+		(property "Reference" "C27"
+			(at 249.682 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 249.682 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0402-C"
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM1555C1H101GA16D "
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d482546-3736-45ad-be30-524dfe81afea")
+		)
+		(pin "1"
+			(uuid "56105ac1-9424-4f0b-b6ad-ee83e2fa3d6f")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3955,6 +4124,72 @@
 			(project ""
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4200fdbd-6594-4aa5-9d36-409c50d7f757")
+		(property "Reference" "#PWR045"
+			(at 247.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "100654a1-7fd6-426c-89a3-21448bdebc06")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4677,6 +4912,72 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 238.76 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "702722de-df3e-435d-ae1f-3817a29651e2")
+		(property "Reference" "TP9"
+			(at 236.728 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 238.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 239.014 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f9435bb-6eca-4e1c-9022-a3bc1c877bc0")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5776,7 +6077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 250.19 62.23 0)
+		(at 260.35 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +6086,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbf44125-6a90-44c8-88a8-23b48dc88d68")
 		(property "Reference" "J4"
-			(at 252.7301 61.311 0)
+			(at 262.8901 61.311 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +6095,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 252.7301 63.7353 0)
+			(at 262.8901 63.7353 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +6104,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6113,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6122,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6131,7 @@
 			)
 		)
 		(property "MFR" "Samtec"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6140,7 @@
 			)
 		)
 		(property "MPN" "SMA-J-P-H-ST-EM1"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +6149,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6158,7 @@
 			)
 		)
 		(property "DPN" "SAM8857-ND"
-			(at 250.19 62.23 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,6 +6176,72 @@
 			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 248.92 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cced41a0-9737-4a9e-acde-ddf13aad5a1b")
+		(property "Reference" "TP8"
+			(at 246.888 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 248.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 249.174 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5e2dc43-f2c5-4bc2-9169-5cd1758438ab")
+		)
+		(instances
+			(project "at86rf215-design-block"
+				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6554,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 69.85 0)
+		(at 260.35 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6197,7 +6564,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b474be-d3de-415f-b257-2d71dd4deba1")
 		(property "Reference" "#PWR038"
-			(at 250.19 76.2 0)
+			(at 260.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 73.9831 0)
+			(at 260.35 73.9831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 69.85 0)
+			(at 260.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 69.85 0)
+			(at 260.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 69.85 0)
+			(at 260.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

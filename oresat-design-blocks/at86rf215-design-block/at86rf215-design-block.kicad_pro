@@ -572,6 +572,54 @@
       {
         "netclass": "RF-50-min",
         "pattern": "RFP24"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C18-Pad2)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C17-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C19-Pad2)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C19-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(J4-In)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "RFN09"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "RFP09"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C20-Pad2)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C20-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U5-RF_COM)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(J8-In)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(J7-In)"
       }
     ]
   },
@@ -708,7 +756,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
