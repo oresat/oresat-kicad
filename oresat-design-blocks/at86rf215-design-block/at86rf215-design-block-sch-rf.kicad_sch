@@ -1843,16 +1843,6 @@
 	)
 	(text "DOUBLE CHECK FOOTPRINT\n"
 		(exclude_from_sim no)
-		(at 178.308 144.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "03f33efb-707d-4cb5-813a-ddbf36fca030")
-	)
-	(text "DOUBLE CHECK FOOTPRINT\n"
-		(exclude_from_sim no)
 		(at 192.278 90.932 0)
 		(effects
 			(font
@@ -3187,7 +3177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 228.6 160.02 0)
 			(effects
 				(font
@@ -3196,7 +3186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 228.6 160.02 0)
 			(effects
 				(font
@@ -3205,7 +3195,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 228.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 228.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 228.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 228.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 228.6 160.02 0)
 			(effects
 				(font
@@ -3257,7 +3283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -3325,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -3334,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -3343,7 +3369,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -3393,7 +3455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 237.744 142.494 90)
 			(effects
 				(font
@@ -3402,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -3411,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 5.1K OHM 1% 1/10W 0402"
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -3420,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P5.62KLCT-ND"
+		(property "DPN" "RMCF0603FT5K10CT-ND"
 			(at 238.76 142.24 90)
 			(effects
 				(font
@@ -3429,7 +3491,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 238.76 142.24 90)
 			(effects
 				(font
@@ -3438,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5621X"
+		(property "MPN" "RMCF0603FT5K10"
 			(at 238.76 142.24 90)
 			(effects
 				(font
@@ -3737,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 223.52 62.23 0)
 			(effects
 				(font
@@ -3746,7 +3808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 223.52 62.23 0)
 			(effects
 				(font
@@ -3755,8 +3817,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 223.52 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 223.52 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 223.52 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 223.52 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 177.8 72.39 0)
 			(effects
 				(font
@@ -4125,7 +4223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0024.pdf"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -4134,7 +4232,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "5.6 nH Unshielded Drum Core, Wirewound Inductor 750 mA 82mOhm Max 0603 (1608 Metric)"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-1164-1-ND"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata "
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN5N6D00D"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -4186,7 +4320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 263.144 186.436 90)
 			(effects
 				(font
@@ -4195,7 +4329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 262.89 185.42 0)
 			(effects
 				(font
@@ -4204,7 +4338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 262.89 185.42 0)
 			(effects
 				(font
@@ -4213,7 +4347,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P10.0KLCT-ND"
+		(property "DPN" "RMCF0603FT5K10CT-ND"
 			(at 262.89 185.42 90)
 			(effects
 				(font
@@ -4222,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 262.89 185.42 90)
 			(effects
 				(font
@@ -4231,7 +4365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
+		(property "MPN" "RMCF0603FT5K10"
 			(at 262.89 185.42 90)
 			(effects
 				(font
@@ -4481,7 +4615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.johansontechnology.com/datasheets/export/e1.php?name=2450FB15A0050001E"
+		(property "Datasheet" "https://www.johansontechnology.com/docs/4504/0433BM15A0001003E.pdf"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -4828,7 +4962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -5262,7 +5396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 218.44 162.56 0)
 			(effects
 				(font
@@ -5636,7 +5770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 237.744 132.334 90)
 			(effects
 				(font
@@ -5645,7 +5779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -5654,7 +5788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0402"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -5663,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P10.0KLCT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 238.76 132.08 90)
 			(effects
 				(font
@@ -5672,7 +5806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 238.76 132.08 90)
 			(effects
 				(font
@@ -5681,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 238.76 132.08 90)
 			(effects
 				(font
@@ -5742,7 +5876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 205.74 162.56 0)
 			(effects
 				(font
@@ -6062,7 +6196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 229.87 68.58 0)
 			(effects
 				(font
@@ -6330,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -6339,7 +6473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -6348,8 +6482,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 212.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 212.09 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 212.09 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 212.09 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 212.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 217.17 68.58 0)
 			(effects
 				(font
@@ -6709,7 +6879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6974,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 266.954 190.754 90)
 			(effects
 				(font
@@ -6983,7 +7153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 267.97 190.5 0)
 			(effects
 				(font
@@ -6992,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 5.62K OHM 1% 1/10W 0402"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 267.97 190.5 0)
 			(effects
 				(font
@@ -7001,7 +7171,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P5.62KLCT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 267.97 190.5 90)
 			(effects
 				(font
@@ -7010,7 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 267.97 190.5 90)
 			(effects
 				(font
@@ -7019,7 +7189,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5621X"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 267.97 190.5 90)
 			(effects
 				(font
