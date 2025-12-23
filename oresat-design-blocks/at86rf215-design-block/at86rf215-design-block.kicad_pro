@@ -725,6 +725,12 @@
           "label": "DPN",
           "name": "DPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
