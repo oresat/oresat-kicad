@@ -1841,19 +1841,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DOUBLE CHECK FOOTPRINT\n"
-		(exclude_from_sim no)
-		(at 192.278 90.932 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26395a25-b6e6-413a-9210-179d3a76609a")
-	)
 	(text "2.4 GHz balun for the AT86"
 		(exclude_from_sim no)
-		(at 195.58 84.582 0)
+		(at 195.834 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1890,18 +1880,6 @@
 			)
 		)
 		(uuid "ac30bf66-c227-48c5-91b5-aa298a9a3069")
-	)
-	(text "TO DO:\n- fix BOM"
-		(exclude_from_sim no)
-		(at 285.75 36.322 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.375)
-			)
-			(justify left)
-		)
-		(uuid "c25acfcb-9ae9-40c1-8073-da0f836e0979")
 	)
 	(text "436 MHz balun"
 		(exclude_from_sim no)
@@ -2603,16 +2581,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 198.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16e6eeb-65f0-4afe-bca0-eaea12b23a94")
-	)
-	(wire
-		(pts
 			(xy 243.84 137.16) (xy 243.84 151.13)
 		)
 		(stroke
@@ -2830,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "f545a762-9c0c-42b2-a901-db7d2227ab89")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b38822-1360-4e16-84fc-fa0b7537bb28")
 	)
 	(wire
 		(pts
@@ -3301,8 +3279,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 177.8 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17533-1-ND"
+			(at 177.8 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 177.8 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBR06C189B5GAC"
+			(at 177.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
+		(property "Description" "100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 252.73 189.23 0)
 			(effects
 				(font
@@ -3722,7 +3736,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
+		(property "DPN" "399-16018-1-ND"
 			(at 252.73 189.23 0)
 			(effects
 				(font
@@ -3731,7 +3745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 252.73 189.23 0)
 			(effects
 				(font
@@ -3740,7 +3754,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM1555C1H101GA16D "
+		(property "MPN" "C0603C101J1GACAUTO"
 			(at 252.73 189.23 0)
 			(effects
 				(font
@@ -4056,8 +4070,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 177.8 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17533-1-ND"
+			(at 177.8 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 177.8 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBR06C189B5GAC"
+			(at 177.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
+		(property "Description" "100 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 228.6 142.24 0)
 			(effects
 				(font
@@ -4135,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
+		(property "DPN" "399-16018-1-ND"
 			(at 228.6 142.24 0)
 			(effects
 				(font
@@ -4144,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 228.6 142.24 0)
 			(effects
 				(font
@@ -4153,7 +4203,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM1555C1H101GA16D "
+		(property "MPN" "C0603C101J1GACAUTO"
 			(at 228.6 142.24 0)
 			(effects
 				(font
@@ -4615,7 +4665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.johansontechnology.com/docs/4504/0433BM15A0001003E.pdf"
+		(property "Datasheet" "https://www.johansontechnology.com/docs/796/2450FB15A050_VdAqien.pdf"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -4980,8 +5030,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 213.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-CBR06C808B5GACAUTOCT-ND"
+			(at 213.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 213.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBR06C808B5GACAUTO"
+			(at 213.36 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
+		(property "Description" "2200 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -5973,7 +6059,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
+		(property "DPN" "399-C0603C222J5RACAUTOCT-ND"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -5982,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -5991,7 +6077,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM1555C1H101GA16D "
+		(property "MPN" "C0603C222J5RACAUTO"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -6069,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 241.3 195.58 0)
 			(effects
 				(font
@@ -6080,6 +6166,42 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 241.3 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 241.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-150060AS75000CT-ND"
+			(at 241.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Wurth"
+			(at 241.3 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060AS75000"
+			(at 241.3 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,8 +7019,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "15 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 198.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 198.12 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6859-1-ND"
+			(at 198.12 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 198.12 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C150J5GACAUTO"
+			(at 198.12 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,17 +7449,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 77.47 0)
+		(at 198.12 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa9c3353-8d66-4478-afe5-79c310438231")
 		(property "Reference" "#PWR030"
-			(at 198.12 83.82 0)
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 81.6031 0)
+			(at 198.12 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 77.47 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 77.47 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 77.47 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
