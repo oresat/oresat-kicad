@@ -1488,7 +1488,7 @@
 						)
 					)
 				)
-				(number "29*"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
