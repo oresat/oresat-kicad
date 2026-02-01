@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "GP.1575.25.2.A.02"
-		(at 0 -12.3 0)
+		(at 0 -0.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b06f3bf6-66b0-4e94-9e9b-e082e05a1de0")
@@ -161,18 +161,6 @@
 		(layer "F.Fab")
 		(uuid "d0e8695a-afdb-4a34-b139-e992e2af8f3a")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -10.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "cfd070b6-c834-4181-9783-54cd86f7e39d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at 0 2.5)
 		(size 2.5 2.5)
@@ -251,4 +239,16 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/GP.1575.25.2.A.02.step"
+		(opacity 0.2400)
+		(offset
+			(xyz 0 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
