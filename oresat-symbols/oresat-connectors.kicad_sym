@@ -1538,7 +1538,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
-			(at 0 0 0)
+			(at 0 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/C047XX_M55_Archer_Kontrol.pdf"
-			(at 0 0 0)
+			(at -0.508 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1556,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT 12POS 0.05 GOLD SMD"
-			(at 0 0 0)
+			(at -0.508 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,8 +1614,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 12.7 0)
-				(length 2.54)
+				(at -5.08 12.7 0)
+				(length 5.08)
 				(name "1"
 					(effects
 						(font
@@ -1632,8 +1632,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 10.16 0)
-				(length 2.54)
+				(at -5.08 10.16 0)
+				(length 5.08)
 				(name "2"
 					(effects
 						(font
@@ -1650,8 +1650,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 7.62 0)
-				(length 2.54)
+				(at -5.08 7.62 0)
+				(length 5.08)
 				(name "3"
 					(effects
 						(font
@@ -1668,8 +1668,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 5.08 0)
-				(length 2.54)
+				(at -5.08 5.08 0)
+				(length 5.08)
 				(name "4"
 					(effects
 						(font
@@ -1686,8 +1686,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 2.54 0)
-				(length 2.54)
+				(at -5.08 2.54 0)
+				(length 5.08)
 				(name "5"
 					(effects
 						(font
@@ -1704,8 +1704,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 0 0)
-				(length 2.54)
+				(at -5.08 0 0)
+				(length 5.08)
 				(name "6"
 					(effects
 						(font
@@ -1722,8 +1722,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -2.54 0)
-				(length 2.54)
+				(at -5.08 -2.54 0)
+				(length 5.08)
 				(name "7"
 					(effects
 						(font
@@ -1740,8 +1740,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -5.08 0)
-				(length 2.54)
+				(at -5.08 -5.08 0)
+				(length 5.08)
 				(name "8"
 					(effects
 						(font
@@ -1758,8 +1758,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -7.62 0)
-				(length 2.54)
+				(at -5.08 -7.62 0)
+				(length 5.08)
 				(name "9"
 					(effects
 						(font
@@ -1776,8 +1776,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -10.16 0)
-				(length 2.54)
+				(at -5.08 -10.16 0)
+				(length 5.08)
 				(name "10"
 					(effects
 						(font
@@ -1794,8 +1794,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -12.7 0)
-				(length 2.54)
+				(at -5.08 -12.7 0)
+				(length 5.08)
 				(name "11"
 					(effects
 						(font
@@ -1812,8 +1812,8 @@
 				)
 			)
 			(pin passive inverted
-				(at -2.54 -15.24 0)
-				(length 2.54)
+				(at -5.08 -15.24 0)
+				(length 5.08)
 				(name "12"
 					(effects
 						(font

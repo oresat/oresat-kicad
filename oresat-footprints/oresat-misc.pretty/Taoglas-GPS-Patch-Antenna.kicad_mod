@@ -1,7 +1,7 @@
 (footprint "Taoglas-GPS-Patch-Antenna"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "ANT1"
 		(at 0 -13.2 0)
@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 0.56 0.56)
-				(thickness 0.12)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -27,19 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "oresat-misc:Taoglas-GPS-Patch-Antenna"
-		(at 0 0 180)
-		(unlocked yes)
-		(layer "B.Fab")
-		(hide yes)
-		(uuid "54ccaedb-2bd9-43fc-ace5-8f04bc14c556")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify mirror)
-		)
-	)
 	(property "Datasheet" "https://cdn.taoglas.com/datasheets/GP.1575.25.2.A.02.pdf"
 		(at 0 0 180)
 		(unlocked yes)
@@ -49,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -62,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -71,7 +60,7 @@
 		(start -12.6 8.55)
 		(end -12.55 -8.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -81,7 +70,7 @@
 		(start -8.55 -12.55)
 		(end 8.55 -12.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -91,7 +80,7 @@
 		(start -8.55 12.55)
 		(end -12.6 8.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -101,7 +90,7 @@
 		(start 8.55 12.55)
 		(end -8.55 12.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -111,7 +100,7 @@
 		(start 12.55 -8.55)
 		(end 12.55 8.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -122,7 +111,7 @@
 		(mid -11.378427 -11.378427)
 		(end -8.55 -12.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -133,7 +122,7 @@
 		(mid 11.378427 -11.378427)
 		(end 12.55 -8.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -144,7 +133,7 @@
 		(mid 11.378427 11.378427)
 		(end 8.55 12.55)
 		(stroke
-			(width 0.12)
+			(width 0.125)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -157,7 +146,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "b337a75d-2c46-4e33-bd82-2e0d32a46de7")
 	)
@@ -168,7 +157,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d0e8695a-afdb-4a34-b139-e992e2af8f3a")
 	)
@@ -211,6 +200,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -241,6 +234,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -253,4 +250,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
