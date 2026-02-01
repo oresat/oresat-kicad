@@ -240,7 +240,6 @@
 	)
 	(embedded_fonts no)
 	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/GP.1575.25.2.A.02.step"
-		(opacity 0.2400)
 		(offset
 			(xyz 0 -1 0)
 		)
