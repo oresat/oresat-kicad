@@ -1305,7 +1305,7 @@
 		(symbol "MagI2C_RM3100_0_1"
 			(rectangle
 				(start 12.7 27.94)
-				(end 31.75 -21.59)
+				(end 34.29 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -1623,7 +1623,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 22.86 180)
+				(at 36.83 22.86 180)
 				(length 2.54)
 				(name "XDRVP"
 					(effects
@@ -1641,7 +1641,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 20.32 180)
+				(at 36.83 20.32 180)
 				(length 2.54)
 				(name "XINP"
 					(effects
@@ -1659,7 +1659,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 16.51 180)
+				(at 36.83 16.51 180)
 				(length 2.54)
 				(name "XINN"
 					(effects
@@ -1677,7 +1677,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 13.97 180)
+				(at 36.83 13.97 180)
 				(length 2.54)
 				(name "XDRVN"
 					(effects
@@ -1695,7 +1695,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 8.89 180)
+				(at 36.83 8.89 180)
 				(length 2.54)
 				(name "YDRVP"
 					(effects
@@ -1713,7 +1713,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 6.35 180)
+				(at 36.83 6.35 180)
 				(length 2.54)
 				(name "YINP"
 					(effects
@@ -1731,7 +1731,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 2.54 180)
+				(at 36.83 2.54 180)
 				(length 2.54)
 				(name "YINN"
 					(effects
@@ -1749,7 +1749,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 0 180)
+				(at 36.83 0 180)
 				(length 2.54)
 				(name "YDRVN"
 					(effects
@@ -1767,7 +1767,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -5.08 180)
+				(at 36.83 -5.08 180)
 				(length 2.54)
 				(name "ZDRVP"
 					(effects
@@ -1785,7 +1785,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -7.62 180)
+				(at 36.83 -7.62 180)
 				(length 2.54)
 				(name "ZINP"
 					(effects
@@ -1803,7 +1803,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -11.43 180)
+				(at 36.83 -11.43 180)
 				(length 2.54)
 				(name "ZINN"
 					(effects
@@ -1821,7 +1821,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -13.97 180)
+				(at 36.83 -13.97 180)
 				(length 2.54)
 				(name "ZDRVN"
 					(effects
