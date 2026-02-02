@@ -54,16 +54,25 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
+	(fp_line
 		(start -3 -1.15)
+		(end 3 -1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ddaa510-f049-4ca6-93ba-528520520c2a")
+	)
+	(fp_line
+		(start -3 1.15)
 		(end 3 1.15)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "42df7225-74c4-449b-b3e9-13e801bb977b")
+		(uuid "2400d849-7a21-4550-85a8-74fcff02e95e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.5 0)
@@ -94,4 +103,15 @@
 		(uuid "fc402479-7367-442b-8270-a681d3a92d42")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/rm3100-geomagnetic-sensor-1.snapshot.5/13104.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
