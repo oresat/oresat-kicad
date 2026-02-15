@@ -67,7 +67,7 @@
 			)
 		)
 	)
-	(property "DST" "DigiKey"
+	(property "DIS" "DigiKey"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -106,7 +106,6 @@
 			)
 		)
 	)
-	(attr smd dnp)
 	(fp_rect
 		(start -1.4 -5.9)
 		(end 1.4 -3.1)
