@@ -1425,8 +1425,8 @@
 		)
 		(symbol "Trinket-M0_1_1"
 			(rectangle
-				(start -7.62 12.7)
-				(end 7.62 -12.7)
+				(start -11.43 12.7)
+				(end 11.43 -12.7)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1435,26 +1435,8 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -10.16 5.08 0)
-				(length 2.54)
-				(name "RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -2.54 15.24 270)
+				(at -13.97 5.08 0)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -1471,8 +1453,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 0 15.24 270)
+				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "VUSB"
 					(effects
@@ -1526,9 +1526,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 7.62 180)
+				(at 13.97 5.08 180)
 				(length 2.54)
-				(name "SDA"
+				(name "TX/SDA/D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1543,28 +1543,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 13.97 2.54 180)
 				(length 2.54)
-				(name "Aout"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1579,17 +1561,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 -5.08 180)
+			(pin bidirectional line
+				(at 13.97 0 180)
 				(length 2.54)
-				(name "TX"
+				(name "RX/SCL/D2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1598,9 +1580,9 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -7.62 180)
+				(at 13.97 -2.54 180)
 				(length 2.54)
-				(name "RX"
+				(name "D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1608,6 +1590,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
