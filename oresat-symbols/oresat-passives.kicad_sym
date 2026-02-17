@@ -589,20 +589,9 @@
 			)
 		)
 		(symbol "Balun_1_1"
-			(rectangle
-				(start -3.81 6.35)
-				(end 3.81 -6.35)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
-					(xy -3.81 5.08) (xy -1.524 5.08) (xy -1.524 3.048)
+					(xy -3.81 -5.08) (xy -1.524 -5.08) (xy -1.524 -3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -662,7 +651,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -3.048) (xy -1.524 -5.08) (xy -2.54 -5.08) (xy -2.54 -6.35)
+					(xy -1.524 3.048) (xy -1.524 5.08) (xy -3.81 5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -674,7 +663,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 3.048) (xy 1.524 5.08) (xy 3.81 5.08)
+					(xy 1.524 -3.048) (xy 1.524 -5.08) (xy 2.54 -5.08) (xy 2.54 -6.35)
 				)
 				(stroke
 					(width 0.1524)
@@ -732,9 +721,20 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 3.81 6.35)
+				(end -3.81 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy 3.81 -5.08) (xy 1.524 -5.08) (xy 1.524 -3.048)
+					(xy 3.81 5.08) (xy 1.524 5.08) (xy 1.524 3.048)
 				)
 				(stroke
 					(width 0.1524)
@@ -762,8 +762,45 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
 				(at -2.54 -8.89 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -781,28 +818,10 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -8.89 90)
+				(at 2.54 -8.89 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 2.54 -8.89 90)
-				(length 2.54)
-				(name "NC"
 					(effects
 						(font
 							(size 0 0)
@@ -819,24 +838,6 @@
 			)
 			(pin passive line
 				(at 6.35 5.08 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "~"
 					(effects
