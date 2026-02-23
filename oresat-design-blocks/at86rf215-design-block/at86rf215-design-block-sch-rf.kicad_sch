@@ -1938,6 +1938,17 @@
 		)
 		(uuid "5dafb597-f569-452b-b3aa-ad764a7dd5ac")
 	)
+	(text "Remember, the AT86RF has two different sets of RF output pins, depending on frequency:\n- RFP/N24 designated for differential RF input/output 2.4GHz  -- For S-Band\n- RFP/N09 designated for differential RF input/output for sub-1GHz transceiver -- For UHF Band\n\nThese two test paths have different baluns and values, to test the performance of the AT86. \n\n"
+		(exclude_from_sim no)
+		(at 21.844 31.242 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "89babbd6-6499-4323-a488-a11cefbcac68")
+	)
 	(text "RECEIVE"
 		(exclude_from_sim no)
 		(at 314.198 161.036 0)
