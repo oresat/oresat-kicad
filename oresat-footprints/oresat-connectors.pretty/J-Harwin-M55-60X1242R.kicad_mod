@@ -501,28 +501,28 @@
 		(solder_mask_margin 0.0635)
 		(uuid "8091767c-2d48-4b10-98dc-82001ff04924")
 	)
-	(pad "SH" smd rect
+	(pad "MP" smd rect
 		(at -5.67 -2.45 90)
 		(size 2.7 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0635)
 		(uuid "a8e2caf8-0f58-4e07-8eca-efe90c128ee0")
 	)
-	(pad "SH" smd rect
+	(pad "MP" smd rect
 		(at -5.67 2.45 90)
 		(size 2.7 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0635)
 		(uuid "67f936ed-e7db-46df-babf-5ab27ce17dcd")
 	)
-	(pad "SH" smd rect
+	(pad "MP" smd rect
 		(at 5.67 -2.45 90)
 		(size 2.7 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0635)
 		(uuid "b9e6d342-7241-4eb6-b9de-7ac9288049e9")
 	)
-	(pad "SH" smd rect
+	(pad "MP" smd rect
 		(at 5.67 2.45 90)
 		(size 2.7 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
