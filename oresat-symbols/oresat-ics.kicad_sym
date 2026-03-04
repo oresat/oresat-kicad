@@ -33015,21 +33015,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 -10.16 0)
+			(at 3.81 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TS5A21366"
-			(at -11.43 -12.7 0)
+			(at 3.81 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
@@ -33050,8 +33052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "2 Circuit IC Switch 1:1 1Ohm 8-VSSOP"
+			(at 0 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33059,10 +33061,188 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Texas Instruments"
+			(at -0.254 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS5A21366DCUR"
+			(at -0.254 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at -0.254 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-24304-1-ND"
+			(at -0.254 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TS5A21366_0_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 0 5.08) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 0 -5.08) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 -2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "TS5A21366_1_1"
 			(rectangle
-				(start -8.89 8.89)
-				(end 8.89 -8.89)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -33072,7 +33252,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 5.08 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "IN1"
 					(effects
@@ -33089,26 +33269,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 2.54 0)
-				(length 2.54)
-				(name "IN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -11.43 -2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "COM1"
 					(effects
@@ -33126,7 +33288,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -5.08 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "COM2"
 					(effects
@@ -33143,8 +33305,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "IN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 11.43 270)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "Vcc"
 					(effects
@@ -33162,7 +33342,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -33180,7 +33360,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "NO1"
 					(effects
@@ -33198,7 +33378,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "NO2"
 					(effects
