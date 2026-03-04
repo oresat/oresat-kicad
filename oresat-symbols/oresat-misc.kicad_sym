@@ -3511,7 +3511,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "Test-Point-0.75mm-th"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
@@ -3594,7 +3594,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "Test-Point-1mm-round"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
