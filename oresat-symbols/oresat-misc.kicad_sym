@@ -1260,7 +1260,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 21.082 1.27 0)
+			(at 30.48 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1388,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 3.81 0)
 				(length 2.54)
 				(name "SSN/SA0"
@@ -1406,10 +1406,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 10.16 1.27 0)
 				(length 2.54)
-				(name "MISO"
+				(name "MISO/SA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1586,24 +1586,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 25.4 30.48 270)
-				(length 2.54)
-				(name "I2C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 25.4 -24.13 90)
 				(length 2.54)
@@ -1615,6 +1597,24 @@
 					)
 				)
 				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 30.48 270)
+				(length 2.54)
+				(name "I2C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
