@@ -72,9 +72,10 @@ dxf:	## DXF drawing of the board outline, with cutouts and larger holes
 	kicad-cli pcb export dxf -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-outline.dxf --mode-single -l Edge.Cuts $(BOARD)
 	
 stp:	## A 3D STEP file to import into your MCAD package
-	kicad-cli pcb export step -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-pcba.step --no-dnp --include-silkscreen --include-soldermask --include-pads --cut-vias-in-body --subst-models $(BOARD)
+	kicad-cli pcb export step -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-pcba.step --no-dnp --include-silkscreen --include-soldermask --include-pads --cut-vias-in-body $(BOARD)
 
 rme:	## Readme files
+	cp README.md $(OUTPUT_DIR)/$(DOC_DIR)
 	cp README-fabrication.md $(OUTPUT_DIR)/$(FAB_DIR)
 	cp README-assembly.md $(OUTPUT_DIR)/$(ASM_DIR)
 
