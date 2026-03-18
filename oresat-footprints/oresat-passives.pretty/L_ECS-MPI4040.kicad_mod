@@ -1,34 +1,188 @@
-(footprint "L_ECS-MPI4040" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Inductor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal")
-  (tags "inductor")
-  (property "Description" "FIXED IND 3.3UH 7.5A 21.9MOHM SM")
-  (property "MFR" "Coilcraft")
-  (property "MPN" "XGL4030-332MEC")
-  (property "Sheetfile" "oresat-5V2A-regulator.kicad_sch")
-  (property "Sheetname" "")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 3.1) (layer "F.SilkS")
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    (tstamp 74e2586f-6055-4312-9002-6e3c5f52f952)
-  )
-  (fp_text value "ECS-MPI4040" (at 0 -4.65) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp aa295862-26ff-4826-9e92-975632029d14)
-  )
-  (fp_line (start -1.4 -2.09) (end 1.4 -2.09)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 6463b0cc-5745-42bd-ab61-dcdaeabda2f8))
-  (fp_line (start -1.4 2.09) (end 1.4 2.09)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp e992ddbc-0e06-412e-aaa7-c6c611118c48))
-  (fp_rect (start -2.85 -2.655) (end 2.85 2.655)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp deaca639-4398-4cdd-87ac-44a4b84a1b6f))
-  (fp_rect (start -2.4 -2.2) (end 2.4 2.2)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 0c10d8e9-2f8d-41df-a842-d935212c3ae0))
-  (pad "1" smd roundrect (at -1.65 0) (size 1.65 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1818181818) (tstamp 2f7dbf90-f7eb-4690-96f7-4eb816ee3bd5))
-  (pad "2" smd roundrect (at 1.65 0) (size 1.65 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1818181818) (tstamp fb01ffdf-7219-4005-ba25-7aa36ffc2d70))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_2010_5025Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "L_ECS-MPI4040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 3.1 0)
+		(layer "F.SilkS")
+		(uuid "74e2586f-6055-4312-9002-6e3c5f52f952")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "ECS-MPI4040"
+		(at 0 -4.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa295862-26ff-4826-9e92-975632029d14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6057a500-afa1-44b8-b9b4-e6ae7b7b9690")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 3.3UH 7.5A 21.9MOHM SM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbf40d42-dce6-45f2-abb9-eec95bf2b4b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR" "Coilcraft"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee32211f-139f-4e5a-a21e-1768b1335e0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "XGL4030-332MEC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6c8fad5-6c57-415d-a63f-e883a07f4d79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.35 -2.15)
+		(end -2.35 -1.4)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24c68ba5-2a4b-45a1-bb5e-850c0730b8c2")
+	)
+	(fp_line
+		(start -2.35 -2.15)
+		(end 2.35 -2.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6463b0cc-5745-42bd-ab61-dcdaeabda2f8")
+	)
+	(fp_line
+		(start -2.35 2.15)
+		(end -2.35 1.4)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17b5ac95-267f-4451-a2bf-cc654dc21d02")
+	)
+	(fp_line
+		(start -2.35 2.15)
+		(end 2.35 2.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e992ddbc-0e06-412e-aaa7-c6c611118c48")
+	)
+	(fp_line
+		(start 2.35 -2.15)
+		(end 2.35 -1.4)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38928c20-41cf-429d-ba91-cfd4051f840c")
+	)
+	(fp_line
+		(start 2.35 2.15)
+		(end 2.35 1.4)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d4e822f-0480-47b1-97a2-cb414212ba86")
+	)
+	(fp_rect
+		(start -2.6 -2.355)
+		(end 2.6 2.355)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "deaca639-4398-4cdd-87ac-44a4b84a1b6f")
+	)
+	(fp_rect
+		(start -2.4 -2.2)
+		(end 2.4 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c10d8e9-2f8d-41df-a842-d935212c3ae0")
+	)
+	(pad "1" smd roundrect
+		(at -1.65 0)
+		(size 1.65 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1818181818)
+		(uuid "2f7dbf90-f7eb-4690-96f7-4eb816ee3bd5")
+	)
+	(pad "2" smd roundrect
+		(at 1.65 0)
+		(size 1.65 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1818181818)
+		(uuid "fb01ffdf-7219-4005-ba25-7aa36ffc2d70")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_2010_5025Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -53,86 +53,6 @@
 		)
 	)
 	(fp_line
-		(start -0.845 -0.295)
-		(end -0.845 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "6564bd3b-0f1a-4827-95a1-8eca1ccd2c35")
-	)
-	(fp_line
-		(start -0.555 -0.295)
-		(end -0.845 -0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "834d5836-b0ab-474c-98a0-d5b36400e98c")
-	)
-	(fp_line
-		(start -0.555 -0.295)
-		(end -0.555 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "ba4877ff-36bd-4b6b-8380-d344e7c97cb5")
-	)
-	(fp_line
-		(start -0.555 0.295)
-		(end -0.845 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "4ffa02e8-a86c-4c03-803f-1dfbd390adc9")
-	)
-	(fp_line
-		(start 0.555 -0.295)
-		(end 0.555 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "6ca62e48-740b-4933-8b2b-e675af773dd6")
-	)
-	(fp_line
-		(start 0.845 -0.295)
-		(end 0.555 -0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "bc4fd4a4-aa5e-4c83-a4f1-4b42479a64ee")
-	)
-	(fp_line
-		(start 0.845 -0.295)
-		(end 0.845 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "37dd8122-0702-4396-982b-0c5d695da5dd")
-	)
-	(fp_line
-		(start 0.845 0.295)
-		(end 0.555 0.295)
-		(stroke
-			(width 0.43)
-			(type solid)
-		)
-		(layer "F.Mask")
-		(uuid "ddb832df-f3cb-4735-9c03-53e701220a33")
-	)
-	(fp_line
 		(start -1.095 -0.545)
 		(end -1.095 0.545)
 		(stroke
@@ -239,18 +159,16 @@
 	(pad "1" smd roundrect
 		(at -0.7 0)
 		(size 0.6 0.9)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "7d22a885-1d99-4abc-a67e-99bb949f12c0")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0)
 		(size 0.6 0.9)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "4387b044-ad6c-444f-83b2-812a378ecada")
 	)
