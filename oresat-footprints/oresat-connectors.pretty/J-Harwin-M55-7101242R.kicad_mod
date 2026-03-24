@@ -319,4 +319,15 @@
 		(uuid "54727231-a56c-4fdb-82cd-ffbab52d3584")
 	)
 	(embedded_fonts no)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/m55-7101242r.stp"
+		(offset
+			(xyz 0 2.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
