@@ -4762,7 +4762,7 @@
 			(uuid "1913e7c0-2da2-4ebc-b61a-196c153b802d")
 		)
 		(instances
-			(project ""
+			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/8c4121fb-a57e-4064-b3f7-b0128eefdadf"
 					(reference "U3")
 					(unit 1)
@@ -7159,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "0.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 200.66 156.21 0)
 			(effects
 				(font
@@ -7177,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-6859-1-ND"
+		(property "DPN" "399-CBR06C808B5GACAUTOCT-ND"
 			(at 200.66 156.21 90)
 			(effects
 				(font
@@ -7195,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C150J5GACAUTO"
+		(property "MPN" "CBR06C808B5GACAUTO"
 			(at 200.66 156.21 90)
 			(effects
 				(font

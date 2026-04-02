@@ -9802,7 +9802,7 @@
 			(uuid "a9daaaaf-8075-450d-b2e3-92c172b00ef2")
 		)
 		(instances
-			(project ""
+			(project "at86rf215-design-block"
 				(path "/4bd27adf-ee4d-4bbe-8c91-278961bf82dc/631cdfc9-cb70-4c09-a4da-15f8b30d511c"
 					(reference "D1")
 					(unit 1)
