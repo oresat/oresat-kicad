@@ -1,9 +1,10 @@
-(footprint "J-MOLEX-SMPM-73300-0111X-long"
+(footprint "J-MOLEX-SMPM-73300-011X"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "CM2.2"
+	(descr "Molex SMPM, 73300-0110 or 73300-0111")
+	(property "Reference" "J"
 		(at 1.3 2.7 180)
 		(layer "F.SilkS")
 		(uuid "5d57d34a-1386-41f7-8d6f-80eec90ae587")
@@ -15,7 +16,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "J-MOLEX-SMPM-73300-0111X"
+	(property "Value" "J-MOLEX-SMPM-73300-011X"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -28,7 +29,7 @@
 			(justify right top)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/733/73300/733000110_sd.pdf?inline"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,17 +53,6 @@
 			)
 		)
 	)
-	(fp_rect
-		(start 1.2 -2.3)
-		(end -1.2 -1.8)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "18ac07ce-df99-4b15-b1c7-1a6f6425b01c")
-	)
 	(fp_circle
 		(center 0 0)
 		(end 2.22 0)
@@ -74,22 +64,49 @@
 		(layer "F.Mask")
 		(uuid "02608a3f-9006-4787-9fb3-96f9e8947da9")
 	)
-	(fp_poly
-		(pts
-			(xy -1.2 -2.65) (xy 1.2 -2.65)
-			(arc
-				(start 1.2 -3.5)
-				(mid 0 -4.7)
-				(end -1.2 -3.5)
-			)
-		)
+	(fp_rect
+		(start -1.9 -0.7)
+		(end -1 0.7)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill yes)
-		(layer "F.Mask")
-		(uuid "bb35adbf-efb9-4887-80df-87b43c264338")
+		(layer "F.Paste")
+		(uuid "5b899c48-73f7-4811-a05b-a68e745ac1fe")
+	)
+	(fp_rect
+		(start -0.7 1)
+		(end 0.7 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "580eead6-fba7-49df-966c-b275ec328dbe")
+	)
+	(fp_rect
+		(start 1 -0.7)
+		(end 1.9 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "fa1d7dba-9647-4555-93a5-8b3fdf7da6b5")
+	)
+	(fp_rect
+		(start -2.3 -2.4)
+		(end 2.3 2.4)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ed6a32e5-fed5-4d83-9908-7678d2724ae2")
 	)
 	(fp_line
 		(start -1.9304 1.0922)
@@ -217,7 +234,18 @@
 		(layer "F.Fab")
 		(uuid "da22fe8c-4f73-4b01-bc40-4eb284c5c023")
 	)
-	(pad "GND" smd roundrect
+	(pad "1" smd rect
+		(at 0 -3.5 180)
+		(size 0.38 1.35)
+		(drill
+			(offset 0 -1.825)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.01)
+		(zone_connect 2)
+		(uuid "be2c1b8f-f1de-4501-ada2-910626a19c29")
+	)
+	(pad "2" smd roundrect
 		(at -1.08 -1.09 225)
 		(size 0.512 1.3)
 		(drill
@@ -230,7 +258,7 @@
 		(thermal_gap 0.1)
 		(uuid "d232d484-42ad-41d1-82b1-5c2720dd62f8")
 	)
-	(pad "GND" thru_hole circle
+	(pad "2" thru_hole circle
 		(at -1.08 -1.09 180)
 		(size 1.2 1.2)
 		(drill 0.55)
@@ -241,7 +269,7 @@
 		(thermal_bridge_width 0.2)
 		(uuid "966289bb-b7ee-40ac-aecb-2b828d873352")
 	)
-	(pad "GND" smd roundrect
+	(pad "2" smd roundrect
 		(at -1.08 1.09 315)
 		(size 0.512 1.3)
 		(drill
@@ -254,7 +282,7 @@
 		(thermal_gap 0.1)
 		(uuid "1cc562ed-98f7-4977-9171-841bb0ee9efc")
 	)
-	(pad "GND" thru_hole circle
+	(pad "2" thru_hole circle
 		(at -1.08 1.09 180)
 		(size 1.2 1.2)
 		(drill 0.55)
@@ -265,10 +293,10 @@
 		(thermal_bridge_width 0.2)
 		(uuid "557f0040-1c81-46bf-9849-653126ef4c4f")
 	)
-	(pad "GND" smd custom
+	(pad "2" smd custom
 		(at 0 1.418919)
 		(size 0.512 0.482)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(zone_connect 0)
 		(thermal_bridge_width 0.1)
 		(thermal_bridge_angle 45)
@@ -302,7 +330,7 @@
 		)
 		(uuid "07295c70-105e-4ff7-97ca-14305c6ea7f6")
 	)
-	(pad "GND" smd roundrect
+	(pad "2" smd roundrect
 		(at 1.08 -1.09 135)
 		(size 0.512 1.3)
 		(drill
@@ -315,7 +343,7 @@
 		(thermal_gap 0.1)
 		(uuid "ba5a1e04-8ffa-44e5-8fb1-52c422e732d8")
 	)
-	(pad "GND" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 1.08 -1.09 180)
 		(size 1.2 1.2)
 		(drill 0.55)
@@ -326,7 +354,7 @@
 		(thermal_bridge_width 0.2)
 		(uuid "1003519f-3ccb-4009-a846-24ec58f745e6")
 	)
-	(pad "GND" smd roundrect
+	(pad "2" smd roundrect
 		(at 1.08 1.08 45)
 		(size 0.512 1.3)
 		(drill
@@ -339,7 +367,7 @@
 		(thermal_gap 0.1)
 		(uuid "5fffc2eb-3da3-48ef-81cb-7357033941ee")
 	)
-	(pad "GND" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 1.08 1.09 180)
 		(size 1.2 1.2)
 		(drill 0.55)
@@ -349,49 +377,6 @@
 		(zone_connect 1)
 		(thermal_bridge_width 0.2)
 		(uuid "eb89731a-a279-4218-8614-8041bf6aaa44")
-	)
-	(pad "RF-DOWN" smd rect
-		(at 0 -3.5 180)
-		(size 0.38 3)
-		(drill
-			(offset 0 -1.5)
-		)
-		(layers "F.Cu")
-		(clearance 0.01)
-		(zone_connect 2)
-		(uuid "be2c1b8f-f1de-4501-ada2-910626a19c29")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "78b866f8-b2c6-4e2c-900c-b24f7073da2e")
-		(hatch edge 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy 1.19 -3.5) (xy 1.19 1) (xy -1.19 1) (xy -1.19 -3.5)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
