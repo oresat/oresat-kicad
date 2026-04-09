@@ -213,13 +213,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "153cccfe-29f8-40db-8000-426715b6bbe8")
 	)
-	(pad "4" smd rect
+	(pad "MP" smd rect
 		(at -2.025 1.7578)
 		(size 0.5588 0.8128)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19f84029-ac53-4341-8108-260420922b4d")
 	)
-	(pad "5" smd rect
+	(pad "MP" smd rect
 		(at 2.025 1.7578)
 		(size 0.5588 0.8128)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -285,9 +285,20 @@
 		)
 		(polygon
 			(pts
-				(xy -1.7526 1.362499) (xy -1.7526 2.353099) (xy 1.7526 2.353099) (xy 1.7526 1.362499)
+				(xy -1.7526 1.362499) (xy -1.7526 2.153099) (xy 1.7526 2.153099) (xy 1.7526 1.362499)
 			)
 		)
 	)
 	(embedded_fonts no)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-MOLEX-PICO-EZMATE-PLUS-2121340003.stp"
+		(offset
+			(xyz 1 -2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -174,7 +174,7 @@
 		(uuid "fb01ffdf-7219-4005-ba25-7aa36ffc2d70")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_2010_5025Metric.wrl"
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/L-ECS-MPI4040R4-6R8-R.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -182,7 +182,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

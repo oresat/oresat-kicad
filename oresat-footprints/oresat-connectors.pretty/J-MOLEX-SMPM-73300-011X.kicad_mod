@@ -235,11 +235,8 @@
 		(uuid "da22fe8c-4f73-4b01-bc40-4eb284c5c023")
 	)
 	(pad "1" smd rect
-		(at 0 -3.5 180)
+		(at 0 -1.7 180)
 		(size 0.38 1.35)
-		(drill
-			(offset 0 -1.825)
-		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.01)
 		(zone_connect 2)
