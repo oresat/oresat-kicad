@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4bd27adf-ee4d-4bbe-8c91-278961bf82dc")
 	(paper "B")
 	(title_block
@@ -24,11 +24,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "631cdfc9-cb70-4c09-a4da-15f8b30d511c")
 		(property "Sheetname" "Radio and Connectors"
 			(at 117.475 85.0134 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,6 +40,8 @@
 		)
 		(property "Sheetfile" "at86rf215-design-block-sch-radio.kicad_sch"
 			(at 117.475 90.1196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,11 +70,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8c4121fb-a57e-4064-b3f7-b0128eefdadf")
 		(property "Sheetname" "RF Frontends"
 			(at 118.11 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,6 +86,8 @@
 		)
 		(property "Sheetfile" "at86rf215-design-block-sch-rf.kicad_sch"
 			(at 118.11 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
