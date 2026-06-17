@@ -1,13 +1,13 @@
 (footprint "0402-A-NOSILK"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "<b>0402 (metric 1005) loose 'IPC-A' without silkscreen</b>\n<br>In house package for generous spacing based on IPC-7351B.\nThis package is identical to 0402-A, but has its tPlace silkscreen layer removed.")
 	(property "Reference" "REF**"
 		(at -0.9 -0.65 0)
 		(layer "F.SilkS")
-		(uuid "625fe2c7-826a-4935-b0cf-498c91eee9ec")
+		(uuid "71b47c0f-16c5-414b-89e5-1ebb09891fae")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 	(property "Value" "0402-A-NOSILK"
 		(at -0.9 1.4 0)
 		(layer "F.Fab")
-		(uuid "36e2a980-87aa-4144-80db-db2fcc480b3d")
+		(uuid "906dc5bd-b7b8-4e6a-a48a-daa2ee911567")
 		(effects
 			(font
 				(size 0.68 0.68)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1ee78a5c-5e41-41e3-9834-5050042cb615")
+		(uuid "429a2fe4-6f9a-4164-b2a9-70db13e3d29f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf5346f4-50ab-4633-bcac-0d1b5dbe4e86")
+		(uuid "01557283-51eb-47e2-b1e5-83ade904c896")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.095 -0.595)
 		(end -1.095 0.595)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "46fa758c-498b-4f55-9de1-1e63f7b91d8a")
+		(uuid "935b190d-05ce-466e-a374-8d36314029c1")
 	)
 	(fp_line
 		(start -1.095 0.595)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a75a347a-afe6-434f-bbc8-a4e7422cee17")
+		(uuid "3130b8f5-bb4a-410c-9d74-51fb92834a19")
 	)
 	(fp_line
 		(start 1.095 -0.595)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "91b9e45b-445c-46b6-8ed6-452cb95c3afe")
+		(uuid "9de0e6f7-e28c-416b-a2ed-f697785b11e5")
 	)
 	(fp_line
 		(start 1.095 0.595)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0ea4886d-41e9-4c5e-8fe9-30a281082896")
+		(uuid "afbc0f3b-6f14-4328-8502-3e492c23cee4")
 	)
 	(fp_line
 		(start -0.525 -0.275)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e096b598-a993-4b21-9127-cd739ca0eb66")
+		(uuid "dc843b2e-07db-470a-863d-1891a7d9bade")
 	)
 	(fp_line
 		(start -0.525 0.275)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "48add3e6-f24f-4eb0-9208-d64be4b44fe2")
+		(uuid "64175398-1e5a-472d-bd79-22ddcd0c2a1f")
 	)
 	(fp_line
 		(start 0.525 -0.275)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "992487ee-6c4a-4650-bdf4-899e1584539c")
+		(uuid "82dce079-c82d-492f-81b6-9242e3928111")
 	)
 	(fp_line
 		(start 0.525 0.275)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1be760c7-0ef1-4dbc-ba71-67a6bfc308c4")
+		(uuid "7d4ac75f-4481-4427-9cf2-76ed397eed24")
 	)
 	(fp_poly
 		(pts
@@ -142,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "9b706a3d-1fa4-4737-80e4-1b70ca533e48")
+		(uuid "e0f5aa9f-b6c0-4d2d-974f-4ffe5e1520b4")
 	)
 	(fp_poly
 		(pts
@@ -154,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "b204be03-5114-47cc-9c32-1ff45aa75151")
+		(uuid "16a86ab5-08c5-4b0d-aedf-390d7441ed73")
 	)
 	(pad "1" smd roundrect
 		(at -0.55 0)
@@ -162,7 +163,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(thermal_bridge_angle 0)
-		(uuid "a3f44d8f-75aa-4e19-8dda-b7f4064992f3")
+		(uuid "9198ac47-e1b8-4c8c-b63b-3039f3c75e5b")
 	)
 	(pad "2" smd roundrect
 		(at 0.55 0)
@@ -170,7 +171,18 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(thermal_bridge_angle 0)
-		(uuid "5638075e-e7b8-4797-8180-890dfc722b4c")
+		(uuid "3091a984-69b7-4ec3-8422-356b82d51c91")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/Edward/Desktop/RC0402FR-07226RL.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
