@@ -6,7 +6,7 @@
 	(property "Reference" "Y2"
 		(at 1.9 -0.2 0)
 		(layer "F.SilkS")
-		(uuid "7ed03a1e-231e-4865-8cb0-f36e82d2c1bc")
+		(uuid "0acc5491-6f7a-4162-a6a4-3b2aad757d4d")
 		(effects
 			(font
 				(size 0.56 0.56)
@@ -18,7 +18,7 @@
 	(property "Value" "Crystal"
 		(at -2.48125 2.125 0)
 		(layer "F.Fab")
-		(uuid "2dd28002-f47e-46da-bd95-655d3691ecd2")
+		(uuid "1d971e8a-e6de-4d60-a54f-54c8df8ee670")
 		(effects
 			(font
 				(size 0.89408 0.89408)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4b72a58d-c4d7-4fb8-bc2c-e2a64579bf4f")
+		(uuid "e0ce9dc6-85cc-4077-a9f9-0706ce38c1f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7a096992-0462-4c94-b4b5-22a091b80bae")
+		(uuid "74d01adc-9799-4a3e-80ae-194a016d09e0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5c771e46-f0a1-42c0-a77e-a626a49b36ed")
+		(uuid "1e37e7a7-afb7-4ee7-8ead-8a8e212f14e1")
 	)
 	(fp_line
 		(start -0.53125 0.796875)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b8a76015-31ba-4b16-b95c-20c703f84c70")
+		(uuid "6df4e3d3-27a9-4c1b-b434-89f207c245b0")
 	)
 	(fp_line
 		(start 0.53125 -0.796875)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c3d22515-954d-4e5f-a844-32b5262f77a2")
+		(uuid "f64c1c87-bea1-44aa-ba67-1f0d34695e6d")
 	)
 	(fp_line
 		(start 0.53125 0.796875)
@@ -90,24 +90,24 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae9f4761-ff7e-4eaf-a1b6-0e8f60d6e0e7")
+		(uuid "b23f83df-8a4f-43e7-b075-5d168a954e91")
 	)
 	(pad "1" smd rect
 		(at -1.25 0)
 		(size 1.1 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0635)
-		(uuid "51b3f474-78ba-4cc8-8f08-12b73fd71e32")
+		(uuid "efad2cfd-4c6b-42d0-a377-c5a517db8114")
 	)
 	(pad "2" smd rect
 		(at 1.25 0)
 		(size 1.1 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0635)
-		(uuid "6bb6de9d-965d-4a90-98f6-4bd9c9496224")
+		(uuid "5778e3a5-5afa-4aae-b1d0-a52f5f5c7180")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Edward/Desktop/ABS07-32.768KHZ-T--3DModel-STEP-400430.STEP"
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/ABS07-32.768KHZ-T--3DModel-STEP-400430.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

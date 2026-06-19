@@ -32,3 +32,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+oresat-3dmodels/.DS_Store
+.DS_Store
