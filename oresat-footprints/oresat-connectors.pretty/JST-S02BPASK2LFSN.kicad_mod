@@ -1,0 +1,209 @@
+(footprint "JST-S02BPASK2LFSN"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "S02B-PASK-2(LF)(SN)-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 2.85 0)
+		(layer "F.SilkS")
+		(uuid "975e0ee3-0940-484c-bc85-97aeac518d80")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "JST-S02BPASK2LFSN"
+		(at -1 -2.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "378310eb-e7f5-4337-bb87-6338c6bec3e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0fac071-c0c0-483a-87e5-78396a65388e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2cf47c1-1109-42d3-98dc-9ed30b8b015c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3 -8.2)
+		(end 3 -8.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f80fa5e-0fd3-4ec0-a279-cd928113de25")
+	)
+	(fp_line
+		(start -3 -2.8)
+		(end -3 -8.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edec70f1-33e1-4920-bb83-e498c236d1a5")
+	)
+	(fp_line
+		(start -3 3.5)
+		(end -3 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8ea5962-8e35-4c28-a984-2bc78b353b91")
+	)
+	(fp_line
+		(start -2 3.5)
+		(end -3 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33c9821e-44d6-4ca3-b7a2-25bad4cd3485")
+	)
+	(fp_line
+		(start -2 3.5)
+		(end -2 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b9160c3-503a-4f1d-a833-0b3a22e45236")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7193a19f-953c-4070-af2b-1bfa75943c66")
+	)
+	(fp_line
+		(start 2 1)
+		(end 2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30b2d686-5343-4d1c-98d2-1839c6e2bc69")
+	)
+	(fp_line
+		(start 3 -8.2)
+		(end 3 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6c400a3-25c5-4b49-bb2a-ac0926afdd0c")
+	)
+	(fp_line
+		(start 3 -1.4)
+		(end 3 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e714aac-74d4-4d70-b533-c68241cad0c9")
+	)
+	(fp_line
+		(start 3 3.5)
+		(end 2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e745ce7b-8d34-49d7-af2c-2bf118b832b2")
+	)
+	(fp_rect
+		(start -3.2 -8.4)
+		(end 3.2 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f4525df4-82a9-4f9b-87c6-2208155cdf68")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.5 -2.1 90)
+		(size 0.55 0.55)
+		(drill 1.1)
+		(layers "*.Mask")
+		(uuid "09b9e8e3-4c58-4ea3-8f57-72407ccbe44e")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 -2.1 90)
+		(size 0.55 0.55)
+		(drill 1.1)
+		(layers "*.Mask")
+		(uuid "7bb3e75f-ef1e-4c26-b3a9-ee9782c3b639")
+	)
+	(pad "1" thru_hole rect
+		(at 1 0 90)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f01e5594-393d-40d9-9ea3-38b0f86cb219")
+	)
+	(pad "2" thru_hole circle
+		(at -1 0 90)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0786a0e5-3deb-405b-a92e-c16d906f906b")
+	)
+	(embedded_fonts no)
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/JST-S02B-PASK-2.stp"
+		(offset
+			(xyz -3 8.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
