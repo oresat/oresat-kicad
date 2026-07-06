@@ -21318,7 +21318,7 @@
 			)
 		)
 		(property "Footprint" "oresat-footprints:U-SkyTraq-ORION-B16"
-			(at 0 0 0)
+			(at -1.778 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -21329,7 +21329,7 @@
 			)
 		)
 		(property "Datasheet" "https://navspark.mybigcommerce.com/content/Orion_B16_DS.pdf"
-			(at 0 0 0)
+			(at -0.254 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -21340,7 +21340,7 @@
 			)
 		)
 		(property "Description" "GPS Receiver Module"
-			(at 0 0 0)
+			(at -1.524 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -21373,6 +21373,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 2.54)
+				(name "SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21448,24 +21466,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -22.86 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -21679,6 +21679,43 @@
 					)
 				)
 				(number "24"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[4,5,6,7,15,17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -22.86 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[10,12,24]"
 					(effects
 						(font
 							(size 0 0)
