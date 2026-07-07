@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat AT86RF215 Evaluation Board")
-		(date "2025-12-16")
-		(rev "1.0")
+		(date "2026-05-27")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -1105,7 +1105,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 		(dnp no)
 		(uuid "64b6e8f5-a05c-4b8c-9e2d-530e4f95eb9a")
 		(property "Reference" "J2"
-			(at 64.77 43.688 0)
+			(at 72.39 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10703,7 +10703,7 @@
 				)
 			)
 		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10797,7 +10797,7 @@
 		(pin "A8"
 			(uuid "b1620790-e994-4cd5-9059-c881c1a304b3")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "8c8f2401-4e4d-4f51-b2e1-0bc4b2c5e876")
 		)
 		(pin "A1"

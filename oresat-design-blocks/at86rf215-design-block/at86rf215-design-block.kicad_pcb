@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "AT86RF215 Breakout")
-		(date "2025-12-22")
-		(rev "1.0")
+		(date "2026-05-27")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(layers
@@ -4417,7 +4417,7 @@
 				)
 			)
 		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4489,7 +4489,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "S1" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+				(pins "SH" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
 					"A6" "B6" "A8" "B8"
 				)
 			)
@@ -4823,9 +4823,6 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-SHIELD)")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "8e619d7d-c02e-4e7c-8302-2be13240b7da")
 		)
 		(pad "S1" thru_hole oval
@@ -4835,9 +4832,6 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-SHIELD)")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "08327620-787b-4b75-81b9-d510984f227e")
 		)
 		(pad "S1" thru_hole oval
@@ -4847,9 +4841,6 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-SHIELD)")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "fe9ef79c-54a0-4ce8-9571-c1eacba6ba00")
 		)
 		(pad "S1" thru_hole oval
@@ -4859,9 +4850,6 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-SHIELD)")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "10db2d40-e06a-4df4-b8ff-1acef3735f45")
 		)
 		(embedded_fonts no)

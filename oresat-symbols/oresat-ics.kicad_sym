@@ -12893,7 +12893,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 14.224 -34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12903,7 +12903,7 @@
 			)
 		)
 		(property "Value" "MAX2769"
-			(at 0 0 0)
+			(at 17.018 -36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12964,7 +12964,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at -29.21 -17.78 0)
 				(length 2.54)
 				(name "LNAOUT"
@@ -12982,7 +12982,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -29.21 12.7 0)
 				(length 2.54)
 				(name "ANTBIAS"
@@ -13000,7 +13000,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -16.51 40.64 270)
 				(length 2.54)
 				(name "VCCRF"
@@ -13036,7 +13036,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 21.59 -22.86 180)
 				(length 2.54)
 				(name "LD"
@@ -13054,7 +13054,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -29.21 30.48 0)
 				(length 2.54)
 				(name "~{SHDN}"
@@ -13072,7 +13072,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -29.21 25.4 0)
 				(length 2.54)
 				(name "SDATA"
@@ -13108,7 +13108,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -29.21 22.86 0)
 				(length 2.54)
 				(name "~{CS}"
@@ -13126,7 +13126,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -5.08 40.64 270)
 				(length 2.54)
 				(name "VCCVCO"
@@ -13162,7 +13162,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -12.7 40.64 270)
 				(length 2.54)
 				(name "VCCCP"
@@ -13198,7 +13198,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 21.59 -17.78 180)
 				(length 2.54)
 				(name "XTAL"
@@ -13252,7 +13252,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 21.59 17.78 180)
 				(length 2.54)
 				(name "Q0"
@@ -13270,7 +13270,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 40.64 270)
 				(length 2.54)
 				(name "VCCADC"
@@ -13288,7 +13288,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 21.59 25.4 180)
 				(length 2.54)
 				(name "I0"
@@ -13306,7 +13306,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 21.59 21.59 180)
 				(length 2.54)
 				(name "I1"
@@ -13324,10 +13324,11 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 21.59 -26.67 180)
+			(pin no_connect line
+				(at -3.81 -15.24 180)
 				(length 2.54)
-				(name "N.C."
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13342,7 +13343,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -8.89 40.64 270)
 				(length 2.54)
 				(name "VCCIF"
@@ -13360,7 +13361,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -29.21 -12.7 0)
 				(length 2.54)
 				(name "~{IDLE}"
@@ -13414,7 +13415,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -29.21 -5.08 0)
 				(length 2.54)
 				(name "LNA1"
@@ -14547,7 +14548,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "COUT1"
@@ -14583,7 +14584,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -12.7 -16.51 0)
 				(length 2.54)
 				(name "COUT2"
