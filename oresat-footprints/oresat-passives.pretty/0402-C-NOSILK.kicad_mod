@@ -1,13 +1,13 @@
 (footprint "0402-C-NOSILK"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "<b>0402 (metric 1005) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0402-C, but has its tPlace silkscreen layer removed.")
 	(property "Reference" "REF**"
 		(at -0.7 -0.45 0)
 		(layer "F.SilkS")
-		(uuid "00a88f3d-1629-4026-a966-681c481d16a5")
+		(uuid "3c86da7f-5df3-4311-8d6b-cd191d0c1b27")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 	(property "Value" "0402-C-NOSILK"
 		(at -0.7 1.25 0)
 		(layer "F.Fab")
-		(uuid "61325a96-fbc5-4cfc-93c9-f1a9d2d8d192")
+		(uuid "a22b45eb-d352-4aa4-8e46-83026d8935fe")
 		(effects
 			(font
 				(size 0.68 0.68)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c53d4623-502d-4856-a106-0f024a0367ef")
+		(uuid "6f887278-0b93-47d1-a6f3-a9520088553c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "47068d6f-2371-4d0d-b03b-6c7dfc8566c7")
+		(uuid "22b7924f-a076-4334-940d-22d8767e6a28")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.795 -0.395)
 		(end -0.795 0.395)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e0c8e2c9-1ed3-45c1-bc43-16d025d1a3b1")
+		(uuid "82c730c1-0d66-4a10-a5c0-aa9f4f799eae")
 	)
 	(fp_line
 		(start -0.795 0.395)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6172e04c-af09-4744-b168-62d867c7fc44")
+		(uuid "2862dd37-b3b4-4ea9-be54-e34211837430")
 	)
 	(fp_line
 		(start 0.795 -0.395)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4e58bc7e-4f82-419f-912a-766806be37d6")
+		(uuid "e25b933c-3f5c-474d-b4e2-66e76f2a2dec")
 	)
 	(fp_line
 		(start 0.795 0.395)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2382ae2f-02ef-4c8c-8fed-9e0e5743a379")
+		(uuid "15c537d3-3d88-428e-ba6a-c6e8c390a63d")
 	)
 	(fp_line
 		(start -0.525 -0.275)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bee7740b-91d4-4824-91c8-20cbea5f9003")
+		(uuid "42cf0fc4-af36-4ddc-9146-2237d8f5e012")
 	)
 	(fp_line
 		(start -0.525 0.275)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "846a4f5a-5705-475d-a5c4-0378d7d9f17d")
+		(uuid "f64eca2e-539b-464b-baf7-74822f7fe86d")
 	)
 	(fp_line
 		(start 0.525 -0.275)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "37e55a99-ccc6-4f87-8aac-1786575d2b83")
+		(uuid "5b0418c2-a5f6-4806-a662-29071beae9dd")
 	)
 	(fp_line
 		(start 0.525 0.275)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a37269c5-e0d1-40ee-8ff3-13db7dcdb89b")
+		(uuid "d1f84f63-05d7-46aa-9499-668c4ed7d84b")
 	)
 	(fp_poly
 		(pts
@@ -142,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "50578cab-0ee1-448e-97aa-25358cf17a5b")
+		(uuid "09bc175c-ef6a-4e33-9415-f30d01937895")
 	)
 	(fp_poly
 		(pts
@@ -154,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "ff218975-775f-400e-bf31-2aac753c5d80")
+		(uuid "87d077fb-c83b-43f8-8c5f-093cbcbb16ff")
 	)
 	(pad "1" smd roundrect
 		(at -0.45 0)
@@ -162,7 +163,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 0)
-		(uuid "05c0f14b-a24f-40e2-bacb-ac84b834223d")
+		(uuid "24d62b4b-5f85-445b-85c2-335435a647b9")
 	)
 	(pad "2" smd roundrect
 		(at 0.45 0)
@@ -170,7 +171,18 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 0)
-		(uuid "0c71612c-f98c-4f08-9bfc-23d361fa588d")
+		(uuid "d45aee8d-a0e3-4142-a329-47c6627995d8")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
