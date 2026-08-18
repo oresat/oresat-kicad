@@ -212,19 +212,19 @@
 		(layer "F.Fab")
 		(uuid "ff44db9a-4a20-4e32-bd84-466daa55fde0")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.6 0)
 		(size 1.35 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1016)
+		(roundrect_rratio 0.1481481481)
 		(thermal_bridge_angle 0)
 		(uuid "6b41cd1f-7c47-4445-ad8b-95ac82d43a57")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.6 0)
 		(size 1.35 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1016)
+		(roundrect_rratio 0.1481481481)
 		(thermal_bridge_angle 0)
 		(uuid "cff4cfa6-30e9-48cf-9ccf-7d4ad3e0a292")
 	)

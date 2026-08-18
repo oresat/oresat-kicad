@@ -103,7 +103,7 @@
 		(uuid "69d7a972-59a6-4b62-a100-7c5c74036127")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/olton/OneDrive/Documents/GitHub/oresat-endcaps/oresat1-minusz-end-cap/rm3100-geomagnetic-sensor-1.snapshot.5/13101.stp"
+	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/pni-rm3100-13101.stp"
 		(offset
 			(xyz 0 0 0)
 		)

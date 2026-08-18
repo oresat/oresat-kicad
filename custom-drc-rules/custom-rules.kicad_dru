@@ -1,0 +1,43 @@
+(version 1)
+
+########################################################################
+# RF Traces with "RF-50-OSH" Netclass
+########################################################################
+
+# For the RF netclass, ignore erors caused by pads being withing 0.5 mm
+
+(rule "RF_Clearance_Relaxation_at_Pad"
+    (condition "A.NetClass == 'RF-50-OSH' && B.Type == 'Pad'")
+    (constraint clearance (min 0.17mm))
+)
+
+# For the RF netclass, ignore erors caused by traces being withing 0.5 mm
+# while still allowing the clearance to be 0.5 mm
+
+(rule "RF_Clearance_Trace_to_Trace_Relaxation"
+    (condition "A.NetClass == 'RF-50-OSH' && B.Type == 'Track'")
+    (constraint clearance (min 0.15mm))
+)
+
+########################################################################
+# eMMC uBGA - ignore errors when routing through unconnected pins
+########################################################################
+
+# For the eMMC, ignore routing through unconnected pins.
+
+(rule "Allow_Trace_Through_Unconnected_Pads"
+    (condition "A.Type == 'Track' && B.Type == 'Pad' && B.NetName == 'unconnected-*'")
+    (constraint clearance (min -1mm))
+)
+
+########################################################################
+# SMPM - ignore most errors with copper next to the edge cuts
+########################################################################
+
+# For the SMPM edge connectors, ignore copper near edge cuts errors
+
+(rule "Allow_Copper_To_Edge"
+    (condition "A.insideArea('EDGE_PERMIT_ZONE')")
+    (constraint edge_clearance (min -1mm))
+)
+
