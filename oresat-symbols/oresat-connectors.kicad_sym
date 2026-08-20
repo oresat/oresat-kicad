@@ -10440,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial_142-0711-201"
+		(property "Value" "SMA-142-0711-201"
 			(at 2.921 0 90)
 			(show_name no)
 			(do_not_autoplace no)
