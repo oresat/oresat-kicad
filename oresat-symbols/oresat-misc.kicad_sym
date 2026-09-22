@@ -1393,11 +1393,11 @@
 				(start 12.7 27.94)
 				(end 34.29 -21.59)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
