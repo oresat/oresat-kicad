@@ -1,13 +1,13 @@
 (footprint "RM3100 SEN-Z-f"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "SEN_Z"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7b7cec72-ca84-42d8-afb9-b9535477ea06")
+		(uuid "32cb7d07-9046-4ce6-9356-f46c39641233")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "349edb55-9c83-49e6-a60f-91caccd96713")
+		(uuid "2c2f83c7-e05a-4464-87e3-d36825304d73")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43767d96-356c-4103-9d04-e29cd131cb6f")
+		(uuid "6de541af-8966-4965-be08-70537eea6ab6")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "40f97b82-89da-491f-979d-d39fe63cc125")
+		(uuid "7efb0c11-a6be-4c8e-8076-64a858ad6939")
 		(effects
 			(font
 				(size 1 1)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.05 -1.49)
 		(end 2.05 -1.49)
@@ -62,7 +63,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9ad262d7-4521-43d8-988d-10ff18b70985")
+		(uuid "faa77490-1cb9-4c7d-b149-1d4dd4f10dcc")
 	)
 	(fp_line
 		(start -2.05 1.49)
@@ -72,13 +73,24 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "eb57c0d3-ec8d-4eba-9216-6070a1c4989a")
+		(uuid "17efe468-31ab-418e-82bc-ea3a3e4515f1")
+	)
+	(fp_circle
+		(center -4 0.5)
+		(end -4.3 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b748f94f-2da2-4912-9784-351bed3a0184")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b642af76-8ead-4dc5-9698-8e93460cb19c")
+		(uuid "61a12786-6ac6-4f4b-b567-4b6d44aa6df2")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +104,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "9e9f400e-b896-479b-9ffa-63bd0287dd6d")
+		(uuid "09a79698-ca21-492b-af26-9d3bae48c37c")
 	)
 	(pad "2" smd roundrect
 		(at 1.625 0)
@@ -100,7 +112,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "69d7a972-59a6-4b62-a100-7c5c74036127")
+		(uuid "57d409a9-1d58-40db-a159-8689f166f57f")
 	)
 	(embedded_fonts no)
 	(model "${ORESAT_LIBRARIES}/oresat-3dmodels/pni-rm3100-13101.stp"
