@@ -19724,7 +19724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic9409x.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic94070-3.pdf"
 			(at 0 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19762,16 +19762,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19816,6 +19806,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -19852,24 +19860,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "MIC94090YC6-TR_1_1"
 			(rectangle
@@ -19893,7 +19883,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
